@@ -1,6 +1,7 @@
 
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 interface LogoProps {
   className?: string;
@@ -8,6 +9,7 @@ interface LogoProps {
 }
 
 const Logo: React.FC<LogoProps> = ({ className, animationDelay = 0 }) => {
+  const isMobile = useIsMobile();
   const [isLoaded, setIsLoaded] = useState(() => {
     // Only use sessionStorage for subsequent loads, not first load
     return false;
@@ -15,16 +17,18 @@ const Logo: React.FC<LogoProps> = ({ className, animationDelay = 0 }) => {
   
   useEffect(() => {
     if (!isLoaded) {
+      // Skip animation on mobile/tablet
+      const delay = isMobile ? 0 : animationDelay;
       const timer = setTimeout(() => {
         setIsLoaded(true);
         sessionStorage.setItem('logoAnimationPlayed', 'true');
-      }, animationDelay);
+      }, delay);
       
       return () => {
         clearTimeout(timer);
       };
     }
-  }, [animationDelay, isLoaded]);
+  }, [animationDelay, isLoaded, isMobile]);
 
   return (
     <div className={`flex flex-col items-center ${className}`}>
@@ -36,7 +40,7 @@ const Logo: React.FC<LogoProps> = ({ className, animationDelay = 0 }) => {
             alt="Roure Logo"
             style={{
               opacity: isLoaded ? 1 : 0,
-              transition: "opacity 3s ease-in-out"
+              transition: isMobile ? "opacity 0.5s ease-in-out" : "opacity 3s ease-in-out"
             }}
           />
         </div>

@@ -87,17 +87,23 @@ const MainContent: React.FC<MainContentProps> = ({
         </div>
 
         {isMobile && (
-          <div className="w-[90%] mt-8">
-            <p 
-              className={`font-handscript text-[#43362A] text-xl sm:text-2xl leading-relaxed text-center p-4 rounded-[18px] transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-100' : 'opacity-0'}`}
-              style={{
-                transform: loadingStage >= 2 ? 'translateY(0)' : 'translateY(20px)',
-                transition: 'transform 1s ease-out, opacity 1s ease-out'
-              }}
-            >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
+          <>
+            <div className="w-[90%] mt-8">
+              <p 
+                className={`font-handscript text-[#43362A] text-xl sm:text-2xl leading-relaxed text-center p-4 rounded-[18px] transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-100' : 'opacity-0'}`}
+                style={{
+                  transform: loadingStage >= 2 ? 'translateY(0)' : 'translateY(20px)',
+                  transition: 'transform 1s ease-out, opacity 1s ease-out'
+                }}
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+            
+            <div className="w-[90%] mt-8 flex justify-center">
+              <LeftMenu loadingStage={loadingStage} isMobile={true} />
+            </div>
+          </>
         )}
       </div>
       
