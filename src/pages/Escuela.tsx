@@ -19,7 +19,7 @@ const Escuela: React.FC = () => {
         
         <div className="w-full max-w-[800px] mb-8">
           <img
-            src="/lovable-uploads/a2a0306c-1588-4029-bd68-eadc52824cbe.png"
+            src="/lovable-uploads/386ea9cd-5ff3-4975-acfe-cf113021022d.png"
             className="w-full h-auto rounded-lg"
             alt="Escuela"
           />
