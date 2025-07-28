@@ -11,8 +11,7 @@ interface LogoProps {
 const Logo: React.FC<LogoProps> = ({ className, animationDelay = 0 }) => {
   const isMobile = useIsMobile();
   const [isLoaded, setIsLoaded] = useState(() => {
-    // Only use sessionStorage for subsequent loads, not first load
-    return false;
+    return sessionStorage.getItem('logoAnimationPlayed') === 'true';
   });
   
   useEffect(() => {
