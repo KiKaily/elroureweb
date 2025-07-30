@@ -17,31 +17,11 @@ const Videos: React.FC = () => {
           Videos
         </h1>
         
-        <div className="w-full max-w-[1000px] space-y-8">
-          {/* YouTube Video 1 */}
+        {/* Vimeo Video 1*/}
           <div className="w-full">
             <div className="aspect-video w-full mb-4">
               <iframe
-                width="100%"
-                height="100%"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="rounded-lg"
-              ></iframe>
-            </div>
-            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
-              Descripción del primer video de YouTube sobre nuestros fundamentos pedagógicos.
-            </p>
-          </div>
-
-          {/* Vimeo Video */}
-          <div className="w-full">
-            <div className="aspect-video w-full mb-4">
-              <iframe
-                src="https://player.vimeo.com/video/148751763"
+                src="https://vimeo.com/115516270?fl=pl&fe=vl"
                 width="100%"
                 height="100%"
                 frameBorder="0"
@@ -51,8 +31,51 @@ const Videos: React.FC = () => {
               ></iframe>
             </div>
             <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
-              Video de Vimeo mostrando nuestros métodos de enseñanza experiencial.
-            </p>
+              El Roure, una escuela viva - Documental de Antonio Laforgia.</p>
+              <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
+              "¿Es posible una escuela diferente a la de aulas grises, notas en el libro de escolaridad y nociones aprendidas de memoria tal como la 
+              mayoría de nosotros la ha experimentado? ¿Y es posible imaginar una sociedad diferente a la actual sin reexaminar el modelo de educación en el que está basada?"</p>
+          </div>
+
+          {/* Vimeo Video 2*/}
+          <div className="w-full">
+            <div className="aspect-video w-full mb-4">
+              <iframe
+                src="https://vimeo.com/1046320608?fl=pl&fe=vl"
+                width="100%"
+                height="100%"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+                className="rounded-lg"
+              ></iframe>
+            </div>
+            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
+              Conversación del proyecto Ametxe con Begoña González. JolasBIDE 2024.</p>
+              <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
+              "Entrevista a Begoña González, fundadora de la escuela viva El Roure de Cataluña, en su visita a Euskadi para el curso que se desarrolla entre las escuelas de Landabaso en Zalla (Bizkaia) y Bizilore en Azpeitia (Gipuzkoa). Entrevista realizada en el proyecto Ametxe, una comunidad generada en una vivienda cooperativa en cesión de uso en ámbito rural en Gordexola, Bizkaia. JolasBIDE 2024."</p>
+          </div>
+
+        <div className="w-full max-w-[1000px] space-y-8">
+          {/* YouTube Video 1 */}
+          <div className="w-full">
+            <div className="aspect-video w-full mb-4">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/watch?v=wnhU8cmO1i0"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="rounded-lg"
+              ></iframe>
+            </div>
+            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
+              Conversación de Baobab con Begoña González.</p>
+            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
+              "En nuestra visita a El Roure, en la provincia de Barcelona, Begoña nos regaló esta entrevista/conversación donde de manera clara y profunda nos compartió su visión sobre la educación y el enfoque de la escuela. 
+Toda nuestra gratitud por acogernos y por la generosidad de compartir su experiencia y comprensión."</p>
           </div>
 
           {/* YouTube Video 2 */}
@@ -61,7 +84,7 @@ const Videos: React.FC = () => {
               <iframe
                 width="100%"
                 height="100%"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                src="https://www.youtube.com/watch?v=XMepo_l0JC4"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -70,48 +93,15 @@ const Videos: React.FC = () => {
               ></iframe>
             </div>
             <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
-              Testimonios de estudiantes sobre su experiencia en El Roure.
+              Explorando la escuela El Roure, de Baobab.
+            </p>
+            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
+              "En nuestra visita a El Roure, en la provincia de Barcelona, Begoña nos regaló esta entrevista/conversación donde de manera clara y profunda nos compartió su visión sobre la educación y el enfoque de la escuela. 
+Toda nuestra gratitud por acogernos y por la generosidad de compartir su experiencia y comprensión."
             </p>
           </div>
 
-          {/* YouTube Video 3 */}
-          <div className="w-full">
-            <div className="aspect-video w-full mb-4">
-              <iframe
-                width="100%"
-                height="100%"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="rounded-lg"
-              ></iframe>
-            </div>
-            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
-              Recorrido por nuestras instalaciones y actividades diarias.
-            </p>
-          </div>
-
-          {/* YouTube Video 4 */}
-          <div className="w-full">
-            <div className="aspect-video w-full mb-4">
-              <iframe
-                width="100%"
-                height="100%"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="rounded-lg"
-              ></iframe>
-            </div>
-            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
-              Presentación de nuestros proyectos de formación y asesoramiento.
-            </p>
-          </div>
-        </div>
+          
       </section>
     </main>
   );
