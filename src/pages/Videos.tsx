@@ -97,7 +97,7 @@ Toda nuestra gratitud por acogernos y por la generosidad de compartir su experie
             </p>
             <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
               "En nuestra visita a El Roure, en la provincia de Barcelona, Begoña nos regaló esta entrevista/conversación donde de manera clara y profunda nos compartió su visión sobre la educación y el enfoque de la escuela. 
-Toda nuestra gratitud por acogernos y por la generosidad de compartir su experiencia y comprensión."
+              Toda nuestra gratitud por acogernos y por la generosidad de compartir su experiencia y comprensión."
             </p>
           </div>
         </div>
