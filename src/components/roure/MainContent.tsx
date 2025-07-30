@@ -60,7 +60,9 @@ const MainContent: React.FC<MainContentProps> = ({
                     transition: 'transform 1s ease-out, opacity 1s ease-out'
                   }}
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Del 2001 al 2025 hicimos un viaje fascinante: una escuela para familias con criaturas de 3 a 12 años.
+                  <br/><br/>
+                  ¿Cuál ha sido el norte de ese viaje? Cada criatura es una SEMILLA. La fuerza y la inteligencia de la vida se ocupan de que se manifieste y se desarrolle. Queremos sintonizar con este latido, apoyarlo y dejar atrás lo que nos limita, para acompañarlos, para acompañarnos, desde el respeto y la consciencia de la naturaleza de cada cual.
                 </p>
               </div>
             </div>
@@ -96,7 +98,9 @@ const MainContent: React.FC<MainContentProps> = ({
                   transition: 'transform 1s ease-out, opacity 1s ease-out'
                 }}
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Del 2001 al 2025 hicimos un viaje fascinante: una escuela para familias con criaturas de 3 a 12 años.
+                <br/><br/>
+                ¿Cuál ha sido el norte de ese viaje? Cada criatura es una SEMILLA. La fuerza y la inteligencia de la vida se ocupan de que se manifieste y se desarrolle. Queremos sintonizar con este latido, apoyarlo y dejar atrás lo que nos limita, para acompañarlos, para acompañarnos, desde el respeto y la consciencia de la naturaleza de cada cual.
               </p>
             </div>
             
