@@ -17,20 +17,81 @@ const Historia: React.FC = () => {
           Historia
         </h1>
         
-        <div className="w-full max-w-[800px] mb-8">
-          <img
-            src="/lovable-uploads/a2a0306c-1588-4029-bd68-eadc52824cbe.png"
-            className="w-full h-auto rounded-lg"
-            alt="Historia"
-          />
-        </div>
-        
-        <div className="w-full max-w-[800px]">
-          <p className="font-handscript text-[#43362A] text-xl xl:text-2xl 2xl:text-3xl leading-relaxed text-center mb-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <div className="w-full max-w-[900px] space-y-8">
+          <p className="font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
+            La escuela El Roure nació en 2001 en una finca rústica del municipio de Mediona (Barcelona). La fundamos Begoña González y Cristóbal Gutiérrez, como un paso más en la evolución de la experiencia en La Casita, que fundamos en 1996, en Barcelona.
           </p>
-          <p className="font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-center">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          
+          <div className="w-full max-w-[600px] mx-auto mb-8">
+            <img
+              src="https://images.unsplash.com/photo-1472396961693-142e6e269027"
+              className="w-full h-auto rounded-lg"
+              alt="Naturaleza - Ubicación de la escuela"
+            />
+          </div>
+          
+          <p className="font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
+            La llamamos escuela viva El Roure. Sus raíces son la experiencia de crianza, el Seitai y la Sistémica y algunas inspiraciones de pedagogías innovadoras del s. XX (Montessori, Freinet, Neill, Malaguzzi, etc.). La línea pedagógica se fue concretando y desarrollando a través de la práctica cotidiana con los niños y niñas, con las madres y padres, en la relación de equipo. A partir de muchas preguntas, la observación y la reflexión, algunos criterios se fueron clarificando y confirmando. El proceso de descubrimiento y aprendizaje ha seguido hasta el final.
+          </p>
+          
+          <p className="font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
+            El apoyo, la confianza y la implicación de las primeras familias y miembros del equipo fueron decisivos.
+          </p>
+          
+          <div className="w-full max-w-[600px] mx-auto mb-8">
+            <img
+              src="https://images.unsplash.com/photo-1517022812141-23620dba5c23"
+              className="w-full h-auto rounded-lg"
+              alt="Comunidad - Crecimiento conjunto"
+            />
+          </div>
+          
+          <p className="font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
+            La semilla de El Roure encontró las condiciones más favorables para germinar y crecer. Una persona cercana hizo de mecenas ofreciéndose a comprar la preciosa finca que elegimos para ubicar el proyecto. Empezamos con 6 criaturas que venían desde Barcelona y se quedaban a dormir en la masía tres días a la semana. Poco a poco el grupo fue creciendo y las familias participantes realizaron todo un cambio de vida trasladándose a la zona. Estas primeras familias se entregaron en cuerpo y alma a la reforma de las edificaciones e implicaron a familiares y amigos.
+          </p>
+          
+          <p className="font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
+            Fue una época de trabajo exhausto, tanto en la reforma y adecuación del espacio y en la preparación de materiales educativos como en la reflexión y evolución de la metodología, la organización y la explicación de la línea educativa que estábamos creando. Como todo comienzo, se vivió en un ambiente de ilusión y de implicación muy intenso entre el equipo, familias, amigos y profesionales que colaboraban de forma desinteresada. Compartimos sudor entre cemento, escombros y pintura, horas de cocina, tertulias pedagógicas en sobremesas de grupo, sueños, incertidumbres y mucha confianza. Fueron tiempos de carencias económicas y dificultades constantes, en las que no existían las vacaciones…y nos empujaba una fuerza inmensa.
+          </p>
+          
+          <div className="w-full max-w-[600px] mx-auto mb-8">
+            <img
+              src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+              className="w-full h-auto rounded-lg"
+              alt="Educación innovadora"
+            />
+          </div>
+          
+          <p className="font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
+            En el 2009 pasamos de asociación a cooperativa de trabajo sin ánimo de lucro: Experiència educativa El Roure SCCL.
+          </p>
+          
+          <p className="font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
+            En ese momento también ampliamos nuestra presencia en el panorama educativo, compartiendo con más frecuencia nuestra experiencia a través de charlas, artículos en publicaciones educativas, colaboraciones en formaciones, y además comenzamos a ofrecer nuestras propias formaciones y acompañamientos a familias y profesionales.
+          </p>
+          
+          <p className="font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
+            La escuela creció hasta llegar a acoger a 90 niñas, niños y adolescentes. Siempre tuvimos vocación de escuela pequeña, para poder hacer el trabajo con la profundidad que queríamos y esa dimensión se convirtió en el límite.
+          </p>
+          
+          <div className="w-full max-w-[600px] mx-auto mb-8">
+            <img
+              src="https://images.unsplash.com/photo-1535268647677-300dbf3d78d1"
+              className="w-full h-auto rounded-lg"
+              alt="Ambiente educativo cálido"
+            />
+          </div>
+          
+          <p className="font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
+            En 2017, tras un enorme esfuerzo económico y organizativo por parte de toda la comunidad (que incluyó un micromecenazgo impulsado por las familias), conseguimos la autorización como escuela de primaria, por parte del Departament d'Educació de la Generalitat de Catalunya.
+          </p>
+          
+          <p className="font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
+            Después del confinamiento por el coronavirus del 2020, la escuela fue decreciendo. El mundo era otro al de los inicios; las familias tendían más a la escolarización pública gratuita y cercana a su vivienda, las escuelas públicas habían ido paulatinamente abriéndose hacia la creación de ambientes con materiales manipulativos y la llamada "libre circulación", etc.
+          </p>
+          
+          <p className="font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
+            A raíz de serias dificultades en la finca, la disminución del número de familias y la falta de relevo en la coordinación de la escuela, decidimos el cierre.
           </p>
         </div>
       </section>
