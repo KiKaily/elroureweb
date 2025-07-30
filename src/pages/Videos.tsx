@@ -16,8 +16,10 @@ const Videos: React.FC = () => {
         <h1 className="font-handscript text-[#43362A] text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center">
           Videos
         </h1>
+
+        <div className="w-full max-w-[1000px] space-y-8">
         
-        {/* Vimeo Video 1*/}
+        
           <div className="w-full">
             <div className="aspect-video w-full mb-4">
               <iframe
@@ -37,7 +39,7 @@ const Videos: React.FC = () => {
               mayoría de nosotros la ha experimentado? ¿Y es posible imaginar una sociedad diferente a la actual sin reexaminar el modelo de educación en el que está basada?"</p>
           </div>
 
-          {/* Vimeo Video 2*/}
+          
           <div className="w-full">
             <div className="aspect-video w-full mb-4">
               <iframe
@@ -56,29 +58,10 @@ const Videos: React.FC = () => {
               "Entrevista a Begoña González, fundadora de la escuela viva El Roure de Cataluña, en su visita a Euskadi para el curso que se desarrolla entre las escuelas de Landabaso en Zalla (Bizkaia) y Bizilore en Azpeitia (Gipuzkoa). Entrevista realizada en el proyecto Ametxe, una comunidad generada en una vivienda cooperativa en cesión de uso en ámbito rural en Gordexola, Bizkaia. JolasBIDE 2024."</p>
           </div>
 
-        <div className="w-full max-w-[1000px] space-y-8">
-          {/* YouTube Video 1 */}
-          <div className="w-full">
-            <div className="aspect-video w-full mb-4">
-              <iframe
-                width="100%"
-                height="100%"
-                src="https://www.youtube.com/watch?v=wnhU8cmO1i0"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="rounded-lg"
-              ></iframe>
-            </div>
-            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
-              Conversación de Baobab con Begoña González.</p>
-            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
-              "En nuestra visita a El Roure, en la provincia de Barcelona, Begoña nos regaló esta entrevista/conversación donde de manera clara y profunda nos compartió su visión sobre la educación y el enfoque de la escuela. 
-Toda nuestra gratitud por acogernos y por la generosidad de compartir su experiencia y comprensión."</p>
-          </div>
+        
+          
 
-          {/* YouTube Video 2 */}
+          
           <div className="w-full">
             <div className="aspect-video w-full mb-4">
               <iframe
@@ -100,6 +83,28 @@ Toda nuestra gratitud por acogernos y por la generosidad de compartir su experie
               Toda nuestra gratitud por acogernos y por la generosidad de compartir su experiencia y comprensión."
             </p>
           </div>
+
+          
+          <div className="w-full">
+            <div className="aspect-video w-full mb-4">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/XMepo_l0JC4?si=hMsYROm0cmMacuus"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="rounded-lg"
+              ></iframe>
+            </div>
+            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
+              Conversación de Baobab con Begoña González.</p>
+            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
+              "En nuestra visita a El Roure, en la provincia de Barcelona, Begoña nos regaló esta entrevista/conversación donde de manera clara y profunda nos compartió su visión sobre la educación y el enfoque de la escuela. 
+Toda nuestra gratitud por acogernos y por la generosidad de compartir su experiencia y comprensión."</p>
+          </div>
+
         </div>
           
       </section>
