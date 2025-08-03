@@ -8,19 +8,21 @@ const Videos: React.FC = () => {
       <section className="flex flex-col items-center w-full max-w-[90vw] 2xl:max-w-[1200px] mt-10">
         <Link 
           to="/home" 
-          className="self-start mb-8 font-handscript text-[#43362A] text-xl hover:text-opacity-80 transition-all duration-300"
+          className="self-start mb-8 font-handscript text-[#43362A] text-xl hover:text-opacity-80 transition-all duration-300 animate-fade-in"
+          style={{ animationDelay: '0.1s', animationFillMode: 'both' }}
         >
           ← Volver
         </Link>
         
-        <h1 className="font-handscript text-[#43362A] text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center">
+        <h1 className="font-handscript text-[#43362A] text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in"
+            style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
           Videos
         </h1>
 
         <div className="w-full max-w-[1000px] space-y-8">
         
         
-          <div className="w-full">
+          <div className="w-full animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
             <div className="aspect-video w-full mb-4">
               <iframe
                 src="https://player.vimeo.com/video/115516270?color=ffffff&title=0&byline=0&portrait=0&badge=0&autoplay=1"
@@ -39,7 +41,7 @@ const Videos: React.FC = () => {
               mayoría de nosotros la ha experimentado? ¿Y es posible imaginar una sociedad diferente a la actual sin reexaminar el modelo de educación en el que está basada?"</p>
           </div>
 
-          <div className="w-full">
+          <div className="w-full animate-fade-in" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
             <div className="aspect-video w-full mb-4">
               <iframe
                 width="100%"
@@ -61,9 +63,7 @@ const Videos: React.FC = () => {
             </p>
           </div>
 
-          
-
-          <div className="w-full">
+          <div className="w-full animate-fade-in" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
             <div className="aspect-video w-full mb-4">
               <iframe
                 src="https://player.vimeo.com/1046320608?color=ffffff&title=0&byline=0&portrait=0&badge=0&autoplay=0"
@@ -81,11 +81,7 @@ const Videos: React.FC = () => {
               "Entrevista a Begoña González, fundadora de la escuela viva El Roure de Cataluña, en su visita a Euskadi para el curso que se desarrolla entre las escuelas de Landabaso en Zalla (Bizkaia) y Bizilore en Azpeitia (Gipuzkoa). Entrevista realizada en el proyecto Ametxe, una comunidad generada en una vivienda cooperativa en cesión de uso en ámbito rural en Gordexola, Bizkaia. JolasBIDE 2024."</p>
           </div>
 
-          
-          
-
-          
-          <div className="w-full">
+          <div className="w-full animate-fade-in" style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
             <div className="aspect-video w-full mb-4">
               <iframe
                 width="100%"

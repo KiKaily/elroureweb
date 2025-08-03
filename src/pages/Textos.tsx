@@ -8,18 +8,20 @@ const Textos: React.FC = () => {
       <section className="flex flex-col items-center w-full max-w-[90vw] 2xl:max-w-[1200px] mt-10">
         <Link 
           to="/home" 
-          className="self-start mb-8 font-handscript text-[#43362A] text-xl hover:text-opacity-80 transition-all duration-300"
+          className="self-start mb-8 font-handscript text-[#43362A] text-xl hover:text-opacity-80 transition-all duration-300 animate-fade-in"
+          style={{ animationDelay: '0.1s', animationFillMode: 'both' }}
         >
           ← Volver
         </Link>
         
-        <h1 className="font-handscript text-[#43362A] text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center">
+        <h1 className="font-handscript text-[#43362A] text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in"
+            style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
           Textos
         </h1>
         
         <div className="w-full max-w-[800px]">
           <ul className="space-y-8">
-            <li className="border-l-4 border-[#43362A] pl-6 py-4">
+            <li className="border-l-4 border-[#43362A] pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-[#43362A]/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-handscript text-[#43362A] text-2xl xl:text-3xl font-bold mb-2">
                   La Pedagogía Experiencial en El Roure
@@ -33,7 +35,7 @@ const Textos: React.FC = () => {
               </Link>
             </li>
 
-            <li className="border-l-4 border-[#43362A] pl-6 py-4">
+            <li className="border-l-4 border-[#43362A] pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-[#43362A]/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-handscript text-[#43362A] text-2xl xl:text-3xl font-bold mb-2">
                   El Aprendizaje a Través de la Naturaleza
@@ -47,7 +49,7 @@ const Textos: React.FC = () => {
               </Link>
             </li>
 
-            <li className="border-l-4 border-[#43362A] pl-6 py-4">
+            <li className="border-l-4 border-[#43362A] pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-[#43362A]/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-handscript text-[#43362A] text-2xl xl:text-3xl font-bold mb-2">
                   Formación de Educadores del Siglo XXI
@@ -61,7 +63,7 @@ const Textos: React.FC = () => {
               </Link>
             </li>
 
-            <li className="border-l-4 border-[#43362A] pl-6 py-4">
+            <li className="border-l-4 border-[#43362A] pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-[#43362A]/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-handscript text-[#43362A] text-2xl xl:text-3xl font-bold mb-2">
                   La Importancia del Juego en el Aprendizaje
@@ -75,7 +77,7 @@ const Textos: React.FC = () => {
               </Link>
             </li>
 
-            <li className="border-l-4 border-[#43362A] pl-6 py-4">
+            <li className="border-l-4 border-[#43362A] pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-[#43362A]/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-handscript text-[#43362A] text-2xl xl:text-3xl font-bold mb-2">
                   Asesoramiento Pedagógico Personalizado

@@ -8,21 +8,25 @@ const Historia: React.FC = () => {
       <section className="flex flex-col items-center w-full max-w-[90vw] 2xl:max-w-[1200px] mt-10">
         <Link 
           to="/home" 
-          className="self-start mb-8 font-handscript text-[#43362A] text-xl hover:text-opacity-80 transition-all duration-300"
+          className="self-start mb-8 font-handscript text-[#43362A] text-xl hover:text-opacity-80 transition-all duration-300 animate-fade-in"
+          style={{ animationDelay: '0.1s', animationFillMode: 'both' }}
         >
           ← Volver
         </Link>
         
-        <h1 className="font-handscript text-[#43362A] text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center">
+        <h1 className="font-handscript text-[#43362A] text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in"
+            style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
           Historia
         </h1>
         
         <div className="w-full max-w-[900px] space-y-8">
-          <p className="font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
+          <p className="font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify animate-fade-in"
+             style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
             La escuela El Roure nació en 2001 en una finca rústica del municipio de Mediona (Barcelona). La fundamos Begoña González y Cristóbal Gutiérrez, como un paso más en la evolución de la experiencia en La Casita, que fundamos en 1996, en Barcelona.
           </p>
           
-          <div className="w-full max-w-[600px] mx-auto mb-8">
+          <div className="w-full max-w-[600px] mx-auto mb-8 animate-fade-in"
+               style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
             <img
               src="https://images.unsplash.com/photo-1472396961693-142e6e269027"
               className="w-full h-auto rounded-lg"
@@ -30,15 +34,18 @@ const Historia: React.FC = () => {
             />
           </div>
           
-          <p className="font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
+          <p className="font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify animate-fade-in"
+             style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
             La llamamos escuela viva El Roure. Sus raíces son la experiencia de crianza, el Seitai y la Sistémica y algunas inspiraciones de pedagogías innovadoras del s. XX (Montessori, Freinet, Neill, Malaguzzi, etc.). La línea pedagógica se fue concretando y desarrollando a través de la práctica cotidiana con los niños y niñas, con las madres y padres, en la relación de equipo. A partir de muchas preguntas, la observación y la reflexión, algunos criterios se fueron clarificando y confirmando. El proceso de descubrimiento y aprendizaje ha seguido hasta el final.
           </p>
           
-          <p className="font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
+          <p className="font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify animate-fade-in"
+             style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
             El apoyo, la confianza y la implicación de las primeras familias y miembros del equipo fueron decisivos.
           </p>
           
-          <div className="w-full max-w-[600px] mx-auto mb-8">
+          <div className="w-full max-w-[600px] mx-auto mb-8 animate-fade-in"
+               style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
             <img
               src="https://images.unsplash.com/photo-1517022812141-23620dba5c23"
               className="w-full h-auto rounded-lg"

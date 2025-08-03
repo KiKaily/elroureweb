@@ -8,16 +8,19 @@ const Asesoramientos: React.FC = () => {
       <section className="flex flex-col items-center w-full max-w-[90vw] 2xl:max-w-[1200px] mt-10">
         <Link 
           to="/home" 
-          className="self-start mb-8 font-handscript text-[#43362A] text-xl hover:text-opacity-80 transition-all duration-300"
+          className="self-start mb-8 font-handscript text-[#43362A] text-xl hover:text-opacity-80 transition-all duration-300 animate-fade-in"
+          style={{ animationDelay: '0.1s', animationFillMode: 'both' }}
         >
           ← Volver
         </Link>
         
-        <h1 className="font-handscript text-[#43362A] text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center">
+        <h1 className="font-handscript text-[#43362A] text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in"
+            style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
           Asesoramientos
         </h1>
         
-        <div className="w-full max-w-[800px] mb-8">
+        <div className="w-full max-w-[800px] mb-8 animate-fade-in"
+             style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
           <img
             src="/lovable-uploads/a2a0306c-1588-4029-bd68-eadc52824cbe.png"
             className="w-full h-auto rounded-lg"
@@ -26,10 +29,12 @@ const Asesoramientos: React.FC = () => {
         </div>
         
         <div className="w-full max-w-[800px]">
-          <p className="font-handscript text-[#43362A] text-xl xl:text-2xl 2xl:text-3xl leading-relaxed text-center mb-6">
+          <p className="font-handscript text-[#43362A] text-xl xl:text-2xl 2xl:text-3xl leading-relaxed text-center mb-6 animate-fade-in"
+             style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
-          <p className="font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-center">
+          <p className="font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-center animate-fade-in"
+             style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>

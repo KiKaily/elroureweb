@@ -8,18 +8,20 @@ const Fundamentos: React.FC = () => {
       <section className="flex flex-col items-center w-full max-w-[90vw] 2xl:max-w-[1200px] mt-10">
         <Link 
           to="/home" 
-          className="self-start mb-8 font-handscript text-[#43362A] text-xl hover:text-opacity-80 transition-all duration-300"
+          className="self-start mb-8 font-handscript text-[#43362A] text-xl hover:text-opacity-80 transition-all duration-300 animate-fade-in"
+          style={{ animationDelay: '0.1s', animationFillMode: 'both' }}
         >
           ← Volver
         </Link>
         
-        <h1 className="font-handscript text-[#43362A] text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center">
+        <h1 className="font-handscript text-[#43362A] text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in"
+            style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
           Fundamentos
         </h1>
         
         <div className="w-full max-w-[900px] space-y-12">
           
-          <section className="space-y-6">
+          <section className="space-y-6 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
             <h2 className="font-handscript text-[#43362A] text-2xl xl:text-3xl 2xl:text-4xl font-bold text-center mb-8">
               La autorregulación espontánea. El contacto con la naturaleza propia.
             </h2>
@@ -53,7 +55,7 @@ const Fundamentos: React.FC = () => {
             </p>
           </section>
 
-          <section className="space-y-6">
+          <section className="space-y-6 animate-fade-in" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
             <h2 className="font-handscript text-[#43362A] text-2xl xl:text-3xl 2xl:text-4xl font-bold text-center mb-8">
               El acompañamiento respetuoso; el marco necesario para el crecimiento.
             </h2>
@@ -79,7 +81,7 @@ const Fundamentos: React.FC = () => {
             </p>
           </section>
 
-          <section className="space-y-6">
+          <section className="space-y-6 animate-fade-in" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
             <h2 className="font-handscript text-[#43362A] text-2xl xl:text-3xl 2xl:text-4xl font-bold text-center mb-8">
               Cuidar el deseo innato de aprender.
             </h2>

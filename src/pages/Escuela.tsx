@@ -188,16 +188,19 @@ const Escuela: React.FC = () => {
       <section className="flex flex-col items-center w-full max-w-[90vw] 2xl:max-w-[1400px] mt-10">
         <Link 
           to="/home" 
-          className="self-start mb-8 font-handscript text-[#43362A] text-xl hover:text-opacity-80 transition-all duration-300"
+          className="self-start mb-8 font-handscript text-[#43362A] text-xl hover:text-opacity-80 transition-all duration-300 animate-fade-in"
+          style={{ animationDelay: '0.1s', animationFillMode: 'both' }}
         >
           ← Volver
         </Link>
         
-        <h1 className="font-handscript text-[#43362A] text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center">
+        <h1 className="font-handscript text-[#43362A] text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in"
+            style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
           Escuela
         </h1>
         
-        <div className="w-full max-w-[800px] mb-8">
+        <div className="w-full max-w-[800px] mb-8 animate-fade-in"
+             style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
           <img
             src="/src/assets/escuela-example.jpg"
             className="w-full h-auto rounded-lg"
@@ -205,7 +208,8 @@ const Escuela: React.FC = () => {
           />
         </div>
         
-        <div className="w-full flex flex-col lg:flex-row gap-8">
+        <div className="w-full flex flex-col lg:flex-row gap-8 animate-fade-in"
+             style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
           {/* Submenu */}
           <div className="lg:w-1/4 w-full">
             <div className="bg-white/20 rounded-lg p-4 sticky top-4">
