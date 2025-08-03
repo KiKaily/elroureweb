@@ -32,9 +32,9 @@ const Videos: React.FC = () => {
                 className="rounded-lg"
               ></iframe>
             </div>
-            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
+            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center mt-2 mb-16">
               El Roure, una escuela viva - Documental de Antonio Laforgia.</p>
-              <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
+              <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center mt-2 mb-16">
               "¿Es posible una escuela diferente a la de aulas grises, notas en el libro de escolaridad y nociones aprendidas de memoria tal como la 
               mayoría de nosotros la ha experimentado? ¿Y es posible imaginar una sociedad diferente a la actual sin reexaminar el modelo de educación en el que está basada?"</p>
           </div>
@@ -52,9 +52,9 @@ const Videos: React.FC = () => {
                 className="rounded-lg"
               ></iframe>
             </div>
-            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
+            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center mt-2 mb-16">
               Conversación del proyecto Ametxe con Begoña González. JolasBIDE 2024.</p>
-              <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
+              <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center mt-2 mb-16">
               "Entrevista a Begoña González, fundadora de la escuela viva El Roure de Cataluña, en su visita a Euskadi para el curso que se desarrolla entre las escuelas de Landabaso en Zalla (Bizkaia) y Bizilore en Azpeitia (Gipuzkoa). Entrevista realizada en el proyecto Ametxe, una comunidad generada en una vivienda cooperativa en cesión de uso en ámbito rural en Gordexola, Bizkaia. JolasBIDE 2024."</p>
           </div>
 
@@ -75,10 +75,10 @@ const Videos: React.FC = () => {
                 className="rounded-lg"
               ></iframe>
             </div>
-            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
+            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center mt-2 mb-16">
               Explorando la escuela El Roure, de Baobab.
             </p>
-            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
+            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center mt-2 mb-16">
               "En nuestra visita a El Roure, en la provincia de Barcelona, Begoña nos regaló esta entrevista/conversación donde de manera clara y profunda nos compartió su visión sobre la educación y el enfoque de la escuela. 
               Toda nuestra gratitud por acogernos y por la generosidad de compartir su experiencia y comprensión."
             </p>
@@ -98,9 +98,9 @@ const Videos: React.FC = () => {
                 className="rounded-lg"
               ></iframe>
             </div>
-            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
+            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center mt-2 mb-16">
               Conversación de Baobab con Begoña González.</p>
-            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center">
+            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center mt-2 mb-16">
               "En nuestra visita a El Roure, en la provincia de Barcelona, Begoña nos regaló esta entrevista/conversación donde de manera clara y profunda nos compartió su visión sobre la educación y el enfoque de la escuela. 
 Toda nuestra gratitud por acogernos y por la generosidad de compartir su experiencia y comprensión."</p>
           </div>

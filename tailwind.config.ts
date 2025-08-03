@@ -20,7 +20,7 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'handscript': ['Satisfy', 'cursive'],
+				'handscript': ['Times New Roman', 'serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',

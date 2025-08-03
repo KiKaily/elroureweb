@@ -20,63 +20,73 @@ const Textos: React.FC = () => {
         <div className="w-full max-w-[800px]">
           <ul className="space-y-8">
             <li className="border-l-4 border-[#43362A] pl-6 py-4">
-              <h2 className="font-handscript text-[#43362A] text-2xl xl:text-3xl font-bold mb-2">
-                La Pedagogía Experiencial en El Roure
-              </h2>
-              <h3 className="font-handscript text-[#43362A] text-lg xl:text-xl italic mb-2">
-                Un enfoque holístico para el aprendizaje significativo
-              </h3>
-              <p className="font-handscript text-[#43362A] text-base xl:text-lg">
-                Por María González, Directora Pedagógica
-              </p>
+              <Link to="#" className="block hover:bg-[#43362A]/5 transition-colors duration-300 p-2 -m-2 rounded">
+                <h2 className="font-handscript text-[#43362A] text-2xl xl:text-3xl font-bold mb-2">
+                  La Pedagogía Experiencial en El Roure
+                </h2>
+                <h3 className="font-handscript text-[#43362A] text-lg xl:text-xl italic mb-2">
+                  Un enfoque holístico para el aprendizaje significativo
+                </h3>
+                <p className="font-handscript text-[#43362A] text-base xl:text-lg">
+                  Por María González, Directora Pedagógica
+                </p>
+              </Link>
             </li>
 
             <li className="border-l-4 border-[#43362A] pl-6 py-4">
-              <h2 className="font-handscript text-[#43362A] text-2xl xl:text-3xl font-bold mb-2">
-                El Aprendizaje a Través de la Naturaleza
-              </h2>
-              <h3 className="font-handscript text-[#43362A] text-lg xl:text-xl italic mb-2">
-                Conectando con el entorno para un desarrollo integral
-              </h3>
-              <p className="font-handscript text-[#43362A] text-base xl:text-lg">
-                Por Josep Martínez, Coordinador de Actividades
-              </p>
+              <Link to="#" className="block hover:bg-[#43362A]/5 transition-colors duration-300 p-2 -m-2 rounded">
+                <h2 className="font-handscript text-[#43362A] text-2xl xl:text-3xl font-bold mb-2">
+                  El Aprendizaje a Través de la Naturaleza
+                </h2>
+                <h3 className="font-handscript text-[#43362A] text-lg xl:text-xl italic mb-2">
+                  Conectando con el entorno para un desarrollo integral
+                </h3>
+                <p className="font-handscript text-[#43362A] text-base xl:text-lg">
+                  Por Josep Martínez, Coordinador de Actividades
+                </p>
+              </Link>
             </li>
 
             <li className="border-l-4 border-[#43362A] pl-6 py-4">
-              <h2 className="font-handscript text-[#43362A] text-2xl xl:text-3xl font-bold mb-2">
-                Formación de Educadores del Siglo XXI
-              </h2>
-              <h3 className="font-handscript text-[#43362A] text-lg xl:text-xl italic mb-2">
-                Herramientas y metodologías para una educación transformadora
-              </h3>
-              <p className="font-handscript text-[#43362A] text-base xl:text-lg">
-                Por Ana Pérez, Formadora Senior
-              </p>
+              <Link to="#" className="block hover:bg-[#43362A]/5 transition-colors duration-300 p-2 -m-2 rounded">
+                <h2 className="font-handscript text-[#43362A] text-2xl xl:text-3xl font-bold mb-2">
+                  Formación de Educadores del Siglo XXI
+                </h2>
+                <h3 className="font-handscript text-[#43362A] text-lg xl:text-xl italic mb-2">
+                  Herramientas y metodologías para una educación transformadora
+                </h3>
+                <p className="font-handscript text-[#43362A] text-base xl:text-lg">
+                  Por Ana Pérez, Formadora Senior
+                </p>
+              </Link>
             </li>
 
             <li className="border-l-4 border-[#43362A] pl-6 py-4">
-              <h2 className="font-handscript text-[#43362A] text-2xl xl:text-3xl font-bold mb-2">
-                La Importancia del Juego en el Aprendizaje
-              </h2>
-              <h3 className="font-handscript text-[#43362A] text-lg xl:text-xl italic mb-2">
-                Cuando aprender es divertido, el conocimiento se vuelve duradero
-              </h3>
-              <p className="font-handscript text-[#43362A] text-base xl:text-lg">
-                Por Carlos Ruiz, Especialista en Ludopedagogía
-              </p>
+              <Link to="#" className="block hover:bg-[#43362A]/5 transition-colors duration-300 p-2 -m-2 rounded">
+                <h2 className="font-handscript text-[#43362A] text-2xl xl:text-3xl font-bold mb-2">
+                  La Importancia del Juego en el Aprendizaje
+                </h2>
+                <h3 className="font-handscript text-[#43362A] text-lg xl:text-xl italic mb-2">
+                  Cuando aprender es divertido, el conocimiento se vuelve duradero
+                </h3>
+                <p className="font-handscript text-[#43362A] text-base xl:text-lg">
+                  Por Carlos Ruiz, Especialista en Ludopedagogía
+                </p>
+              </Link>
             </li>
 
             <li className="border-l-4 border-[#43362A] pl-6 py-4">
-              <h2 className="font-handscript text-[#43362A] text-2xl xl:text-3xl font-bold mb-2">
-                Asesoramiento Pedagógico Personalizado
-              </h2>
-              <h3 className="font-handscript text-[#43362A] text-lg xl:text-xl italic mb-2">
-                Adaptando metodologías a cada contexto educativo
-              </h3>
-              <p className="font-handscript text-[#43362A] text-base xl:text-lg">
-                Por Laura Vidal, Consultora Educativa
-              </p>
+              <Link to="#" className="block hover:bg-[#43362A]/5 transition-colors duration-300 p-2 -m-2 rounded">
+                <h2 className="font-handscript text-[#43362A] text-2xl xl:text-3xl font-bold mb-2">
+                  Asesoramiento Pedagógico Personalizado
+                </h2>
+                <h3 className="font-handscript text-[#43362A] text-lg xl:text-xl italic mb-2">
+                  Adaptando metodologías a cada contexto educativo
+                </h3>
+                <p className="font-handscript text-[#43362A] text-base xl:text-lg">
+                  Por Laura Vidal, Consultora Educativa
+                </p>
+              </Link>
             </li>
           </ul>
         </div>
