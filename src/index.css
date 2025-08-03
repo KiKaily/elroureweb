@@ -92,10 +92,14 @@
 
 @layer base {
   * {
-    @apply border-border;
+@apply border-border;
   }
 
   body {
     @apply bg-background text-foreground;
+    background-image: url('/src/assets/recycled-paper-texture.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
   }
 }

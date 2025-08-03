@@ -54,7 +54,7 @@ const MainContent: React.FC<MainContentProps> = ({
             <div className="flex flex-col justify-start z-20 absolute left-0 top-0 max-h-full" style={{ minWidth: '20%', maxWidth: '400px' }}>
               <div className="w-full mb-5">
                 <p 
-                  className={`font-handscript text-[#43362A] text-2xl xl:text-3xl 2xl:text-4xl leading-relaxed p-4 rounded-[18px] transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-100' : 'opacity-0'}`}
+                  className={`font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl leading-relaxed p-4 rounded-[18px] transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-100' : 'opacity-0'}`}
                   style={{
                     transform: loadingStage >= 2 ? 'translateY(0)' : 'translateY(20px)',
                     transition: 'transform 1s ease-out, opacity 1s ease-out'
@@ -113,7 +113,7 @@ const MainContent: React.FC<MainContentProps> = ({
       
       <a
         href="mailto:experienciaelroure@gmail.com"
-        className={`font-handscript text-[#43362A] text-xl sm:text-2xl xl:text-3xl 2xl:text-4xl hover:text-opacity-80 transition-all duration-1000 mt-10 ${loadingStage >= 3 ? 'opacity-100' : 'opacity-0'}`}
+        className={`font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl hover:text-opacity-80 transition-all duration-1000 mt-10 ${loadingStage >= 3 ? 'opacity-100' : 'opacity-0'}`}
         style={{
           transition: 'opacity 1s ease-out',
           textDecoration: 'none'
