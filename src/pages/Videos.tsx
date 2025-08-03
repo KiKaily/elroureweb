@@ -23,7 +23,7 @@ const Videos: React.FC = () => {
           <div className="w-full">
             <div className="aspect-video w-full mb-4">
               <iframe
-                src="https://vimeo.com/115516270?fl=pl&fe=vl"
+                src="https://player.vimeo.com/video/115516270?color=ffffff&title=0&byline=0&portrait=0&badge=0&autoplay=1"
                 width="100%"
                 height="100%"
                 frameBorder="0"
@@ -39,35 +39,12 @@ const Videos: React.FC = () => {
               mayoría de nosotros la ha experimentado? ¿Y es posible imaginar una sociedad diferente a la actual sin reexaminar el modelo de educación en el que está basada?"</p>
           </div>
 
-          
-          <div className="w-full">
-            <div className="aspect-video w-full mb-4">
-              <iframe
-                src="https://vimeo.com/1046320608?fl=pl&fe=vl"
-                width="100%"
-                height="100%"
-                frameBorder="0"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowFullScreen
-                className="rounded-lg"
-              ></iframe>
-            </div>
-            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center mt-2 mb-16">
-              Conversación del proyecto Ametxe con Begoña González. JolasBIDE 2024.</p>
-              <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center mt-2 mb-16">
-              "Entrevista a Begoña González, fundadora de la escuela viva El Roure de Cataluña, en su visita a Euskadi para el curso que se desarrolla entre las escuelas de Landabaso en Zalla (Bizkaia) y Bizilore en Azpeitia (Gipuzkoa). Entrevista realizada en el proyecto Ametxe, una comunidad generada en una vivienda cooperativa en cesión de uso en ámbito rural en Gordexola, Bizkaia. JolasBIDE 2024."</p>
-          </div>
-
-        
-          
-
-          
           <div className="w-full">
             <div className="aspect-video w-full mb-4">
               <iframe
                 width="100%"
                 height="100%"
-                src="https://www.youtube.com/watch?v=XMepo_l0JC4"
+                src="https://www.youtube.com/embed/XMepo_l0JC4?si=NaAud-2vPXRniYTA"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -83,6 +60,27 @@ const Videos: React.FC = () => {
               Toda nuestra gratitud por acogernos y por la generosidad de compartir su experiencia y comprensión."
             </p>
           </div>
+
+          <div className="w-full">
+            <div className="aspect-video w-full mb-4">
+              <iframe
+                src="https://player.vimeo.com/1046320608?"
+                width="100%"
+                height="100%"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+                className="rounded-lg"
+              ></iframe>
+            </div>
+            <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center mt-2 mb-16">
+              Conversación del proyecto Ametxe con Begoña González. JolasBIDE 2024.</p>
+              <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center mt-2 mb-16">
+              "Entrevista a Begoña González, fundadora de la escuela viva El Roure de Cataluña, en su visita a Euskadi para el curso que se desarrolla entre las escuelas de Landabaso en Zalla (Bizkaia) y Bizilore en Azpeitia (Gipuzkoa). Entrevista realizada en el proyecto Ametxe, una comunidad generada en una vivienda cooperativa en cesión de uso en ámbito rural en Gordexola, Bizkaia. JolasBIDE 2024."</p>
+          </div>
+
+          
+          
 
           
           <div className="w-full">
@@ -102,7 +100,7 @@ const Videos: React.FC = () => {
               Conversación de Baobab con Begoña González.</p>
             <p className="font-handscript text-[#43362A] text-lg xl:text-xl text-center mt-2 mb-16">
               "En nuestra visita a El Roure, en la provincia de Barcelona, Begoña nos regaló esta entrevista/conversación donde de manera clara y profunda nos compartió su visión sobre la educación y el enfoque de la escuela. 
-Toda nuestra gratitud por acogernos y por la generosidad de compartir su experiencia y comprensión."</p>
+              Toda nuestra gratitud por acogernos y por la generosidad de compartir su experiencia y comprensión."</p>
           </div>
 
         </div>
