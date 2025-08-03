@@ -33,6 +33,7 @@ const Asesoramientos: React.FC = () => {
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
+        <div className="mb-20"></div>
       </section>
     </main>
   );

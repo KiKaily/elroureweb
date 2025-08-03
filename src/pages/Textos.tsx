@@ -90,6 +90,7 @@ const Textos: React.FC = () => {
             </li>
           </ul>
         </div>
+        <div className="mb-20"></div>
       </section>
     </main>
   );

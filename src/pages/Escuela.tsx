@@ -235,6 +235,7 @@ const Escuela: React.FC = () => {
             </div>
           </div>
         </div>
+        <div className="mb-20"></div>
       </section>
     </main>
   );

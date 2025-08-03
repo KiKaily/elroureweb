@@ -101,6 +101,7 @@ const Fundamentos: React.FC = () => {
             </p>
           </section>
         </div>
+        <div className="mb-20"></div>
       </section>
     </main>
   );

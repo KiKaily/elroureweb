@@ -94,6 +94,7 @@ const Historia: React.FC = () => {
             A raíz de serias dificultades en la finca, la disminución del número de familias y la falta de relevo en la coordinación de la escuela, decidimos el cierre.
           </p>
         </div>
+        <div className="mb-20"></div>
       </section>
     </main>
   );
