@@ -66,7 +66,7 @@ const Videos: React.FC = () => {
           <div className="w-full animate-fade-in" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
             <div className="aspect-video w-full mb-4">
               <iframe
-                src="https://vimeo.com/1046320608?ref_tw-share&referrer=https%3A%2F%2Fvimeo.com%2F"
+                src="https://vimeo.com/1046320608?fl=pl&fe=sh"
                 width="100%"
                 height="100%"
                 frameBorder="0"
