@@ -20,7 +20,7 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'handscript': ['Handlee', 'cursive'],
+				'handscript': ['Handlee', 'Kalam', 'Caveat', 'Patrick Hand', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
