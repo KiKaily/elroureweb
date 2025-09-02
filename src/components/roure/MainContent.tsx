@@ -14,8 +14,8 @@ const MainContent: React.FC<MainContentProps> = ({
 }) => {
   const isMobile = useIsMobile();
   const [loadingStage, setLoadingStage] = useState(() => {
-    const hasPlayed = sessionStorage.getItem('mainContentAnimationPlayed') === 'true';
-    return hasPlayed || skipAnimations ? 4 : 0;
+    // Always start fresh animations unless explicitly skipped
+    return skipAnimations ? 4 : 0;
   });
 
   useEffect(() => {
@@ -24,22 +24,17 @@ const MainContent: React.FC<MainContentProps> = ({
       return;
     }
     
-    if (sessionStorage.getItem('mainContentAnimationPlayed') !== 'true') {
-      const imageTimer = setTimeout(() => setLoadingStage(1), 100);
-      const logoTimer = setTimeout(() => setLoadingStage(2), 2000);
-      const emailTimer = setTimeout(() => setLoadingStage(3), 3500);
-      const menuTimer = setTimeout(() => {
-        setLoadingStage(4);
-        sessionStorage.setItem('mainContentAnimationPlayed', 'true');
-      }, 4500);
+    const imageTimer = setTimeout(() => setLoadingStage(1), 100);
+    const logoTimer = setTimeout(() => setLoadingStage(2), 2000);
+    const emailTimer = setTimeout(() => setLoadingStage(3), 3500);
+    const menuTimer = setTimeout(() => setLoadingStage(4), 4500);
 
-      return () => {
-        clearTimeout(imageTimer);
-        clearTimeout(logoTimer);
-        clearTimeout(emailTimer);
-        clearTimeout(menuTimer);
-      };
-    }
+    return () => {
+      clearTimeout(imageTimer);
+      clearTimeout(logoTimer);
+      clearTimeout(emailTimer);
+      clearTimeout(menuTimer);
+    };
   }, [skipAnimations, isMobile]);
 
   useEffect(() => {
@@ -51,7 +46,7 @@ const MainContent: React.FC<MainContentProps> = ({
       <div className={`relative flex ${isMobile ? 'flex-col items-center' : 'flex-row justify-center'} w-full`}>
         {!isMobile && (
           <>
-            <div className="flex flex-col justify-start z-20 absolute left-0 top-0 max-h-full" style={{ minWidth: '20%', maxWidth: '400px' }}>
+            <div className="flex flex-col justify-center z-20 absolute left-0 top-1/2 transform -translate-y-1/2 max-h-full" style={{ minWidth: '20%', maxWidth: '400px', left: '10%' }}>
               <div className="w-full mb-5">
                 <p 
                   className={`font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl leading-relaxed p-4 rounded-[18px] transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-100' : 'opacity-0'}`}
@@ -113,7 +108,7 @@ const MainContent: React.FC<MainContentProps> = ({
       
       <a
         href="mailto:experienciaelroure@gmail.com"
-        className={`font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl hover:text-opacity-80 transition-all duration-1000 mt-10 ${loadingStage >= 3 ? 'opacity-100' : 'opacity-0'}`}
+        className={`font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl hover:text-opacity-80 transition-all duration-1000 mt-20 ${loadingStage >= 3 ? 'opacity-100' : 'opacity-0'}`}
         style={{
           transition: 'opacity 1s ease-out',
           textDecoration: 'none'
