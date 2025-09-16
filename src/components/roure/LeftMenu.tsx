@@ -32,7 +32,7 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
             <li key={item.text}>
               <Link
                 to={item.href}
-                className="font-handscript text-stone-100 text-xl sm:text-2xl hover:text-opacity-80 transition-all duration-300 block text-center"
+                className="font-jacques text-stone-100 text-xl sm:text-2xl hover:text-opacity-80 transition-all duration-300 block text-center"
                 style={{
                   textDecoration: 'none'
                 }}
@@ -60,7 +60,7 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
             <li key={item.text}>
               <Link
                 to={item.href}
-                className="font-handscript text-stone-100 text-xl xl:text-2xl 2xl:text-3xl hover:text-opacity-80 transition-all duration-300 block"
+                className="font-jacques text-stone-100 text-xl xl:text-2xl 2xl:text-3xl hover:text-opacity-80 transition-all duration-300 block"
                 style={{
                   textDecoration: 'none'
                 }}

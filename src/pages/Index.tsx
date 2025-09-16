@@ -20,12 +20,12 @@ const Index: React.FC = () => {
   };
 
   return (
-    <main className="max-w-none min-h-screen flex flex-col items-center justify-center bg-[#DAD3C5] mx-auto p-5">
+    <main className="max-w-none min-h-screen flex flex-col items-center justify-center mx-auto p-5">
       <Logo className="mb-10" animationDelay={0} />
       
       <button
         onClick={handleEnter}
-        className={`font-handscript text-[#43362A] text-2xl mt-10 cursor-pointer text-center transition-all duration-1000 ${loadingComplete ? 'opacity-100' : 'opacity-0'}`}
+        className={`font-jacques text-stone-100 text-2xl mt-10 cursor-pointer text-center transition-all duration-1000 ${loadingComplete ? 'opacity-100' : 'opacity-0'}`}
         style={{
           transform: loadingComplete ? 'translateY(0) scale(1)' : 'translateY(20px) scale(0.9)',
           transition: 'transform 0.8s ease-out, opacity 1s ease-out',

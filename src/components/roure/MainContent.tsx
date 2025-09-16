@@ -49,7 +49,7 @@ const MainContent: React.FC<MainContentProps> = ({
             <div className="flex flex-col justify-center z-20 absolute left-0 top-1/2 transform -translate-y-1/2 max-h-full" style={{ minWidth: '20%', maxWidth: '400px', left: '5%' }}>
               <div className="w-full mb-5">
                 <p 
-                  className={`font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed p-4 rounded-[18px] transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-100' : 'opacity-0'}`}
+                  className={`font-montserrat text-stone-100 text-sm xl:text-base 2xl:text-lg leading-relaxed p-4 rounded-[18px] transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-100' : 'opacity-0'}`}
                   style={{
                     transform: loadingStage >= 2 ? 'translateY(0)' : 'translateY(20px)',
                     transition: 'transform 1s ease-out, opacity 1s ease-out'
@@ -87,7 +87,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <>
             <div className="w-[90%] mt-8">
               <p 
-                className={`font-montserrat text-stone-100 text-xl sm:text-2xl leading-relaxed text-center p-4 rounded-[18px] transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-100' : 'opacity-0'}`}
+                className={`font-montserrat text-stone-100 text-base sm:text-lg leading-relaxed text-center p-4 rounded-[18px] transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-100' : 'opacity-0'}`}
                 style={{
                   transform: loadingStage >= 2 ? 'translateY(0)' : 'translateY(20px)',
                   transition: 'transform 1s ease-out, opacity 1s ease-out'
