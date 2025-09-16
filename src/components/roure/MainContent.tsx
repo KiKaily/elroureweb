@@ -49,7 +49,7 @@ const MainContent: React.FC<MainContentProps> = ({
             <div className="flex flex-col justify-center z-20 absolute left-0 top-1/2 transform -translate-y-1/2 max-h-full" style={{ minWidth: '20%', maxWidth: '400px', left: '5%' }}>
               <div className="w-full mb-5">
                 <p 
-                  className={`font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl leading-relaxed p-4 rounded-[18px] transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-100' : 'opacity-0'}`}
+                  className={`font-montserrat font-semibold text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed p-4 rounded-[18px] transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-100' : 'opacity-0'}`}
                   style={{
                     transform: loadingStage >= 2 ? 'translateY(0)' : 'translateY(20px)',
                     transition: 'transform 1s ease-out, opacity 1s ease-out'
@@ -87,7 +87,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <>
             <div className="w-[90%] mt-8">
               <p 
-                className={`font-handscript text-[#43362A] text-xl sm:text-2xl leading-relaxed text-center p-4 rounded-[18px] transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-100' : 'opacity-0'}`}
+                className={`font-montserrat font-semibold text-stone-100 text-xl sm:text-2xl leading-relaxed text-center p-4 rounded-[18px] transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-100' : 'opacity-0'}`}
                 style={{
                   transform: loadingStage >= 2 ? 'translateY(0)' : 'translateY(20px)',
                   transition: 'transform 1s ease-out, opacity 1s ease-out'
@@ -107,14 +107,14 @@ const MainContent: React.FC<MainContentProps> = ({
       </div>
       
       <a
-        href="mailto:experienciaelroure@gmail.com"
-        className={`font-handscript text-[#43362A] text-lg xl:text-xl 2xl:text-2xl hover:text-opacity-80 transition-all duration-1000 mt-20 ${loadingStage >= 3 ? 'opacity-100' : 'opacity-0'}`}
+        href="mailto:experienciaroure@proton.me"
+        className={`font-montserrat font-semibold text-stone-100 text-lg xl:text-xl 2xl:text-2xl hover:text-opacity-80 transition-all duration-1000 mt-20 ${loadingStage >= 3 ? 'opacity-100' : 'opacity-0'}`}
         style={{
           transition: 'opacity 1s ease-out',
           textDecoration: 'none'
         }}
       >
-        experienciaelroure@gmail.com
+        experienciaroure@proton.me
       </a>
     </section>
   );

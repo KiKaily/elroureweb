@@ -103,4 +103,11 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+
+  /* Desktop and tablet background */
+  @media (min-width: 768px) {
+    body {
+      background-image: url('/assets/fondo_web_desktop.webp');
+    }
+  }
 }
