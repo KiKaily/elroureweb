@@ -9,8 +9,7 @@ import Home from "./pages/Home";
 import Historia from "./pages/Historia";
 import Fundamentos from "./pages/Fundamentos";
 import Escuela from "./pages/Escuela";
-import Formaciones from "./pages/Formaciones";
-import Asesoramientos from "./pages/Asesoramientos";
+import NuevosProyectos from "./pages/NuevosProyectos";
 import Textos from "./pages/Textos";
 import Videos from "./pages/Videos";
 import NotFound from "./pages/NotFound";
@@ -29,8 +28,7 @@ const App = () => (
           <Route path="/historia" element={<Historia />} />
           <Route path="/fundamentos" element={<Fundamentos />} />
           <Route path="/escuela" element={<Escuela />} />
-          <Route path="/formaciones" element={<Formaciones />} />
-          <Route path="/asesoramientos" element={<Asesoramientos />} />
+          <Route path="/nuevos-proyectos" element={<NuevosProyectos />} />
           <Route path="/textos" element={<Textos />} />
           <Route path="/videos" element={<Videos />} />
           <Route path="*" element={<NotFound />} />

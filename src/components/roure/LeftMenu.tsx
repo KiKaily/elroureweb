@@ -12,11 +12,11 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
     { text: "Historia", href: "/historia" },
     { text: "Fundamentos", href: "/fundamentos" },
     { text: "Escuela", href: "/escuela" },
-    { text: "Formaciones", href: "/formaciones" },
-    { text: "Asesoramientos", href: "/asesoramientos" },
     { text: "Videos", href: "/videos" },
     { text: "Textos", href: "/textos" },
   ];
+
+  const specialMenuItem = { text: "Nuevos Proyectos", href: "/nuevos-proyectos" };
 
   if (isMobile) {
     return (
@@ -41,6 +41,18 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
               </Link>
             </li>
           ))}
+          
+          <li className="pt-6 mt-6 border-t border-stone-100/20">
+            <Link
+              to={specialMenuItem.href}
+              className="font-jacques text-amber-300 text-xl sm:text-2xl hover:text-amber-200 transition-all duration-300 block text-center"
+              style={{
+                textDecoration: 'none'
+              }}
+            >
+              {specialMenuItem.text}
+            </Link>
+          </li>
         </ul>
       </nav>
     );
@@ -69,6 +81,18 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
               </Link>
             </li>
           ))}
+          
+          <li className="pt-6 mt-6 border-t border-stone-100/20">
+            <Link
+              to={specialMenuItem.href}
+              className="font-jacques text-amber-300 text-xl xl:text-2xl 2xl:text-3xl hover:text-amber-200 transition-all duration-300 block"
+              style={{
+                textDecoration: 'none'
+              }}
+            >
+              {specialMenuItem.text}
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>

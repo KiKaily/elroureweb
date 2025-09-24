@@ -46,7 +46,7 @@ const MainContent: React.FC<MainContentProps> = ({
       <div className={`relative flex ${isMobile ? 'flex-col items-center' : 'flex-row justify-center'} w-full`}>
         {!isMobile && (
           <>
-            <div className="flex flex-col justify-center z-20 absolute left-0 top-1/2 transform -translate-y-1/2 max-h-full" style={{ minWidth: '15%', maxWidth: '300px', left: '5%' }}>
+            <div className="flex flex-col justify-center z-20 absolute left-0 top-1/2 transform -translate-y-1/2 max-h-full" style={{ minWidth: '12%', maxWidth: '250px', left: '3%' }}>
               <div className="w-full mb-5">
                 <p 
                   className={`font-montserrat text-stone-100 text-sm xl:text-base 2xl:text-lg leading-relaxed p-4 rounded-[18px] transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-100' : 'opacity-0'}`}
@@ -70,15 +70,14 @@ const MainContent: React.FC<MainContentProps> = ({
         )}
         
         <div
-          className="relative flex justify-center items-center overflow-hidden mx-auto"
+          className={`relative flex justify-center items-center overflow-hidden mx-auto transition-opacity duration-3000 ${loadingStage >= 1 ? 'opacity-100' : 'opacity-0'}`}
           style={{
-            clipPath: loadingStage >= 1 ? 'circle(150% at 50% 50%)' : 'circle(0% at 50% 50%)',
-            transition: 'clip-path 4s ease-in-out',
+            transition: 'opacity 4s ease-in-out',
             transform: 'translateX(0)'
           }}
         >
           <img
-            src="/lovable-uploads/a2a0306c-1588-4029-bd68-eadc52824cbe.png"
+            src="/lovable-uploads/517a4352-7aae-4e38-a7f8-23577996fbf6.png"
             className={`w-[40vw] max-w-[800px] min-w-[300px] h-auto transition-opacity duration-3000 ${loadingStage >= 1 ? 'opacity-100' : 'opacity-0'}`}
             alt="Decorative Pattern"
             style={{
