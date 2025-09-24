@@ -77,7 +77,7 @@ const MainContent: React.FC<MainContentProps> = ({
           }}
         >
           <img
-            src="/lovable-uploads/517a4352-7aae-4e38-a7f8-23577996fbf6.png"
+            src="/assets/anillos madera.png"
             className={`w-[40vw] max-w-[800px] min-w-[300px] h-auto transition-opacity duration-3000 ${loadingStage >= 1 ? 'opacity-100' : 'opacity-0'}`}
             alt="Decorative Pattern"
             style={{
