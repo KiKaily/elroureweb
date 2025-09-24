@@ -195,8 +195,6 @@ const Textos: React.FC = () => {
                 </h3>
               </Link>
             </li>
-
-            
             
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
