@@ -20,68 +20,68 @@ const Textos: React.FC = () => {
         
         <div className="w-full max-w-[800px]">
           <ul className="space-y-8">
+            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
+              <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                  Una pedagogia de la relació
+                </h2>
+                <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
+                  Begoña González. Revista Roure
+                </h3>
+              </Link>
+            </li>
+
+            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
+              <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                  Un bañador con bolsillos
+                </h2>
+                <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
+                  Begoña González
+                </h3>
+              </Link>
+            </li>
+            
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
-                  Amigos y amigas por carta
+                  Cristóbal trajo el Seitai a El Roure
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-                  Mercè de la Cruz
+                  Begoña González
                 </h3>
               </Link>
             </li>
 
-            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
+            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
-                  Escrito a mano
+                  El consumismo que enturbia el alma
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-                  Guillermo Jaim Etcheverry
+                  Cristóbal Gutiérrez
                 </h3>
               </Link>
             </li>
 
-            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
+            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
-                  Escriptorroures
+                  Divídete y sufrirás
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-                  Paco Robles, Educador
+                  Cristóbal Gutiérrez
                 </h3>
               </Link>
             </li>
 
-            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
+            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
-                  Límites y limitaciones
+                  In memorian
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-                  Begoña González, Educadora
-                </h3>
-              </Link>
-            </li>
-
-            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
-                  Artículo Boletín 1
-                </h2>
-                <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-                  Revista Nº  1 La Casita
-                </h3>
-              </Link>
-            </li>
-
-            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
-                  Celebrando el milagro de la vida: la ciencia con los niños y niñas
-                </h2>
-                <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-                  Mercè de la Cruz, Educadora
+                  Cristóbal Gutiérrez
                 </h3>
               </Link>
             </li>
@@ -92,7 +92,18 @@ const Textos: React.FC = () => {
                   Que la vida sea el eje de la educación
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-                  Ulrike Kaesse, Madre, y Begoña González, Educadora
+                  Ulrike Kaesse y Begoña González
+                </h3>
+              </Link>
+            </li>
+
+            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
+              <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                  La mirada amorosa
+                </h2>
+                <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
+                  Cristóbal Gutiérrez
                 </h3>
               </Link>
             </li>
@@ -100,10 +111,65 @@ const Textos: React.FC = () => {
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
-                  ¿Estamos o no haciendo matemáticas?
+                  Feminidad y masculinidad...
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-                  Lara Jiménez. Revista Roure
+                  Begoña González
+                </h3>
+              </Link>
+            </li>
+
+            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
+              <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                  Que ser valiente no salga tan caro, que ser cobarde no valga la pena
+                </h2>
+                <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
+                  Cristóbal Gutiérrez
+                </h3>
+              </Link>
+            </li>
+
+            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
+              <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                  Límites y limitaciones
+                </h2>
+                <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
+                  Begoña González
+                </h3>
+              </Link>
+            </li>
+
+            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
+              <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                  Hora de marcharme de El Roure
+                </h2>
+                <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
+                  Cristóbal Gutiérrez
+                </h3>
+              </Link>
+            </li>
+
+            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
+              <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                  Cris se va (2007)
+                </h2>
+                <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
+                  Begoña González
+                </h3>
+              </Link>
+            </li>
+
+            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
+              <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                  Escriptorroures
+                </h2>
+                <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
+                  Paco Robles
                 </h3>
               </Link>
             </li>
@@ -122,10 +188,23 @@ const Textos: React.FC = () => {
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
-                  Artículo Boletín 1
+                  ¿Estamos o no haciendo matemáticas?
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-                  Revista Nº  1 La Casita
+                  Lara Jiménez. Revista Roure
+                </h3>
+              </Link>
+            </li>
+
+            
+            
+            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
+              <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                  Amigos y amigas por carta
+                </h2>
+                <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
+                  Mercè de la Cruz
                 </h3>
               </Link>
             </li>
@@ -133,32 +212,10 @@ const Textos: React.FC = () => {
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
-                  Una pedagogia de la relació
+                  Celebrando el milagro de la vida: la ciencia con los niños y niñas
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-                  Begoña González. Revista Roure
-                </h3>
-              </Link>
-            </li>
-
-            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
-                  Un bañador con bolsillos
-                </h2>
-                <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-                  Begoña González, Educadora
-                </h3>
-              </Link>
-            </li>
-
-            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
-                  Feminidad y masculinidad...
-                </h2>
-                <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-                  Begoña González, Educadora
+                  Mercè de la Cruz
                 </h3>
               </Link>
             </li>
@@ -169,7 +226,18 @@ const Textos: React.FC = () => {
                   Taller d’andròmines
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-                  Montse Bertran, Educadora
+                  Montse Bertran
+                </h3>
+              </Link>
+            </li>
+
+            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
+              <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                  Escrito a mano
+                </h2>
+                <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
+                  Guillermo Jaim Etcheverry
                 </h3>
               </Link>
             </li>
