@@ -28,9 +28,6 @@ const Textos: React.FC = () => {
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Un enfoque holístico para el aprendizaje significativo
                 </h3>
-                <p className="font-montserrat text-stone-100 text-base xl:text-lg">
-                  Por María González, Directora Pedagógica
-                </p>
               </Link>
             </li>
 
@@ -42,9 +39,6 @@ const Textos: React.FC = () => {
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Conectando con el entorno para un desarrollo integral
                 </h3>
-                <p className="font-montserrat text-stone-100 text-base xl:text-lg">
-                  Por Josep Martínez, Coordinador de Actividades
-                </p>
               </Link>
             </li>
 
@@ -56,9 +50,6 @@ const Textos: React.FC = () => {
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Herramientas y metodologías para una educación transformadora
                 </h3>
-                <p className="font-montserrat text-stone-100 text-base xl:text-lg">
-                  Por Ana Pérez, Formadora Senior
-                </p>
               </Link>
             </li>
 
@@ -70,9 +61,6 @@ const Textos: React.FC = () => {
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Cuando aprender es divertido, el conocimiento se vuelve duradero
                 </h3>
-                <p className="font-montserrat text-stone-100 text-base xl:text-lg">
-                  Por Carlos Ruiz, Especialista en Ludopedagogía
-                </p>
               </Link>
             </li>
 
@@ -84,9 +72,6 @@ const Textos: React.FC = () => {
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Adaptando metodologías a cada contexto educativo
                 </h3>
-                <p className="font-montserrat text-stone-100 text-base xl:text-lg">
-                  Por Laura Vidal, Consultora Educativa
-                </p>
               </Link>
             </li>
           </ul>
