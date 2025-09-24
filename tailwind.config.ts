@@ -22,7 +22,7 @@ export default {
 			fontFamily: {
 				'handscript': ['Handlee', 'Kalam', 'Caveat', 'Patrick Hand', 'sans-serif'],
 				'montserrat': ['Montserrat', 'sans-serif'],
-				'jacques': ['Jacques Francois Shadow', 'serif'],
+				'jacques': ['Inter', 'system-ui', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
