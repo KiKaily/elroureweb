@@ -57,7 +57,11 @@ const MainContent: React.FC<MainContentProps> = ({
                 >
                   Del 2001 al 2025 hicimos un viaje fascinante: una escuela para familias con criaturas de 3 a 12 años.
                   <br/><br/>
-                  ¿Cuál ha sido el norte de ese viaje? Cada criatura es una SEMILLA. La fuerza y la inteligencia de la vida se ocupan de que se manifieste y se desarrolle. Queremos sintonizar con este latido, apoyarlo y dejar atrás lo que nos limita, para acompañarlos, para acompañarnos, desde el respeto y la consciencia de la naturaleza de cada cual.
+                  ¿Cuál ha sido el norte de ese viaje?
+                  <br/><br/>
+                  Cada criatura es una semilla.
+                  <br/><br/>
+                  La fuerza y la inteligencia de la vida se ocupan de que se manifieste y se desarrolle. Queremos sintonizar con este latido, apoyarlo y dejar atrás lo que nos limita, para acompañarlos, para acompañarnos, desde el respeto y la consciencia de la naturaleza de cada cual.
                 </p>
               </div>
             </div>
