@@ -20,7 +20,7 @@ const Index: React.FC = () => {
   };
 
   return (
-    <main className="max-w-none min-h-screen flex flex-col items-center justify-center mx-auto p-5">
+    <main className="max-w-none min-h-screen flex flex-col items-center justify-center mx-auto p-5 landing-bg">
       <Logo className="mb-10" animationDelay={0} />
       
       <button

@@ -97,17 +97,26 @@
 
   body {
     @apply text-foreground;
-    background-image: url('/assets/fondo_web_mobile.webp');
+    background-image: url('/src/assets/recycled-paper-texture.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
   }
 
-  /* Desktop and tablet background */
+  /* Landing page specific background */
+  .landing-bg {
+    background-image: url('/assets/fondo_web_mobile.webp') !important;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* Desktop and tablet background for landing page */
   @media (min-width: 768px) {
-    body {
-      background-image: url('/assets/fondo_web_desktop.webp');
+    .landing-bg {
+      background-image: url('/assets/fondo_web_desktop.webp') !important;
     }
   }
 }
