@@ -32,7 +32,7 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
             <li key={item.text}>
               <Link
                 to={item.href}
-                className="font-jacques text-stone-100 text-xl sm:text-2xl hover:text-opacity-80 transition-all duration-300 block text-center"
+                className="font-inter text-stone-100 text-xl sm:text-2xl hover:text-opacity-80 transition-all duration-300 block text-center"
                 style={{
                   textDecoration: 'none'
                 }}
@@ -45,7 +45,7 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
           <li className="pt-6 mt-6 border-t border-stone-100/20">
             <Link
               to={specialMenuItem.href}
-              className="font-jacques text-amber-300 text-xl sm:text-2xl hover:text-amber-200 transition-all duration-300 block text-center"
+              className="font-inter text-orange-700 text-xl sm:text-2xl hover:text-orange-600 transition-all duration-300 block text-center"
               style={{
                 textDecoration: 'none'
               }}
@@ -72,7 +72,7 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
             <li key={item.text}>
               <Link
                 to={item.href}
-                className="font-jacques text-stone-100 text-xl xl:text-2xl 2xl:text-3xl hover:text-opacity-80 transition-all duration-300 block"
+                className="font-inter text-stone-100 text-xl xl:text-2xl 2xl:text-3xl hover:text-opacity-80 transition-all duration-300 block"
                 style={{
                   textDecoration: 'none'
                 }}
@@ -85,7 +85,7 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
           <li className="pt-6 mt-6 border-t border-stone-100/20">
             <Link
               to={specialMenuItem.href}
-              className="font-jacques text-amber-300 text-xl xl:text-2xl 2xl:text-3xl hover:text-amber-200 transition-all duration-300 block"
+              className="font-inter text-orange-700 text-xl xl:text-2xl 2xl:text-3xl hover:text-orange-600 transition-all duration-300 block"
               style={{
                 textDecoration: 'none'
               }}

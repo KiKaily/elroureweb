@@ -46,7 +46,7 @@ const Index: React.FC = () => {
       
       {/* Transition overlay */}
       <div 
-        className={`fixed inset-0 bg-black z-50 transition-opacity duration-1500 ${
+        className={`fixed inset-0 bg-black z-50 transition-opacity duration-[3000ms] ${
           isTransitioning ? 'opacity-100' : 'opacity-0 pointer-events-none'
         }`}
       />

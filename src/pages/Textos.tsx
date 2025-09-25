@@ -7,13 +7,13 @@ const Textos: React.FC = () => {
       <section className="flex flex-col items-center w-full max-w-[90vw] 2xl:max-w-[1200px] mt-10">
         <Link 
           to="/home" 
-          className="self-start mb-8 font-jacques text-stone-100 text-xl hover:text-opacity-80 transition-all duration-300 animate-fade-in"
+          className="self-start mb-8 font-inter text-stone-100 text-xl hover:text-opacity-80 transition-all duration-300 animate-fade-in"
           style={{ animationDelay: '0.1s', animationFillMode: 'both' }}
         >
           ← Volver
         </Link>
         
-        <h1 className="font-jacques text-stone-100 text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in"
+        <h1 className="font-inter text-stone-100 text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in"
             style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
           Textos
         </h1>
@@ -22,7 +22,7 @@ const Textos: React.FC = () => {
           <ul className="space-y-8">
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   Una pedagogia de la relació
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -33,7 +33,7 @@ const Textos: React.FC = () => {
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   Un bañador con bolsillos
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -44,7 +44,7 @@ const Textos: React.FC = () => {
             
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   Cristóbal trajo el Seitai a El Roure
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -55,7 +55,7 @@ const Textos: React.FC = () => {
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   El consumismo que enturbia el alma
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -66,7 +66,7 @@ const Textos: React.FC = () => {
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.9s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   Divídete y sufrirás
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -77,7 +77,7 @@ const Textos: React.FC = () => {
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   In memorian
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -88,7 +88,7 @@ const Textos: React.FC = () => {
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   Que la vida sea el eje de la educación
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -99,7 +99,7 @@ const Textos: React.FC = () => {
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   La mirada amorosa
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -110,7 +110,7 @@ const Textos: React.FC = () => {
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   Feminidad y masculinidad...
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -121,7 +121,7 @@ const Textos: React.FC = () => {
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   Que ser valiente no salga tan caro, que ser cobarde no valga la pena
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -132,7 +132,7 @@ const Textos: React.FC = () => {
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   Límites y limitaciones
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -143,7 +143,7 @@ const Textos: React.FC = () => {
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   Hora de marcharme de El Roure
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -154,7 +154,7 @@ const Textos: React.FC = () => {
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   Cris se va (2007)
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -165,7 +165,7 @@ const Textos: React.FC = () => {
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   Escriptorroures
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -176,7 +176,7 @@ const Textos: React.FC = () => {
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   Dues experiències de restauració
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -187,7 +187,7 @@ const Textos: React.FC = () => {
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   ¿Estamos o no haciendo matemáticas?
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -198,7 +198,7 @@ const Textos: React.FC = () => {
             
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   Amigos y amigas por carta
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -209,7 +209,7 @@ const Textos: React.FC = () => {
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   Celebrando el milagro de la vida: la ciencia con los niños y niñas
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -220,8 +220,8 @@ const Textos: React.FC = () => {
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
-                  Taller d’andròmines
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
+                  Taller d'andròmines
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Montse Bertran
@@ -231,7 +231,7 @@ const Textos: React.FC = () => {
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   Escrito a mano
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -240,14 +240,14 @@ const Textos: React.FC = () => {
               </Link>
             </li>
 
-            <h1 className="font-jacques text-stone-100 text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in"
+            <h1 className="font-inter text-stone-100 text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in"
             style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
           Publicaciones en la revista de La Casita (1996-2000?)
         </h1>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   Artículo (titular?)
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -258,7 +258,7 @@ const Textos: React.FC = () => {
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   La muerte de cada día
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -269,7 +269,7 @@ const Textos: React.FC = () => {
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   Despiértate papá (y mamá)
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -280,7 +280,7 @@ const Textos: React.FC = () => {
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   Cine, bebés y sensibilidad
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -291,7 +291,7 @@ const Textos: React.FC = () => {
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   Despedida
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -300,14 +300,14 @@ const Textos: React.FC = () => {
               </Link>
             </li>
 
-            <h1 className="font-jacques text-stone-100 text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in"
+            <h1 className="font-inter text-stone-100 text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in"
             style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
           Publicaciones externas
         </h1>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
               <Link to="https://www.grao.com/revistas/renaturalizar-los-espacios-y-los-tiempos-educativos-42841" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   Cuidar la vida que somos
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
@@ -318,63 +318,49 @@ const Textos: React.FC = () => {
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
               <Link to="https://diarieducacio.cat/cap-a-la-trobada/?hilite=trobada" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
                   Cap a la trobada
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-                  Begoña González. Diari de l’educació (2022)
+                  Begoña González. Diari de l'educació (2022)
                 </h3>
               </Link>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="https://criatures.ara.cat/escola/l-escola-roure-celebra-20e-aniversari_130_4360732.html" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
-                  L'escola El Roure celebra el 20é aniversari
+              <Link to="https://revistaaula.es/" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
+                  Acompanyament i solituds necessàries
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-                  Diari Ara.  (14-5-2022)
-                  </h3>
-              </Link>
-            </li>
-
-            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="https://viureenfamilia.wordpress.com/2019/12/12/quin-sentit-te-el-nadal-a-lescola/" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
-                  Quin sentit té el Nadal a l'escola?
-                </h2>
-                <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-                  Begoña González. Viure en familia. Nº 76 (2018)
+                  Begoña González. Revista Aula de Innovación Educativa (2021)
                 </h3>
               </Link>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="https://www.iquiosc.cat/publicacions/viure-en-familia/97" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
-                  ​El flux de l'apendre
+              <Link to="https://revistaaula.es/" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
+                  El canvi de mirada
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-                  Begoña González. Viure en familia. Nº 97 (2023)
+                  Begoña González. Revista Aula de Innovación Educativa (2020)
                 </h3>
               </Link>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
-                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
-                  Habitar el espacio y el tiempo en la escuela alternativa: recorridos y relatos. Tiempos y espacios en la escuela
+              <Link to="https://revistaaula.es/" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+                <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl mb-2">
+                  Acompanyar el moviment intern i la relació
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-                  José Contreras y Begoña González. Investigación en la escuela. Nº 79 (2013)
-                  </h3>
+                  Begoña González. Revista Aula de Innovación Educativa (2019)
+                </h3>
               </Link>
             </li>
-
-            
           </ul>
         </div>
-        <div className="mb-20"></div>
       </section>
     </main>
   );
