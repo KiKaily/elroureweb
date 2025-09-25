@@ -29,7 +29,7 @@ const NuevosProyectos: React.FC = () => {
             </p>
             <div className="w-full flex justify-center">
               <img
-                src="/assets/begoña.jpg"
+                src="/assets/bego_cierre.png"
                 className="max-w-full h-auto rounded-lg"
                 alt="Nuevos Proyectos - Sección 1"
               />
@@ -46,7 +46,7 @@ const NuevosProyectos: React.FC = () => {
             </p>
             <div className="w-full flex justify-center">
               <img
-                src="/assets/escuela-example.jpg"
+                src="/assets/bego_cierre.png"
                 className="max-w-full h-auto rounded-lg"
                 alt="Nuevos Proyectos - Sección 2"
               />
@@ -63,7 +63,7 @@ const NuevosProyectos: React.FC = () => {
             </p>
             <div className="w-full flex justify-center">
               <img
-                src="/assets/escuela-example.jpg"
+                src="/assets/bego_cierre.png"
                 className="max-w-full h-auto rounded-lg"
                 alt="Nuevos Proyectos - Sección 3"
               />
