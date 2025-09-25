@@ -20,7 +20,7 @@ const Textos: React.FC = () => {
         
         <div className="w-full max-w-[800px]">
           <ul className="space-y-8">
-            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
+            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
                   Una pedagogia de la relació
@@ -31,7 +31,7 @@ const Textos: React.FC = () => {
               </Link>
             </li>
 
-            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
+            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
                   Un bañador con bolsillos
@@ -42,7 +42,7 @@ const Textos: React.FC = () => {
               </Link>
             </li>
             
-            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
+            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
                   Cristóbal trajo el Seitai a El Roure
@@ -53,7 +53,7 @@ const Textos: React.FC = () => {
               </Link>
             </li>
 
-            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
+            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
                   El consumismo que enturbia el alma
@@ -64,7 +64,7 @@ const Textos: React.FC = () => {
               </Link>
             </li>
 
-            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
+            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.9s', animationFillMode: 'both' }}>
               <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
                   Divídete y sufrirás
