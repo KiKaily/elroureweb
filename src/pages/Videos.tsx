@@ -62,24 +62,6 @@ const Videos: React.FC = () => {
             </p>
           </div>
 
-          <div className="w-full animate-fade-in" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
-            <div className="aspect-video w-full mb-4">
-              <iframe
-                src="https://player.vimeo.com/video/1046320608?color=ffffff&title=0&byline=0&portrait=0&badge=0"
-                width="100%"
-                height="100%"
-                frameBorder="0"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowFullScreen
-                className="rounded-lg"
-              ></iframe>
-            </div>
-            <p className="font-montserrat text-stone-100 text-lg xl:text-xl text-center mt-2 mb-16">
-              Conversación del proyecto Ametxe con Begoña González. JolasBIDE 2024.</p>
-              <p className="font-montserrat text-stone-100 text-lg xl:text-xl text-center mt-2 mb-16">
-              "Entrevista a Begoña González, fundadora de la escuela viva El Roure de Cataluña, en su visita a Euskadi para el curso que se desarrolla entre las escuelas de Landabaso en Zalla (Bizkaia) y Bizilore en Azpeitia (Gipuzkoa). Entrevista realizada en el proyecto Ametxe, una comunidad generada en una vivienda cooperativa en cesión de uso en ámbito rural en Gordexola, Bizkaia. JolasBIDE 2024."</p>
-          </div>
-
           <div className="w-full animate-fade-in" style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
             <div className="aspect-video w-full mb-4">
               <iframe
@@ -98,6 +80,44 @@ const Videos: React.FC = () => {
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl text-center mt-2 mb-16">
               "En nuestra visita a El Roure, en la provincia de Barcelona, Begoña nos regaló esta entrevista/conversación donde de manera clara y profunda nos compartió su visión sobre la educación y el enfoque de la escuela. 
               Toda nuestra gratitud por acogernos y por la generosidad de compartir su experiencia y comprensión."</p>
+          </div>
+
+          <div className="w-full animate-fade-in" style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
+            <div className="aspect-video w-full mb-4">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://open.spotify.com/embed/episode/6F43jd5ZbYQKnKpAo9NGCy?utm_source=generator&t=0"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="rounded-lg"
+              ></iframe>
+            </div>
+            <p className="font-montserrat text-stone-100 text-lg xl:text-xl text-center mt-2 mb-16">
+              Participación de Paco Robles en el Podcast En Crisis</p>
+            <p className="font-montserrat text-stone-100 text-lg xl:text-xl text-center mt-2 mb-16">
+              Participación de Paco Robles en el Podcast En Crisis "No tenía ni idea de que podías educar a niños de esta manera y me ha encantado. Paco Robles nos cuenta cómo educan en una escuela muy distinta a la que yo fui. Cómo los niños y niñas planifican sus viajes, eligen qué aprender y consensúan casi todas las decisiones. Da que
+pensar, eh."</p>
+          </div>
+
+          <div className="w-full animate-fade-in" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
+            <div className="aspect-video w-full mb-4">
+              <iframe
+                src="https://player.vimeo.com/video/1046320608?color=ffffff&title=0&byline=0&portrait=0&badge=0"
+                width="100%"
+                height="100%"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+                className="rounded-lg"
+              ></iframe>
+            </div>
+            <p className="font-montserrat text-stone-100 text-lg xl:text-xl text-center mt-2 mb-16">
+              (clicar en más información para ver) Conversación del proyecto Ametxe con Begoña González. JolasBIDE 2024.</p>
+              <p className="font-montserrat text-stone-100 text-lg xl:text-xl text-center mt-2 mb-16">
+              "Entrevista a Begoña González, fundadora de la escuela viva El Roure de Cataluña, en su visita a Euskadi para el curso que se desarrolla entre las escuelas de Landabaso en Zalla (Bizkaia) y Bizilore en Azpeitia (Gipuzkoa). Entrevista realizada en el proyecto Ametxe, una comunidad generada en una vivienda cooperativa en cesión de uso en ámbito rural en Gordexola, Bizkaia. JolasBIDE 2024."</p>
           </div>
 
         </div>
