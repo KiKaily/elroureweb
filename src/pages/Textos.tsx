@@ -296,6 +296,7 @@ const Textos: React.FC = () => {
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Begoña González y Cristóbal Gutiérrez
+                  </h3>
               </Link>
             </li>
 
@@ -333,6 +334,7 @@ const Textos: React.FC = () => {
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Diari Ara.  (14-5-2022)
+                  </h3>
               </Link>
             </li>
 
@@ -354,6 +356,7 @@ const Textos: React.FC = () => {
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   José Contreras y Begoña González. Investigación en la escuela. Nº 79 (2013)
+                  </h3>
               </Link>
             </li>
 
