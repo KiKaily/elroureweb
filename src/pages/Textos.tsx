@@ -306,7 +306,7 @@ const Textos: React.FC = () => {
         </h1>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="https://www.grao.com/revistas/renaturalizar-los-espacios-y-los-tiempos-educativos-42841" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
                   Cuidar la vida que somos
                 </h2>
@@ -317,7 +317,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="https://diarieducacio.cat/cap-a-la-trobada/?hilite=trobada" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
                   Cap a la trobada
                 </h2>
@@ -328,7 +328,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="https://criatures.ara.cat/escola/l-escola-roure-celebra-20e-aniversari_130_4360732.html" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
                   L'escola El Roure celebra el 20é aniversari
                 </h2>
@@ -339,12 +339,23 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="https://viureenfamilia.wordpress.com/2019/12/12/quin-sentit-te-el-nadal-a-lescola/" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
                   Quin sentit té el Nadal a l'escola?
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Begoña González. Viure en familia. Nº 76 (2018)
+                </h3>
+              </Link>
+            </li>
+
+            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
+              <Link to="https://www.iquiosc.cat/publicacions/viure-en-familia/97" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+                <h2 className="font-jacques text-stone-100 text-2xl xl:text-3xl mb-2">
+                  ​El flux de l'apendre
+                </h2>
+                <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
+                  Begoña González. Viure en familia. Nº 97 (2023)
                 </h3>
               </Link>
             </li>

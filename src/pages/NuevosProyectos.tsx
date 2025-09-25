@@ -22,14 +22,14 @@ const NuevosProyectos: React.FC = () => {
           {/* Section 1 */}
           <div className="animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
             <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl 2xl:text-4xl mb-6 text-center">
-              Sección 1
+              Educación Viva y Comunicación Consciente
             </h2>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-center mb-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Begoña González se dedica ahora a la educación viva y la comunicación consciente, ofreciendo talleres, formaciones y asesoramientos para familias y educadores. Su enfoque se centra en el desarrollo integral del niño, promoviendo un ambiente de respeto y empatía.
             </p>
             <div className="w-full flex justify-center">
               <img
-                src="/assets/escuela-example.jpg"
+                src="/assets/begoña.jpg"
                 className="max-w-full h-auto rounded-lg"
                 alt="Nuevos Proyectos - Sección 1"
               />
