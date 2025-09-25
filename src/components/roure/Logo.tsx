@@ -39,7 +39,8 @@ const Logo: React.FC<LogoProps> = ({ className, animationDelay = 0 }) => {
             alt="Roure Logo"
             style={{
               opacity: isLoaded ? 1 : 0,
-              transition: isMobile ? "opacity 0.5s ease-in-out" : "opacity 3s ease-in-out"
+              transform: isLoaded ? 'scale(1)' : 'scale(0.95)',
+              transition: isMobile ? "all 0.8s ease-out" : "all 2s ease-out"
             }}
           />
         </div>
