@@ -24,6 +24,14 @@ const Fundamentos: React.FC = () => {
             <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl 2xl:text-4xl text-center mb-8">
               La autorregulación espontánea. El contacto con la naturaleza propia.
             </h2>
+
+            <div className="w-full max-w-[600px] mx-auto mb-8">
+            <img
+              src="lovable-uploads/bego_cierre.png"
+              className="w-full h-auto rounded-lg"
+              alt="Ambiente educativo cálido"
+            />
+          </div>
             
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               El organismo humano, como cualquier otro organismo vivo, dispone de una gran capacidad esencial para la vida: satisfacer sus necesidades fundamentales. La principal necesidad es desarrollar el propio potencial.
@@ -54,10 +62,20 @@ const Fundamentos: React.FC = () => {
             </p>
           </section>
 
+          
+
           <section className="space-y-6 animate-fade-in" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
             <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl 2xl:text-4xl text-center mb-8">
               El acompañamiento respetuoso; el marco necesario para el crecimiento.
             </h2>
+
+            <div className="w-full max-w-[600px] mx-auto mb-8">
+            <img
+              src="lovable-uploads/bego_cierre.png"
+              className="w-full h-auto rounded-lg"
+              alt="Ambiente educativo cálido"
+            />
+          </div>
             
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               Los niños, niñas y adolescentes necesitan un marco de confianza, referencia y seguridad emocional de los adultos para poder ser felices y hacer crecer su potencial vital.
@@ -84,6 +102,14 @@ const Fundamentos: React.FC = () => {
             <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl 2xl:text-4xl text-center mb-8">
               Cuidar el deseo innato de aprender.
             </h2>
+
+            <div className="w-full max-w-[600px] mx-auto mb-8">
+            <img
+              src="lovable-uploads/bego_cierre.png"
+              className="w-full h-auto rounded-lg"
+              alt="Ambiente educativo cálido"
+            />
+          </div>
             
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               Como seres humanos disponemos de una inmensa capacidad innata de aprendizaje autónomo que se activa a través del diálogo permanente entre el deseo interno y el entorno y que es posible mantener a lo largo de toda la vida. Cada cual de nosotros tiene una manera y un ritmo de aprender que nos es propio, en comunicación permanente con nuestra naturaleza y nuestro momento vital. En El Roure es fundamental respetar y tener cura de este impulso interno en relación con un ambiente rico en situaciones y experiencias de aprendizaje.

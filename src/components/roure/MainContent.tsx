@@ -78,7 +78,7 @@ const MainContent: React.FC<MainContentProps> = ({
         >
           <img
             src="/assets/anillos madera.png"
-            className={`w-[40vw] max-w-[800px] min-w-[300px] h-auto transition-opacity duration-3000 ${loadingStage >= 1 ? 'opacity-100' : 'opacity-0'}`}
+            className={`w-[40vw] max-w-[800px] min-w-[300px] h-auto transition-opacity duration-3000 ${loadingStage >= 1 ? 'opacity-50' : 'opacity-0'}`}
             alt="Decorative Pattern"
             style={{
               transition: "opacity 4s ease-in-out"
@@ -119,6 +119,18 @@ const MainContent: React.FC<MainContentProps> = ({
       >
         experienciaroure@proton.me
       </a>
+        <br/><br/>
+      <a
+        href="https://www.rcrear.com/"
+        className={`font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl hover:text-opacity-80 transition-all duration-1000 mt-20 ${loadingStage >= 3 ? 'opacity-50' : 'opacity-0'}`}
+        style={{
+          transition: 'opacity 15s ease-out',
+          textDecoration: 'none'
+        }}
+      >
+        diseño web de Rcrear.com
+      </a>
+
     </section>
   );
 };

@@ -28,7 +28,7 @@ const Historia: React.FC = () => {
           <div className="w-full max-w-[600px] mx-auto mb-8 animate-fade-in"
                style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
             <img
-              src="https://images.unsplash.com/photo-1472396961693-142e6e269027"
+              src="lovable-uploads/bego_cierre.png"
               className="w-full h-auto rounded-lg"
               alt="Naturaleza - Ubicación de la escuela"
             />
@@ -47,7 +47,7 @@ const Historia: React.FC = () => {
           <div className="w-full max-w-[600px] mx-auto mb-8 animate-fade-in"
                style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
             <img
-              src="https://images.unsplash.com/photo-1517022812141-23620dba5c23"
+              src="lovable-uploads/bego_cierre.png"
               className="w-full h-auto rounded-lg"
               alt="Comunidad - Crecimiento conjunto"
             />
@@ -63,7 +63,7 @@ const Historia: React.FC = () => {
           
           <div className="w-full max-w-[600px] mx-auto mb-8">
             <img
-              src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+              src="lovable-uploads/bego_cierre.png"
               className="w-full h-auto rounded-lg"
               alt="Educación innovadora"
             />
@@ -83,7 +83,7 @@ const Historia: React.FC = () => {
           
           <div className="w-full max-w-[600px] mx-auto mb-8">
             <img
-              src="https://images.unsplash.com/photo-1535268647677-300dbf3d78d1"
+              src="lovable-uploads/bego_cierre.png"
               className="w-full h-auto rounded-lg"
               alt="Ambiente educativo cálido"
             />
