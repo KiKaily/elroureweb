@@ -79,7 +79,7 @@ const MainContent: React.FC<MainContentProps> = ({
         >
           <img
             src="/assets/anillos madera.png"
-            className={`w-[35vw] max-w-[600px] min-w-[280px] h-auto transition-opacity duration-3000 ${loadingStage >= 1 ? 'opacity-50' : 'opacity-0'}`}
+            className={`w-[35vw] max-w-[600px] min-w-[280px] h-auto transition-opacity duration-3000 ${loadingStage >= 1 ? 'opacity-90' : 'opacity-0'}`}
             alt="Decorative Pattern"
             style={{
               transition: "opacity 4s ease-in-out"
@@ -91,7 +91,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <>
             <div className="w-[90%] mt-8">
               <p 
-                className={`font-montserrat text-stone-100 text-base sm:text-lg leading-relaxed text-center p-4 rounded-[18px] transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-100' : 'opacity-0'}`}
+                className={`font-montserrat text-stone-100 text-base sm:text-lg leading-relaxed text-center p-4 rounded-[18px] transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-90' : 'opacity-0'}`}
                 style={{
                   transform: loadingStage >= 2 ? 'translateY(0)' : 'translateY(20px)',
                   transition: 'transform 1s ease-out, opacity 1s ease-out'
