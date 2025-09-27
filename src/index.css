@@ -95,6 +95,11 @@
 @apply border-border;
   }
 
+  html, body {
+    height: 100%;
+    min-height: 100vh;
+  }
+  
   body {
     @apply text-foreground;
     background-image: url('/assets/fondo_web_mobile.JPG');
@@ -102,6 +107,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
+    overflow-x: hidden;
   }
 
   /* Desktop and tablet background */

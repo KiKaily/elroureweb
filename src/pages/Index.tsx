@@ -5,7 +5,6 @@ import Logo from "@/components/roure/Logo";
 const Index: React.FC = () => {
   const navigate = useNavigate();
   const [loadingComplete, setLoadingComplete] = useState(false);
-  const [isTransitioning, setIsTransitioning] = useState(false);
   
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -16,12 +15,9 @@ const Index: React.FC = () => {
   }, []);
 
   const handleEnter = () => {
-    setIsTransitioning(true);
-    
-    // Fade to black for 1.5s, then navigate and fade in
-    setTimeout(() => {
-      navigate('/home');
-    }, 1500);
+    // Set flag for home page animations
+    sessionStorage.setItem('navigatedFromLanding', 'true');
+    navigate('/home');
   };
 
   return (
@@ -44,12 +40,6 @@ const Index: React.FC = () => {
         </button>
       </main>
       
-      {/* Transition overlay */}
-      <div 
-        className={`fixed inset-0 bg-black z-50 transition-opacity duration-[3000ms] ${
-          isTransitioning ? 'opacity-100' : 'opacity-0 pointer-events-none'
-        }`}
-      />
     </>
   );
 };

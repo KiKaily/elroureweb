@@ -1,7 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 const Escuela: React.FC = () => {
+  const isMobile = useIsMobile();
+  
+  useEffect(() => {
+    if (isMobile) {
+      window.scrollTo(0, 0);
+    }
+  }, [isMobile]);
   const [activeSection, setActiveSection] = useState<string>("intro");
 
   const menuItems = [

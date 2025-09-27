@@ -6,8 +6,15 @@ import { useLocation } from "react-router-dom";
 const Home: React.FC = () => {
   const location = useLocation();
   const params = new URLSearchParams(location.search);
-  const skipAnimations = params.get("skipAnimations") === "1";
+  const skipAnimations = params.get("skipAnimations") === "1" || !sessionStorage.getItem('navigatedFromLanding');
   const [isVisible, setIsVisible] = useState(false);
+  
+  // Clear the flag after first visit
+  useEffect(() => {
+    if (sessionStorage.getItem('navigatedFromLanding')) {
+      sessionStorage.removeItem('navigatedFromLanding');
+    }
+  }, []);
 
   useEffect(() => {
     // Fade in from black transition

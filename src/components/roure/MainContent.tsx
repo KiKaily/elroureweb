@@ -26,8 +26,8 @@ const MainContent: React.FC<MainContentProps> = ({
     
     const imageTimer = setTimeout(() => setLoadingStage(1), 100);
     const logoTimer = setTimeout(() => setLoadingStage(2), 2000);
-    const emailTimer = setTimeout(() => setLoadingStage(3), 3500);
-    const menuTimer = setTimeout(() => setLoadingStage(4), 4500);
+    const emailTimer = setTimeout(() => setLoadingStage(3), 2500);
+    const menuTimer = setTimeout(() => setLoadingStage(4), 3000);
 
     return () => {
       clearTimeout(imageTimer);
@@ -46,10 +46,10 @@ const MainContent: React.FC<MainContentProps> = ({
       <div className={`relative flex ${isMobile ? 'flex-col items-center' : 'flex-row justify-center'} w-full`}>
         {!isMobile && (
           <>
-            <div className="flex flex-col justify-center z-20 absolute left-0 top-1/2 transform -translate-y-1/2 max-h-full" style={{ minWidth: '12%', maxWidth: '250px', left: '3%' }}>
+            <div className="flex flex-col justify-center z-20 absolute left-0 top-1/2 transform -translate-y-1/2 max-h-full" style={{ minWidth: '10%', maxWidth: '200px', left: '1%' }}>
               <div className="w-full mb-5">
                 <p 
-                  className={`font-montserrat text-stone-100 text-sm xl:text-base 2xl:text-lg leading-relaxed p-4 rounded-[18px] transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-100' : 'opacity-0'}`}
+                  className={`font-montserrat text-stone-100 text-xs xl:text-sm 2xl:text-base leading-relaxed p-4 rounded-[18px] transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-100' : 'opacity-0'}`}
                   style={{
                     transform: loadingStage >= 2 ? 'translateY(0)' : 'translateY(20px)',
                     transition: 'transform 1s ease-out, opacity 1s ease-out'
@@ -73,12 +73,13 @@ const MainContent: React.FC<MainContentProps> = ({
           className={`relative flex justify-center items-center overflow-hidden mx-auto transition-opacity duration-3000 ${loadingStage >= 1 ? 'opacity-100' : 'opacity-0'}`}
           style={{
             transition: 'opacity 4s ease-in-out',
-            transform: 'translateX(0)'
+            transform: 'translateX(0)',
+            maxWidth: '60vw'
           }}
         >
           <img
             src="/assets/anillos madera.png"
-            className={`w-[40vw] max-w-[800px] min-w-[300px] h-auto transition-opacity duration-3000 ${loadingStage >= 1 ? 'opacity-50' : 'opacity-0'}`}
+            className={`w-[35vw] max-w-[600px] min-w-[280px] h-auto transition-opacity duration-3000 ${loadingStage >= 1 ? 'opacity-50' : 'opacity-0'}`}
             alt="Decorative Pattern"
             style={{
               transition: "opacity 4s ease-in-out"
