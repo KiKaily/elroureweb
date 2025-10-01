@@ -21,7 +21,7 @@ const Fundamentos: React.FC = () => {
           ← Volver
         </Link>
         
-        <h1 className="font-inter text-orange-700 text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in"
+        <h1 className="font-inter text-orange-700 text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in text-glow"
             style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
           Fundamentos
         </h1>
@@ -29,7 +29,7 @@ const Fundamentos: React.FC = () => {
         <div className="w-full max-w-[900px] space-y-12">
           
           <section className="space-y-6 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-            <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl 2xl:text-4xl text-center mb-8">
+            <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl 2xl:text-4xl text-center mb-8 text-glow">
               La autorregulación espontánea. El contacto con la naturaleza propia.
             </h2>
 
@@ -73,7 +73,7 @@ const Fundamentos: React.FC = () => {
           
 
           <section className="space-y-6 animate-fade-in" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
-            <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl 2xl:text-4xl text-center mb-8">
+            <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl 2xl:text-4xl text-center mb-8 text-glow">
               El acompañamiento respetuoso; el marco necesario para el crecimiento.
             </h2>
 
@@ -107,7 +107,7 @@ const Fundamentos: React.FC = () => {
           </section>
 
           <section className="space-y-6 animate-fade-in" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
-            <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl 2xl:text-4xl text-center mb-8">
+            <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl 2xl:text-4xl text-center mb-8 text-glow">
               Cuidar el deseo innato de aprender.
             </h2>
 

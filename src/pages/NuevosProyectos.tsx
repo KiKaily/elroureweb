@@ -21,7 +21,7 @@ const NuevosProyectos: React.FC = () => {
           ← Volver
         </Link>
         
-        <h1 className="font-inter text-orange-700 text-4xl xl:text-5xl 2xl:text-6xl mb-12 text-center animate-fade-in"
+        <h1 className="font-inter text-orange-700 text-4xl xl:text-5xl 2xl:text-6xl mb-12 text-center animate-fade-in text-glow"
             style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
           Nuevos Proyectos
         </h1>
@@ -29,7 +29,7 @@ const NuevosProyectos: React.FC = () => {
         <div className="w-full max-w-[800px] space-y-16">
           {/* Section 1 */}
           <div className="animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-            <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl 2xl:text-4xl mb-6 text-center">
+            <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl 2xl:text-4xl mb-6 text-center text-glow">
               Educación Viva y Comunicación Consciente
             </h2>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-center mb-8">
@@ -46,7 +46,7 @@ const NuevosProyectos: React.FC = () => {
 
           {/* Section 2 */}
           <div className="animate-fade-in" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
-            <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl 2xl:text-4xl mb-6 text-center">
+            <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl 2xl:text-4xl mb-6 text-center text-glow">
               Sección 2
             </h2>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-center mb-8">
@@ -63,7 +63,7 @@ const NuevosProyectos: React.FC = () => {
 
           {/* Section 3 */}
           <div className="animate-fade-in" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
-            <h2 className="font-inter text-stone-100 text-2xl xl:text-3xl 2xl:text-4xl mb-6 text-center">
+            <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl 2xl:text-4xl mb-6 text-center text-glow">
               Sección 3
             </h2>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-center mb-8">

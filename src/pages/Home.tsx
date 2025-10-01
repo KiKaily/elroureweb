@@ -24,10 +24,10 @@ const Home: React.FC = () => {
   return (
     <main className="max-w-none min-h-screen flex flex-col items-center mx-auto p-5 max-md:max-w-[991px] max-sm:max-w-screen-sm font-handscript">
       <div 
-        className={`transition-all duration-2000 ease-out ${
+        className={`flex justify-center transition-all duration-2000 ease-out ${
           isLogoAnimating 
             ? 'fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50' 
-            : 'mt-10'
+            : 'mt-10 w-full'
         }`}
         style={{
           transition: 'all 2s cubic-bezier(0.4, 0, 0.2, 1)'

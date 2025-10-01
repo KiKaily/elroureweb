@@ -32,7 +32,7 @@ const Escuela: React.FC = () => {
       case "intro":
         return (
           <div className="space-y-6">
-            <h3 className="font-inter text-stone-100 text-xl xl:text-2xl 2xl:text-3xl">Introducción</h3>
+            <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">Introducción</h3>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               La escuela El Roure nació en 2001, con el concepto de escuela viva.
             </p>
@@ -45,7 +45,7 @@ const Escuela: React.FC = () => {
       case "aprendizaje":
         return (
           <div className="space-y-6">
-            <h3 className="font-inter text-stone-100 text-xl xl:text-2xl 2xl:text-3xl">Aprendizaje</h3>
+            <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">Aprendizaje</h3>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               Inicialmente el aprendizaje es una dinámica vital ineludible; se trata del proceso de integración de nuevas comprensiones destinadas a evolucionar la vida de nuestro organismo. De forma natural siempre estamos aprendiendo y aprendemos de una manera global e interrelacionando nuestras dimensiones: la física-energética, la emocional, el intelectual.
             </p>
@@ -58,7 +58,7 @@ const Escuela: React.FC = () => {
       case "que-aprenden":
         return (
           <div className="space-y-6">
-            <h3 className="font-inter text-stone-100 text-xl xl:text-2xl 2xl:text-3xl">¿Qué aprenden?</h3>
+            <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">¿Qué aprenden?</h3>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               Cuando se habla de aprendizaje, a menudo se limita este concepto al aprendizaje de conocimientos. Incluso suele quedar aún más reducido al entender que se refiere a los conocimientos intelectuales. El aprendizaje, por el contrario, es un concepto ilimitado; no sólo porque es imposible dejar de aprender mientras existe vida, sino porque los objetos del aprendizaje son infinitos.
             </p>
@@ -74,7 +74,7 @@ const Escuela: React.FC = () => {
       case "como-aprenden":
         return (
           <div className="space-y-6">
-            <h3 className="font-inter text-stone-100 text-xl xl:text-2xl 2xl:text-3xl">¿Cómo aprenden?</h3>
+            <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">¿Cómo aprenden?</h3>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               El aprendizaje no es un proceso lineal, progresivo, rítmico y aseado; tampoco debe estar ligado continuamente a la conciencia; está más bien ligado al bienestar vital y, consecuentemente, al ambiente, a la calidad de la vivencia y la comunicación.
             </p>
@@ -87,7 +87,7 @@ const Escuela: React.FC = () => {
       case "actividades":
         return (
           <div className="space-y-6">
-            <h3 className="font-inter text-stone-100 text-xl xl:text-2xl 2xl:text-3xl">Actividades</h3>
+            <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">Actividades</h3>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               En El Roure, los niños y niñas se mueven constantemente, de forma fluida y voluntaria entre dos experiencias de aprendizaje y relación: la actividad autónoma y la actividad con mediación del adulto.
             </p>
@@ -103,7 +103,7 @@ const Escuela: React.FC = () => {
       case "acompanamiento":
         return (
           <div className="space-y-6">
-            <h3 className="font-inter text-stone-100 text-xl xl:text-2xl 2xl:text-3xl">Acompañamiento</h3>
+            <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">Acompañamiento</h3>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               El Roure es un espacio de encuentro y acompañamiento entre familias y equipo pedagógico en torno a la experiencia de la crianza infantil.
             </p>
@@ -116,7 +116,7 @@ const Escuela: React.FC = () => {
       case "equipo":
         return (
           <div className="space-y-6">
-            <h3 className="font-inter text-stone-100 text-xl xl:text-2xl 2xl:text-3xl">El equipo</h3>
+            <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">El equipo</h3>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               En el equipo, reconocemos que las familias depositan una gran confianza en nuestra tarea, por el hecho de dejar a los hijos e hijas en nuestras manos. Recogemos esta responsabilidad, aceptamos que somos acompañantes secundarios y que les aportamos algo que complementa la función de madres y padres.
             </p>
@@ -129,7 +129,7 @@ const Escuela: React.FC = () => {
       case "familias":
         return (
           <div className="space-y-6">
-            <h3 className="font-inter text-stone-100 text-xl xl:text-2xl 2xl:text-3xl">Las familias</h3>
+            <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">Las familias</h3>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               Cada niña y cada niño se mantiene en pie sobre los pilares de su familia, de donde nace su entereza, la referencia, la mirada y la seguridad necesarios para crecer. La madre y el padre representan el eje vital en la infancia y es el vínculo de amor entre los miembros de la familia lo que permite que el niño o la niña vivan y se desarrollen.
             </p>
@@ -142,7 +142,7 @@ const Escuela: React.FC = () => {
       case "ninos":
         return (
           <div className="space-y-6">
-            <h3 className="font-inter text-stone-100 text-xl xl:text-2xl 2xl:text-3xl">Los niños y niñas</h3>
+            <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">Los niños y niñas</h3>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               Hay un eje y una dirección en el camino de búsqueda de nuestra experiencia de acompañamiento: cuidar la esencia del espíritu infantil. La mirada original de los niños está iluminada por el deseo de ser y aprender; pide un amplio margen de autonomía y una estrecha relación con los adultos.
             </p>
@@ -155,7 +155,7 @@ const Escuela: React.FC = () => {
       case "etapas":
         return (
           <div className="space-y-6">
-            <h3 className="font-inter text-stone-100 text-xl xl:text-2xl 2xl:text-3xl">Etapas y espacios</h3>
+            <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">Etapas y espacios</h3>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               En El Roure tenemos dos etapas diferenciadas y en relación: Los Cerezos, para niños y niñas entre 3 y 6 años y La Ginesta y La Arbreda, para niñas y niños entre 7 y 12 años.
             </p>
@@ -171,7 +171,7 @@ const Escuela: React.FC = () => {
       case "cerezos":
         return (
           <div className="space-y-6">
-            <h3 className="font-inter text-stone-100 text-xl xl:text-2xl 2xl:text-3xl">De 3 a 6 años; Cirerers</h3>
+            <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">De 3 a 6 años; Cirerers</h3>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               El aprendizaje a estas edades se produce haciendo experimentar todos los sentidos corporales con el medio y esto lleva a manipular materiales y objetos concretos. Las niñas y niños más pequeños exploran constantemente de una manera global y enormemente eficaz.
             </p>
@@ -184,7 +184,7 @@ const Escuela: React.FC = () => {
       case "ginesta":
         return (
           <div className="space-y-6">
-            <h3 className="font-inter text-stone-100 text-xl xl:text-2xl 2xl:text-3xl">De 6 a 12 años; Ginesta y Arbreda</h3>
+            <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">De 6 a 12 años; Ginesta y Arbreda</h3>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               Empieza una etapa en la que los niños y niñas ya empiezan a estar preparados para iniciar el camino de un aprendizaje más abstracto. Se empieza a hacer consciente el deseo de aprender y puede enfocarlo voluntariamente en una dirección determinada.
             </p>
@@ -213,7 +213,7 @@ const Escuela: React.FC = () => {
           ← Volver
         </Link>
         
-        <h1 className="font-inter text-orange-700 text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in"
+        <h1 className="font-inter text-orange-700 text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in text-glow"
             style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
           Escuela
         </h1>

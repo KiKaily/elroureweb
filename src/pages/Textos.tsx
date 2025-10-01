@@ -21,7 +21,7 @@ const Textos: React.FC = () => {
           ← Volver
         </Link>
         
-        <h1 className="font-inter text-orange-700 text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in"
+        <h1 className="font-inter text-orange-700 text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in text-glow"
             style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
           Textos
         </h1>
@@ -248,7 +248,7 @@ const Textos: React.FC = () => {
               </Link>
             </li>
 
-            <h1 className="font-inter text-stone-100 text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in"
+            <h1 className="font-inter text-amber-500 text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in text-glow"
             style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
           Publicaciones en la revista de La Casita (1996-2000?)
         </h1>
@@ -308,7 +308,7 @@ const Textos: React.FC = () => {
               </Link>
             </li>
 
-            <h1 className="font-inter text-stone-100 text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in"
+            <h1 className="font-inter text-amber-500 text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in text-glow"
             style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
           Publicaciones externas
         </h1>
