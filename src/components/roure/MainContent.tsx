@@ -89,7 +89,7 @@ const MainContent: React.FC<MainContentProps> = ({
 
         {isMobile && (
           <>
-            <div className="w-[90%] mt-8">
+            <div className="w-[90%] mt-8 space-y-4">
               <p 
                 className={`font-montserrat text-stone-100 text-base sm:text-lg leading-relaxed text-center p-4 rounded-[18px] transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-90' : 'opacity-0'}`}
                 style={{
@@ -98,8 +98,33 @@ const MainContent: React.FC<MainContentProps> = ({
                 }}
               >
                 Del 2001 al 2025 hicimos un viaje fascinante: una escuela para familias con criaturas de 3 a 12 años.
-                <br/><br/>
-                ¿Cuál ha sido el norte de ese viaje? Cada criatura es una SEMILLA. La fuerza y la inteligencia de la vida se ocupan de que se manifieste y se desarrolle. Queremos sintonizar con este latido, apoyarlo y dejar atrás lo que nos limita, para acompañarlos, para acompañarnos, desde el respeto y la consciencia de la naturaleza de cada cual.
+              </p>
+              <p 
+                className={`font-montserrat text-stone-100 text-base sm:text-lg leading-relaxed text-center p-4 rounded-[18px] transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-90' : 'opacity-0'}`}
+                style={{
+                  transform: loadingStage >= 2 ? 'translateY(0)' : 'translateY(20px)',
+                  transition: 'transform 1s ease-out, opacity 1s ease-out'
+                }}
+              >
+                ¿Cuál ha sido el norte de ese viaje?
+              </p>
+              <p 
+                className={`font-montserrat text-stone-100 text-base sm:text-lg leading-relaxed text-center p-4 rounded-[18px] transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-90' : 'opacity-0'}`}
+                style={{
+                  transform: loadingStage >= 2 ? 'translateY(0)' : 'translateY(20px)',
+                  transition: 'transform 1s ease-out, opacity 1s ease-out'
+                }}
+              >
+                Cada criatura es una semilla.
+              </p>
+              <p 
+                className={`font-montserrat text-stone-100 text-base sm:text-lg leading-relaxed text-center p-4 rounded-[18px] transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-90' : 'opacity-0'}`}
+                style={{
+                  transform: loadingStage >= 2 ? 'translateY(0)' : 'translateY(20px)',
+                  transition: 'transform 1s ease-out, opacity 1s ease-out'
+                }}
+              >
+                La fuerza y la inteligencia de la vida se ocupan de que se manifieste y se desarrolle. Queremos sintonizar con este latido, apoyarlo y dejar atrás lo que nos limita, para acompañarlos, para acompañarnos, desde el respeto y la consciencia de la naturaleza de cada cual.
               </p>
             </div>
             

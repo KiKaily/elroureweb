@@ -5,34 +5,40 @@ import { useLocation } from "react-router-dom";
 
 const Home: React.FC = () => {
   const location = useLocation();
-  const params = new URLSearchParams(location.search);
-  const skipAnimations = params.get("skipAnimations") === "1" || !sessionStorage.getItem('navigatedFromLanding');
-  const [isVisible, setIsVisible] = useState(false);
-  
-  // Clear the flag after first visit
-  useEffect(() => {
-    if (sessionStorage.getItem('navigatedFromLanding')) {
-      sessionStorage.removeItem('navigatedFromLanding');
-    }
-  }, []);
+  const fromLanding = location.state?.fromLanding === true;
+  const [isLogoAnimating, setIsLogoAnimating] = useState(fromLanding);
+  const [showContent, setShowContent] = useState(!fromLanding);
 
   useEffect(() => {
-    // Fade in from black transition
-    const timer = setTimeout(() => {
-      setIsVisible(true);
-    }, 100);
-    
-    return () => clearTimeout(timer);
-  }, []);
+    if (fromLanding) {
+      // Logo animation duration
+      const logoTimer = setTimeout(() => {
+        setIsLogoAnimating(false);
+        setShowContent(true);
+      }, 2000);
+      
+      return () => clearTimeout(logoTimer);
+    }
+  }, [fromLanding]);
 
   return (
-    <main 
-      className={`max-w-none min-h-screen flex flex-col items-center mx-auto p-5 max-md:max-w-[991px] max-sm:max-w-screen-sm font-handscript transition-opacity duration-1500 ${
-        isVisible ? 'opacity-100' : 'opacity-0'
-      }`}
-    >
-      <Logo className="mt-10" animationDelay={skipAnimations ? 0 : 2000} />
-      <MainContent skipAnimations={skipAnimations} />
+    <main className="max-w-none min-h-screen flex flex-col items-center mx-auto p-5 max-md:max-w-[991px] max-sm:max-w-screen-sm font-handscript">
+      <div 
+        className={`transition-all duration-2000 ease-out ${
+          isLogoAnimating 
+            ? 'fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50' 
+            : 'mt-10'
+        }`}
+        style={{
+          transition: 'all 2s cubic-bezier(0.4, 0, 0.2, 1)'
+        }}
+      >
+        <Logo className="" animationDelay={0} />
+      </div>
+      
+      {showContent && (
+        <MainContent skipAnimations={!fromLanding} />
+      )}
     </main>
   );
 };

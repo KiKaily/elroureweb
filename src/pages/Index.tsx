@@ -15,15 +15,15 @@ const Index: React.FC = () => {
   }, []);
 
   const handleEnter = () => {
-    // Set flag for home page animations
-    sessionStorage.setItem('navigatedFromLanding', 'true');
-    navigate('/home');
+    navigate('/home', { state: { fromLanding: true } });
   };
 
   return (
     <>
       <main className="max-w-none min-h-screen flex flex-col items-center justify-center mx-auto p-5 landing-bg">
-        <Logo className="mb-10" animationDelay={0} />
+        <div id="landing-logo">
+          <Logo className="mb-10" animationDelay={0} />
+        </div>
         
         <button
           onClick={handleEnter}

@@ -21,7 +21,7 @@ const Fundamentos: React.FC = () => {
           ← Volver
         </Link>
         
-        <h1 className="font-inter text-stone-100 text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in"
+        <h1 className="font-inter text-orange-700 text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in"
             style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
           Fundamentos
         </h1>
