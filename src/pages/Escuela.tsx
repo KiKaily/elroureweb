@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useIsMobile } from "@/hooks/use-mobile";
+import BackToTop from "@/components/roure/BackToTop";
 
 const Escuela: React.FC = () => {
   const isMobile = useIsMobile();
@@ -39,7 +40,7 @@ const Escuela: React.FC = () => {
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               Es una comunidad de aprendizaje unida por una visión de la educación inspirada por Seitai, la Sistémica y la experiencia cotidiana entre familias, profesionales y criaturas. El propósito es acompañar a las criaturas en su crecimiento ya las madres y padres en su función.
             </p>
-            <img src="/public/assets/oak-tree-rings-texture.jpg" alt="Introducción a la escuela" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.png" alt="Introducción a la escuela" className="w-full rounded-lg mt-4" />
           </div>
         );
       case "aprendizaje":
@@ -52,7 +53,7 @@ const Escuela: React.FC = () => {
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               Buscamos una experiencia de aprendizaje sólida, arraigada, viva. Para que esto se dé, el proceso debe tener como eje el deseo y la necesidad propia, el respeto al ritmo propio y recorrido, la posibilidad de contactar con lo que me atrae de forma intuitiva e involuntaria, con lo que quiero o me interesa conscientemente y poder avanzar con autonomía hacia esto.
             </p>
-            <img src="/public/lovable-uploads/intrincados-anillos-tronco-arbol-cuentan-historia-edad-calido-centro-rojizo_91128-4619.webp" alt="Aprendizaje natural" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.png" alt="Aprendizaje natural" className="w-full rounded-lg mt-4" />
           </div>
         );
       case "que-aprenden":
@@ -68,7 +69,7 @@ const Escuela: React.FC = () => {
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               En El Roure no existe el currículum ni las programaciones sobre los contenidos de los aprendizajes; en todo caso, existen recursos, materiales, espacios, situaciones y posibilidades en continuo movimiento y el propósito de que el abanico de todo lo que acontece sea lo más completo posible dentro de lo que creemos conveniente para las niñas y los niños en estas edades.
             </p>
-            <img src="/src/assets/recycled-paper-texture.jpg" alt="Recursos de aprendizaje" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.png" alt="Recursos de aprendizaje" className="w-full rounded-lg mt-4" />
           </div>
         );
       case "como-aprenden":
@@ -81,7 +82,7 @@ const Escuela: React.FC = () => {
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               Creemos que es urgente desterrar la idea de entrenamiento, del valor de lo cuantitativo en relación con el aprendizaje. En la práctica, hacer con sentido (leer, escribir, hablar, moverse, relacionarse, crear...) significa que todo el organismo está activo, implicado en la vivencia, y eso es lo que permite que el aprendizaje entre y sedimente.
             </p>
-            <img src="/public/lovable-uploads/517a4352-7aae-4e38-a7f8-23577996fbf6.png" alt="Proceso de aprendizaje" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.png" alt="Proceso de aprendizaje" className="w-full rounded-lg mt-4" />
           </div>
         );
       case "actividades":
@@ -97,7 +98,7 @@ const Escuela: React.FC = () => {
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               En el desarrollo de una actividad estructurada en la que ocurre la relación con el adulto, los niños y las niñas descubren una dimensión diferente; pueden asomarse con él para ver aspectos de la cultura adaptados a su mirada.
             </p>
-            <img src="/public/lovable-uploads/a2a0306c-1588-4029-bd68-eadc52824cbe.webp" alt="Actividades escolares" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.png" alt="Actividades escolares" className="w-full rounded-lg mt-4" />
           </div>
         );
       case "acompanamiento":
@@ -123,7 +124,7 @@ const Escuela: React.FC = () => {
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               Una parte de nuestra labor está relacionada con los niños y niñas. Las personas que formamos el equipo pedagógico nos proponemos desarrollar nuestra sensibilidad hacia la escucha, la observación y la percepción, así como la capacidad de analizar, interpretar y reflexionar sobre lo que cada niño y niña manifiestan.
             </p>
-            <img src="/public/lovable-uploads/test.png" alt="Equipo pedagógico" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.png" alt="Equipo pedagógico" className="w-full rounded-lg mt-4" />
           </div>
         );
       case "familias":
@@ -136,7 +137,7 @@ const Escuela: React.FC = () => {
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               Por eso consideramos que las madres y padres sois los primeros y principales responsables del acompañamiento durante el crecimiento.
             </p>
-            <img src="/src/assets/escuela-example.jpg" alt="Las familias" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.png" alt="Las familias" className="w-full rounded-lg mt-4" />
           </div>
         );
       case "ninos":
@@ -149,7 +150,7 @@ const Escuela: React.FC = () => {
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               El verdadero aprendizaje se da a partir del impulso de cada niño y es el fruto del diálogo continuado entre su interior y el exterior.
             </p>
-            <img src="/src/assets/oak-tree-rings-texture.jpg" alt="Los niños y niñas" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.png" alt="Los niños y niñas" className="w-full rounded-lg mt-4" />
           </div>
         );
       case "etapas":
@@ -165,7 +166,7 @@ const Escuela: React.FC = () => {
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               El espacio es el elemento que acoge la experiencia pero, al mismo tiempo, es uno de los elementos que conforma y determina la experiencia.
             </p>
-            <img src="/src/assets/recycled-paper-texture.jpg" alt="Etapas y espacios" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.png" alt="Etapas y espacios" className="w-full rounded-lg mt-4" />
           </div>
         );
       case "cerezos":
@@ -178,7 +179,7 @@ const Escuela: React.FC = () => {
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               En El Roure, entre los 3 y 6 años la actividad básica es totalmente espontánea. Los diferentes materiales están al alcance de los niños y niñas para ser empleados en los espacios destinados a ellos: rincones de juego simbólico, de construcciones, de matemáticas y de lectoescritura, sala de movimiento y música, talleres de plástica, arenal.
             </p>
-            <img src="/public/assets/fondo_web_mobile.webp" alt="De 3 a 6 años" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.png" alt="De 3 a 6 años" className="w-full rounded-lg mt-4" />
           </div>
         );
       case "ginesta":
@@ -194,7 +195,7 @@ const Escuela: React.FC = () => {
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               La actividad estructurada tiene un papel importante en esta etapa. Los niños están cada vez más interesados ​​en actividades más abstractas, organizadas, estructuradas y vinculadas al adulto y al grupo.
             </p>
-            <img src="/public/assets/fondo_web_desktop.webp" alt="De 6 a 12 años" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.png" alt="De 6 a 12 años" className="w-full rounded-lg mt-4" />
           </div>
         );
       default:
@@ -203,11 +204,12 @@ const Escuela: React.FC = () => {
   };
 
   return (
-    <main className="max-w-none min-h-screen flex flex-col items-center mx-auto p-5 max-md:max-w-[991px] max-sm:max-w-screen-sm font-handscript">
+    <main className="max-w-none min-h-screen flex flex-col items-center mx-auto p-5 max-md:max-w-[991px] max-sm:max-w-screen-sm font-handscript menu-page-bg">
+      <BackToTop />
       <section className="flex flex-col items-center w-full max-w-[90vw] 2xl:max-w-[1400px] mt-10">
         <Link 
           to="/home" 
-          className="self-start mb-8 font-inter text-stone-100 text-xl hover:text-opacity-80 transition-all duration-300 animate-fade-in"
+          className="self-start mb-8 font-inter text-amber-500 text-xl text-glow hover:text-opacity-80 transition-all duration-300 animate-fade-in"
           style={{ animationDelay: '0.1s', animationFillMode: 'both' }}
         >
           ← Volver
@@ -221,8 +223,8 @@ const Escuela: React.FC = () => {
         <div className="w-full max-w-[800px] mb-8 animate-fade-in"
              style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
           <img
-            src="/src/assets/escuela-example.jpg"
-            className="w-full h-auto rounded-lg"
+            src="/lovable-uploads/bego_cierre.png"
+            className="w-full h-auto rounded-lg object-contain max-w-full"
             alt="Escuela"
           />
         </div>
@@ -240,7 +242,7 @@ const Escuela: React.FC = () => {
                     onClick={() => setActiveSection(item.id)}
                     className={`w-full text-left px-3 py-2 rounded transition-all duration-300 font-inter ${
                       activeSection === item.id
-                        ? 'bg-stone-100 text-stone-800'
+                        ? 'bg-white/20 text-orange-700 font-semibold'
                         : 'text-stone-100 hover:bg-white/30'
                     }`}
                   >
