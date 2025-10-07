@@ -27,9 +27,29 @@ const Textos: React.FC = () => {
             style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
           Textos
         </h1>
-        
+        <h2 className="font-montserrat text-stone-100 text-lg xl:text-xl italic text-center animate-fade-in"
+            style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
+          Una colección de textos y publicaciones relacionadas con El Roure.
+        </h2>
         <div className="w-full max-w-[800px]">
           <ul className="space-y-8">
+            
+            
+            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
+              <Link to="public/textos/EL-ROURE-BOLETIN-13_PC.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+                <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
+                  Boletín 13 · Cierre de la escuela El Roure
+                </h2>
+                <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
+                  El último boletín de la escuela El Roure. Una adaptación de la revista impresa para la comunidad escolar
+                </h3>
+                <p>
+                  Versión para <a href="public/textos/EL-ROURE-BOLETIN-13_PC.pdf" className="text-amber-500 hover:underline">Ordenador</a> / 
+                  <a href="public/textos/EL-ROURE-BOLETIN-13_MOVIL.pdf" className="text-amber-500 hover:underline"> Móvil</a>.
+                </p>
+              </Link>
+            </li>
+            
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
               <Link to="public/textos/UNA-PEDAGOGIA-DE-LA-RELACIO.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
