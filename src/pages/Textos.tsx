@@ -31,7 +31,7 @@ const Textos: React.FC = () => {
         <div className="w-full max-w-[800px]">
           <ul className="space-y-8">
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
-              <Link to="#" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="public/text/UNA PEDAGOGIA DE LA RELACIÓ" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Una pedagogia de la relació
                 </h2>
