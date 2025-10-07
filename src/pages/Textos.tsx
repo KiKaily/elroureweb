@@ -31,6 +31,7 @@ const Textos: React.FC = () => {
             style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
           Una colección de textos y publicaciones relacionadas con El Roure.
         </h2>
+        <br />
         <div className="w-full max-w-[800px]">
           <ul className="space-y-8">
             
