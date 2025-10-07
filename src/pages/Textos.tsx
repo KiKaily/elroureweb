@@ -37,7 +37,7 @@ const Textos: React.FC = () => {
             
             
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
-              <Link to="public/textos/EL-ROURE-BOLETIN-13_PC.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/EL-ROURE-BOLETIN-13_PC.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Boletín 13 · Cierre de la escuela El Roure
                 </h2>
@@ -45,14 +45,14 @@ const Textos: React.FC = () => {
                   El último boletín de la escuela El Roure. Una adaptación de la revista impresa para la comunidad escolar
                 </h3>
                 <p>
-                  Versión para <a href="public/textos/EL-ROURE-BOLETIN-13_PC.pdf" className="text-amber-500 hover:underline">Ordenador</a> / 
-                  <a href="public/textos/EL-ROURE-BOLETIN-13_MOVIL.pdf" className="text-amber-500 hover:underline"> Móvil</a>.
+                  Versión para <a href="/textos/EL-ROURE-BOLETIN-13_PC.pdf" className="text-amber-500 hover:underline">Ordenador</a> / 
+                  <a href="/textos/EL-ROURE-BOLETIN-13_MOVIL.pdf" className="text-amber-500 hover:underline"> Móvil</a>.
                 </p>
               </Link>
             </li>
             
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
-              <Link to="public/textos/UNA-PEDAGOGIA-DE-LA-RELACIO.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/UNA-PEDAGOGIA-DE-LA-RELACIO.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Una pedagogia de la relació
                 </h2>
@@ -63,7 +63,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-              <Link to="public/textos/UN-BAÑADOR-CON-BOLSILLOS.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/UN-BAÑADOR-CON-BOLSILLOS.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Un bañador con bolsillos
                 </h2>
@@ -74,7 +74,7 @@ const Textos: React.FC = () => {
             </li>
             
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
-              <Link to="public/textos/CRISTOBAL-TRAJO-EL-SEITAI-A-EL-ROURE.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/CRISTOBAL-TRAJO-EL-SEITAI-A-EL-ROURE.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Cristóbal trajo el Seitai a El Roure
                 </h2>
@@ -85,7 +85,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="public/textos/EL-CONSUMISMO-QUE-ENTURBIA-EL-ALMA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/EL-CONSUMISMO-QUE-ENTURBIA-EL-ALMA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   El consumismo que enturbia el alma
                 </h2>
@@ -96,7 +96,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.9s', animationFillMode: 'both' }}>
-              <Link to="public/textos/DIVIDETE-Y-SUFIRAS.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/DIVIDETE-Y-SUFIRAS.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Divídete y sufrirás
                 </h2>
@@ -107,7 +107,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-              <Link to="public/textos/IN-MEMORIAN.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/IN-MEMORIAN.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   In memorian
                 </h2>
@@ -118,7 +118,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="public/textos/QUE-LA-VIDA-SEA-EL-EJE-DE-LA-EDUCACION.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/QUE-LA-VIDA-SEA-EL-EJE-DE-LA-EDUCACION.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Que la vida sea el eje de la educación
                 </h2>
@@ -129,7 +129,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-              <Link to="public/textos/LA-MIRADA-AMOROSA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/LA-MIRADA-AMOROSA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   La mirada amorosa
                 </h2>
@@ -140,7 +140,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="public/textos/FEMINIDAD-Y-MASCULINIDAD.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/FEMINIDAD-Y-MASCULINIDAD.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Feminidad y masculinidad...
                 </h2>
@@ -151,7 +151,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-              <Link to="public/textos/QUE-SER-VALIENTE-NO-SALGA-TAN-CARO.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/QUE-SER-VALIENTE-NO-SALGA-TAN-CARO.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Que ser valiente no salga tan caro, que ser cobarde no valga la pena
                 </h2>
@@ -162,7 +162,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
-              <Link to="public/textos/LIMITES-Y-LIMITACIONES.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/LIMITES-Y-LIMITACIONES.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Límites y limitaciones
                 </h2>
@@ -173,7 +173,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-              <Link to="public/textos/HORA-DE-MARCHARME-DE-EL-ROURE.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/HORA-DE-MARCHARME-DE-EL-ROURE.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Hora de marcharme de El Roure
                 </h2>
@@ -184,7 +184,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-              <Link to="public/textos/CRIS-SE-VA-2007.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/CRIS-SE-VA-2007.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Cris se va (2007)
                 </h2>
@@ -195,7 +195,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
-              <Link to="public/textos/ESCRIPTORROURES.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/ESCRIPTORROURES.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Escriptorroures
                 </h2>
@@ -206,7 +206,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="public/textos/DUES-EXPERIENCIES-DE-RESTAURACIO.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/DUES-EXPERIENCIES-DE-RESTAURACIO.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Dues experiències de restauració
                 </h2>
@@ -217,7 +217,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="public/textos/ESTAMOS-O-NO-HACIENDO-MATEMATICAS.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/ESTAMOS-O-NO-HACIENDO-MATEMATICAS.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   ¿Estamos o no haciendo matemáticas?
                 </h2>
@@ -228,7 +228,7 @@ const Textos: React.FC = () => {
             </li>
             
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-              <Link to="public/textos/AMIGOS-Y-AMIGAS-POR-CARTA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/AMIGOS-Y-AMIGAS-POR-CARTA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Amigos y amigas por carta
                 </h2>
@@ -239,7 +239,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="public/textos/CELEBRANDO-EL-MILAGRO-DE-LA-VIDA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/CELEBRANDO-EL-MILAGRO-DE-LA-VIDA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Celebrando el milagro de la vida: la ciencia con los niños y niñas
                 </h2>
@@ -250,7 +250,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="public/textos/TALLER-D-ANDROMINES.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/TALLER-D-ANDROMINES.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Taller d'andròmines
                 </h2>
@@ -261,7 +261,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
-              <Link to="public/textos/ESCRITO-A-MANO.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/ESCRITO-A-MANO.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Escrito a mano
                 </h2>
@@ -277,7 +277,7 @@ const Textos: React.FC = () => {
         </h1>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="public/textos/ARTICULO-LA-CASITA-1.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/ARTICULO-LA-CASITA-1.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Artículo (titular?)
                 </h2>
@@ -288,7 +288,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="public/textos/LA-MUERTE-DE-CADA-DIA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/LA-MUERTE-DE-CADA-DIA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   La muerte de cada día
                 </h2>
@@ -299,7 +299,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="public/textos/DESPIERTATE-PAPA-Y-MAMA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/DESPIERTATE-PAPA-Y-MAMA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Despiértate papá (y mamá)
                 </h2>
@@ -310,7 +310,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="public/textos/CINES-BEBES-Y-SENSIBILIDAD.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/CINES-BEBES-Y-SENSIBILIDAD.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Cine, bebés y sensibilidad
                 </h2>
@@ -321,7 +321,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="public/textos/DESPEDIDA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="/textos/DESPEDIDA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Despedida
                 </h2>
