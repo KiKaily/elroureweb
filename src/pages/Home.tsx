@@ -23,22 +23,26 @@ const Home: React.FC = () => {
 
   return (
     <main className="max-w-none min-h-screen flex flex-col items-center mx-auto p-5 max-md:max-w-[991px] max-sm:max-w-screen-sm font-handscript">
-      <div 
-        className={`flex justify-center items-center transition-all duration-2000 ease-out ${
-          isLogoAnimating 
-            ? 'fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50' 
-            : 'mt-10'
-        }`}
-        style={{
-          transition: 'all 2s cubic-bezier(0.4, 0, 0.2, 1)'
-        }}
-      >
-        <Logo className="" animationDelay={0} />
+      <div className="relative w-full flex justify-center" style={{ minHeight: isLogoAnimating ? '100vh' : 'auto' }}>
+        <div 
+          className={`absolute left-1/2 -translate-x-1/2 transition-all duration-2000 ease-out ${
+            isLogoAnimating 
+              ? 'top-1/2 -translate-y-1/2 z-50' 
+              : 'top-[40px]'
+          }`}
+          style={{
+            transition: 'all 2s cubic-bezier(0.4, 0, 0.2, 1)'
+          }}
+        >
+          <Logo className="" animationDelay={0} />
+        </div>
       </div>
       
-      {showContent && (
-        <MainContent skipAnimations={!fromLanding} />
-      )}
+      <div className={`w-full transition-opacity duration-1000 ${showContent ? 'opacity-100' : 'opacity-0'}`} style={{ marginTop: isLogoAnimating ? '0' : '450px' }}>
+        {showContent && (
+          <MainContent skipAnimations={!fromLanding} />
+        )}
+      </div>
     </main>
   );
 };
