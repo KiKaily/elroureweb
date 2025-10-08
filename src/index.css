@@ -95,9 +95,6 @@
 @apply border-border;
   }
 
-  html {
-    background-color: #2d2d2d;
-  }
 
   html, body {
     height: 100%;
@@ -142,9 +139,9 @@
   .text-glow {
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
-    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.08) 40%, rgba(255, 255, 255, 0.02) 70%, transparent 100%);
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.08) 30%, rgba(255, 255, 255, 0.02) 50%, transparent 70%);
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
     display: inline-block;
   }
 
