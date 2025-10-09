@@ -54,7 +54,7 @@ const MainContent: React.FC<MainContentProps> = ({
       <div className={`relative flex ${isMobile ? 'flex-col items-center' : 'flex-row justify-center items-center'} w-full`}>
         {!isMobile && (
           <>
-            <div className="flex flex-col justify-center z-20 absolute left-0 md:left-1/2 lg:left-[5%] top-1/2 transform -translate-y-1/2 md:-translate-x-1/2 lg:-translate-x-0 max-h-full" style={{ minWidth: '300px', maxWidth: '400px', overflowWrap: 'break-word' }}>
+            <div className="flex flex-col justify-center z-20 absolute left-0 md:left-1/2 lg:left-[5%] top-1/2 lg:top-[52%] transform -translate-y-1/2 md:-translate-x-1/2 lg:-translate-x-0 max-h-full" style={{ minWidth: '300px', maxWidth: '400px', overflowWrap: 'break-word' }}>
               <div className="w-full mb-5">
                 <p
                   className={`font-montserrat text-stone-100 text-xs xl:text-sm leading-relaxed text-glow transition-opacity duration-1000 ${loadingStage >= 3 ? 'opacity-100' : 'opacity-0'}`}

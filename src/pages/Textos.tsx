@@ -37,7 +37,7 @@ const Textos: React.FC = () => {
             
             
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
-              <Link to="/textos/EL-ROURE-BOLETIN-13_PC.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/EL-ROURE-BOLETIN-13_PC.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Boletín 13 · Cierre de la escuela El Roure
                 </h2>
@@ -45,230 +45,230 @@ const Textos: React.FC = () => {
                   El último boletín de la escuela El Roure. Una adaptación de la revista impresa para la comunidad escolar
                 </h3>
                 <p>
-                  Versión para <a href="/textos/EL-ROURE-BOLETIN-13_PC.pdf" className="text-amber-500 hover:underline">Ordenador</a> / 
-                  <a href="/textos/EL-ROURE-BOLETIN-13_MOVIL.pdf" className="text-amber-500 hover:underline"> Móvil</a>.
+                  <span className="text-stone-100">Versión para</span> <a href="/textos/EL-ROURE-BOLETIN-13_PC.pdf" className="text-stone-100 hover:underline" target="_blank" rel="noopener noreferrer">Ordenador</a> / 
+                  <a href="/textos/EL-ROURE-BOLETIN-13_MOVIL.pdf" className="text-stone-100 hover:underline" target="_blank" rel="noopener noreferrer"> Móvil</a>.
                 </p>
-              </Link>
+              </a>
             </li>
             
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
-              <Link to="/textos/UNA-PEDAGOGIA-DE-LA-RELACIO.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/UNA-PEDAGOGIA-DE-LA-RELACIO.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Una pedagogia de la relació
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Begoña González. Revista Roure
                 </h3>
-              </Link>
+              </a>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-              <Link to="/textos/UN-BAÑADOR-CON-BOLSILLOS.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/UN-BAÑADOR-CON-BOLSILLOS.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Un bañador con bolsillos
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Begoña González
                 </h3>
-              </Link>
+              </a>
             </li>
             
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
-              <Link to="/textos/CRISTOBAL-TRAJO-EL-SEITAI-A-EL-ROURE.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/CRISTOBAL-TRAJO-EL-SEITAI-A-EL-ROURE.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Cristóbal trajo el Seitai a El Roure
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Begoña González
                 </h3>
-              </Link>
+              </a>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="/textos/EL-CONSUMISMO-QUE-ENTURBIA-EL-ALMA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/EL-CONSUMISMO-QUE-ENTURBIA-EL-ALMA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   El consumismo que enturbia el alma
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Cristóbal Gutiérrez
                 </h3>
-              </Link>
+              </a>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.9s', animationFillMode: 'both' }}>
-              <Link to="/textos/DIVIDETE-Y-SUFIRAS.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/DIVIDETE-Y-SUFIRAS.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Divídete y sufrirás
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Cristóbal Gutiérrez
                 </h3>
-              </Link>
+              </a>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-              <Link to="/textos/IN-MEMORIAN.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/IN-MEMORIAN.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   In memorian
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Cristóbal Gutiérrez
                 </h3>
-              </Link>
+              </a>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="/textos/QUE-LA-VIDA-SEA-EL-EJE-DE-LA-EDUCACION.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/QUE-LA-VIDA-SEA-EL-EJE-DE-LA-EDUCACION.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Que la vida sea el eje de la educación
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Ulrike Kaesse y Begoña González
                 </h3>
-              </Link>
+              </a>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-              <Link to="/textos/LA-MIRADA-AMOROSA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/LA-MIRADA-AMOROSA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   La mirada amorosa
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Cristóbal Gutiérrez
                 </h3>
-              </Link>
+              </a>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="/textos/FEMINIDAD-Y-MASCULINIDAD.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/FEMINIDAD-Y-MASCULINIDAD.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Feminidad y masculinidad...
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Begoña González
                 </h3>
-              </Link>
+              </a>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-              <Link to="/textos/QUE-SER-VALIENTE-NO-SALGA-TAN-CARO.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/QUE-SER-VALIENTE-NO-SALGA-TAN-CARO.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Que ser valiente no salga tan caro, que ser cobarde no valga la pena
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Cristóbal Gutiérrez
                 </h3>
-              </Link>
+              </a>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
-              <Link to="/textos/LIMITES-Y-LIMITACIONES.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/LIMITES-Y-LIMITACIONES.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Límites y limitaciones
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Begoña González
                 </h3>
-              </Link>
+              </a>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-              <Link to="/textos/HORA-DE-MARCHARME-DE-EL-ROURE.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/HORA-DE-MARCHARME-DE-EL-ROURE.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Hora de marcharme de El Roure
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Cristóbal Gutiérrez
                 </h3>
-              </Link>
+              </a>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-              <Link to="/textos/CRIS-SE-VA-2007.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/CRIS-SE-VA-2007.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Cris se va (2007)
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Begoña González
                 </h3>
-              </Link>
+              </a>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
-              <Link to="/textos/ESCRIPTORROURES.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/ESCRIPTORROURES.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Escriptorroures
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Paco Robles
                 </h3>
-              </Link>
+              </a>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="/textos/DUES-EXPERIENCIES-DE-RESTAURACIO.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/DUES-EXPERIENCIES-DE-RESTAURACIO.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Dues experiències de restauració
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Paco Robles. Revista Roure
                 </h3>
-              </Link>
+              </a>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="/textos/ESTAMOS-O-NO-HACIENDO-MATEMATICAS.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/ESTAMOS-O-NO-HACIENDO-MATEMATICAS.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   ¿Estamos o no haciendo matemáticas?
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Lara Jiménez. Revista Roure
                 </h3>
-              </Link>
+              </a>
             </li>
             
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-              <Link to="/textos/AMIGOS-Y-AMIGAS-POR-CARTA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/AMIGOS-Y-AMIGAS-POR-CARTA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Amigos y amigas por carta
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Mercè de la Cruz
                 </h3>
-              </Link>
+              </a>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="/textos/CELEBRANDO-EL-MILAGRO-DE-LA-VIDA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/CELEBRANDO-EL-MILAGRO-DE-LA-VIDA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Celebrando el milagro de la vida: la ciencia con los niños y niñas
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Mercè de la Cruz
                 </h3>
-              </Link>
+              </a>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="/textos/TALLER-D-ANDROMINES.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/TALLER-D-ANDROMINES.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Taller d'andròmines
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Montse Bertran
                 </h3>
-              </Link>
+              </a>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
-              <Link to="/textos/ESCRITO-A-MANO.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/ESCRITO-A-MANO.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Escrito a mano
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Guillermo Jaim Etcheverry
                 </h3>
-              </Link>
+              </a>
             </li>
 
             <h1 className="font-inter text-amber-500 text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in text-glow"
@@ -277,14 +277,14 @@ const Textos: React.FC = () => {
         </h1>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="/textos/ARTICULO-LA-CASITA-1.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/ARTICULO-LA-CASITA-1.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Artículo (titular?)
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Revista La Casita (poner autoría?)
                 </h3>
-              </Link>
+              </a>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>

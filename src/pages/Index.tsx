@@ -34,7 +34,7 @@ const Index: React.FC = () => {
             position: 'relative',
           }}
         >
-          <span className="relative z-10 hover:text-opacity-80 transition-colors duration-300">
+          <span className="relative z-10 hover:text-opacity-80 transition-colors duration-300 handwritten">
             entrar
           </span>
         </button>
