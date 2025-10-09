@@ -42,7 +42,7 @@ const MainContent: React.FC<MainContentProps> = ({
   }, [loadingStage]);
 
   return (
-    <section className="flex flex-col items-center relative w-full max-w-[90vw] 2xl:max-w-[1800px] mt-10">
+    <section className="flex flex-col items-center relative w-full max-w-[90vw] 2xl:max-w-[1800px]">
       <div className={`relative flex ${isMobile ? 'flex-col items-center' : 'flex-row justify-center'} w-full`}>
         {!isMobile && (
           <>

@@ -35,13 +35,8 @@ const Logo: React.FC<LogoProps> = ({ className, animationDelay = 0 }) => {
         <div className="overflow-hidden text-glow rounded-lg" style={{ cursor: "pointer" }}>
           <img
             src="/lovable-uploads/logo el roure.png"
-            className={`w-[400px] h-auto max-sm:w-[300px] max-sm:h-auto transition-all duration-3000`}
+            className="w-[250px] h-auto max-sm:w-[200px] max-sm:h-auto"
             alt="Roure Logo"
-            style={{
-              opacity: isLoaded ? 1 : 0,
-              transform: isLoaded ? 'scale(1)' : 'scale(0.95)',
-              transition: isMobile ? "all 0.8s ease-out" : "all 2s ease-out"
-            }}
           />
         </div>
       </Link>
