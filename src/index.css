@@ -143,10 +143,42 @@
     display: inline-block;
   }
 
+  /* smaller version of text-glow for compact menu items */
+  .text-glow-sm {
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.04) 30%, transparent 60%);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+  }
+
   .menu-page-bg {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    /* Default mobile image */
+    background-image: url('/assets/fondo_web_mobile.JPG');
+  }
+
+  /* Larger screens use desktop image */
+  @media (min-width: 768px) {
+    .menu-page-bg {
+      background-image: url('/assets/fondo_web_desktop.JPG');
+    }
+  }
+
+  /* Ensure background behaves as fixed on iOS by using a pseudo-element */
+  .menu-page-bg::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background-image: inherit;
+    background-size: inherit;
+    background-repeat: inherit;
+    background-position: inherit;
+    background-attachment: inherit;
+    will-change: transform;
+  }
   }
 }

@@ -50,26 +50,23 @@ const MainContent: React.FC<MainContentProps> = ({
   }, [loadingStage]);
 
   return (
-    <section className="flex flex-col items-center relative w-full max-w-full">
+    <section className="flex flex-col items-center relative w-full max-w-full bg-fixed">
       <div className={`relative flex ${isMobile ? 'flex-col items-center' : 'flex-row justify-center items-center'} w-full`}>
         {!isMobile && (
           <>
-            <div className="flex flex-col justify-center z-20 absolute left-0 top-1/2 transform -translate-y-1/2 max-h-full" style={{ minWidth: '300px', maxWidth: '400px', left: '0.5%', overflowWrap: 'break-word' }}>
+            <div className="flex flex-col justify-center z-20 absolute left-0 md:left-1/2 lg:left-[5%] top-1/2 transform -translate-y-1/2 md:-translate-x-1/2 lg:-translate-x-0 max-h-full" style={{ minWidth: '300px', maxWidth: '400px', overflowWrap: 'break-word' }}>
               <div className="w-full mb-5">
-                <p 
+                <p
                   className={`font-montserrat text-stone-100 text-xs xl:text-sm leading-relaxed text-glow transition-opacity duration-1000 ${loadingStage >= 3 ? 'opacity-100' : 'opacity-0'}`}
                   style={{
                     transform: loadingStage >= 3 ? 'translateY(0)' : 'translateY(20px)',
                     transition: 'transform 1s ease-out, opacity 1s ease-out'
                   }}
                 >
-                  Del 2001 al 2025 hicimos un viaje fascinante: una escuela para familias con criaturas de 3 a 12 años.
-                  <br/><br/>
-                  ¿Cuál ha sido el norte de ese viaje?
-                  <br/><br/>
-                  Cada criatura es una semilla.
-                  <br/><br/>
-                  La fuerza y la inteligencia de la vida se ocupan de que se manifieste y se desarrolle. Queremos sintonizar con este latido, apoyarlo y dejar atrás lo que nos limita, para acompañarlos, para acompañarnos, desde el respeto y la consciencia de la naturaleza de cada cual.
+                  <span className="block text-center md:text-center lg:text-left w-full mx-auto">Del 2001 al 2025 hicimos un viaje fascinante: una escuela para familias con criaturas de 3 a 12 años.</span>
+                  <span className="block mt-3 text-center md:text-center lg:text-left w-full mx-auto">¿Cuál ha sido el norte de ese viaje?</span>
+                  <span className="block mt-3 text-center md:text-center lg:text-left w-full mx-auto">Cada criatura es una semilla.</span>
+                  <span className="block mt-3 text-center md:text-center lg:text-left w-full mx-auto">La fuerza y la inteligencia de la vida se ocupan de que se manifieste y se desarrolle. Queremos sintonizar con este latido, apoyarlo y dejar atrás lo que nos limita, para acompañarlos, para acompañarnos, desde el respeto y la consciencia de la naturaleza de cada cual.</span>
                 </p>
               </div>
             </div>
@@ -86,7 +83,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="text-glow rounded-lg flex justify-center items-center mx-auto">
             <img
               src="/assets/anillos madera.png"
-              className={`w-[25vw] max-w-[400px] min-w-[280px] max-sm:w-[90vw] max-sm:max-w-none h-auto object-contain transition-opacity duration-1000 mx-auto ${loadingStage >= 2 ? 'opacity-90' : 'opacity-0'}`}
+              className={`w-[25vw] max-w-[400px] min-w-[140px] max-sm:w-[50vw] max-sm:max-w-none h-auto object-contain transition-opacity duration-1000 mx-auto ${loadingStage >= 2 ? 'opacity-90' : 'opacity-0'}`}
               alt="Decorative Pattern"
               style={{
                 transition: "opacity 1s ease-in-out"
