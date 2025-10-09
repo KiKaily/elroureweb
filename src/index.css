@@ -98,6 +98,12 @@
 @apply border-border;
   }
 
+  /* Ensure the root elements have the same background color so the browser chrome areas don't show white */
+  html, #root {
+    background-color: rgb(27 24 22);
+    height: 100dvh;
+  }
+
 
   html, body {
     /* Use dynamic viewport height to avoid iOS Safari white bars and set safe area support */
@@ -121,6 +127,18 @@
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
+  }
+
+  /* Fix for iOS where the viewport chrome can reveal page background; put a fixed pseudo-element behind content */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -9999;
+    background-image: url('/assets/fondo_web_mobile.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   /* Desktop and tablet background */
