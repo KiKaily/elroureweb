@@ -67,7 +67,7 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
           transition: 'transform 1s ease-out, opacity 1s ease-out'
         }}
       >
-        <ul className="space-y-4">
+        <ul className="space-y-2">
           {menuItems.map((item, index) => (
             <li key={item.text}>
               <Link
@@ -82,7 +82,7 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
             </li>
           ))}
           
-          <li className="pt-4 mt-4 border-t border-stone-100/20">
+          <li className="pt-3 mt-3 border-t border-stone-100/20">
             <Link
               to={specialMenuItem.href}
               className="font-inter text-amber-500 text-base xl:text-lg hover:text-amber-400 transition-all duration-300 block text-glow"

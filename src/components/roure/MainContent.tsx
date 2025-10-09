@@ -20,20 +20,28 @@ const MainContent: React.FC<MainContentProps> = ({
 
   useEffect(() => {
     if (skipAnimations) {
-      setLoadingStage(4);
+      setLoadingStage(6);
       return;
     }
     
-    const imageTimer = setTimeout(() => setLoadingStage(1), 100);
-    const logoTimer = setTimeout(() => setLoadingStage(2), 2000);
-    const emailTimer = setTimeout(() => setLoadingStage(3), 2500);
-    const menuTimer = setTimeout(() => setLoadingStage(4), 3000);
+    // Stage 1: Logo (handled in Home.tsx at 100ms)
+    // Stage 2: Center image (at 1000ms)
+    const imageTimer = setTimeout(() => setLoadingStage(2), 1000);
+    // Stage 3: Left text (at 2000ms)
+    const textTimer = setTimeout(() => setLoadingStage(3), 2000);
+    // Stage 4: Menu (at 2800ms)
+    const menuTimer = setTimeout(() => setLoadingStage(4), 2800);
+    // Stage 5: Email (at 3500ms)
+    const emailTimer = setTimeout(() => setLoadingStage(5), 3500);
+    // Stage 6: "diseñado por" text (at 4200ms)
+    const designTimer = setTimeout(() => setLoadingStage(6), 4200);
 
     return () => {
       clearTimeout(imageTimer);
-      clearTimeout(logoTimer);
-      clearTimeout(emailTimer);
+      clearTimeout(textTimer);
       clearTimeout(menuTimer);
+      clearTimeout(emailTimer);
+      clearTimeout(designTimer);
     };
   }, [skipAnimations, isMobile]);
 
@@ -49,9 +57,9 @@ const MainContent: React.FC<MainContentProps> = ({
             <div className="flex flex-col justify-center z-20 absolute left-0 top-1/2 transform -translate-y-1/2 max-h-full" style={{ minWidth: '300px', maxWidth: '400px', left: '0.5%', overflowWrap: 'break-word' }}>
               <div className="w-full mb-5">
                 <p 
-                  className={`font-montserrat text-stone-100 text-xs xl:text-sm leading-relaxed text-glow transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-100' : 'opacity-0'}`}
+                  className={`font-montserrat text-stone-100 text-xs xl:text-sm leading-relaxed text-glow transition-opacity duration-1000 ${loadingStage >= 3 ? 'opacity-100' : 'opacity-0'}`}
                   style={{
-                    transform: loadingStage >= 2 ? 'translateY(0)' : 'translateY(20px)',
+                    transform: loadingStage >= 3 ? 'translateY(0)' : 'translateY(20px)',
                     transition: 'transform 1s ease-out, opacity 1s ease-out'
                   }}
                 >
@@ -70,18 +78,18 @@ const MainContent: React.FC<MainContentProps> = ({
         )}
         
         <div
-          className={`relative flex justify-center items-center overflow-hidden transition-opacity duration-3000 mx-auto ${loadingStage >= 1 ? 'opacity-100' : 'opacity-0'}`}
+          className={`relative flex justify-center items-center overflow-hidden transition-opacity duration-1000 mx-auto ${loadingStage >= 2 ? 'opacity-100' : 'opacity-0'}`}
           style={{
-            transition: 'opacity 4s ease-in-out'
+            transition: 'opacity 1s ease-in-out'
           }}
         >
           <div className="text-glow rounded-lg flex justify-center items-center mx-auto">
             <img
               src="/assets/anillos madera.png"
-              className={`w-[25vw] max-w-[400px] min-w-[280px] max-sm:w-[90vw] max-sm:max-w-none h-auto object-contain transition-opacity duration-3000 mx-auto ${loadingStage >= 1 ? 'opacity-90' : 'opacity-0'}`}
+              className={`w-[25vw] max-w-[400px] min-w-[280px] max-sm:w-[90vw] max-sm:max-w-none h-auto object-contain transition-opacity duration-1000 mx-auto ${loadingStage >= 2 ? 'opacity-90' : 'opacity-0'}`}
               alt="Decorative Pattern"
               style={{
-                transition: "opacity 4s ease-in-out"
+                transition: "opacity 1s ease-in-out"
               }}
             />
           </div>
@@ -137,7 +145,7 @@ const MainContent: React.FC<MainContentProps> = ({
       
       <a
         href="mailto:experienciaroure@proton.me"
-        className={`font-montserrat text-stone-100 text-sm xl:text-base text-glow hover:text-opacity-80 transition-all duration-1000 mt-8 ${loadingStage >= 3 ? 'opacity-100' : 'opacity-0'}`}
+        className={`font-montserrat text-stone-100 text-sm xl:text-base text-glow hover:text-opacity-80 transition-all duration-1000 mt-8 ${loadingStage >= 5 ? 'opacity-100' : 'opacity-0'}`}
         style={{
           transition: 'opacity 1s ease-out',
           textDecoration: 'none'
@@ -147,9 +155,9 @@ const MainContent: React.FC<MainContentProps> = ({
       </a>
       <a
         href="https://www.rcrear.com/"
-        className={`font-montserrat text-stone-100 text-xs xl:text-sm text-glow hover:text-opacity-80 transition-all duration-1000 mt-2 ${loadingStage >= 3 ? 'opacity-50' : 'opacity-0'}`}
+        className={`font-montserrat text-stone-100 text-xs xl:text-sm text-glow hover:text-opacity-80 transition-all duration-1000 mt-2 ${loadingStage >= 6 ? 'opacity-50' : 'opacity-0'}`}
         style={{
-          transition: 'opacity 15s ease-out',
+          transition: 'opacity 1s ease-out',
           textDecoration: 'none'
         }}
       >
