@@ -28,10 +28,12 @@ const BackToTop: React.FC = () => {
   return (
     <button
       onClick={scrollToTop}
-      className={`fixed bottom-8 right-8 p-3 rounded-full text-amber-500 text-glow hover:scale-110 transition-all duration-300 z-50 ${
+      className={`fixed bottom-8 right-8 p-3 rounded-full bg-amber-500 text-amber-900 text-glow-strong hover:scale-110 transition-all duration-300 z-50 shadow-lg ${
         isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
       }`}
       aria-label="Volver arriba"
+      title="Volver arriba"
+      style={{ boxShadow: '0 6px 18px rgba(0,0,0,0.25)' }}
     >
       <ArrowUp size={24} />
     </button>

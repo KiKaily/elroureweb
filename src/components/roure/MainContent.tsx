@@ -80,7 +80,7 @@ const MainContent: React.FC<MainContentProps> = ({
             transition: 'opacity 1s ease-in-out'
           }}
         >
-          <div className="text-glow rounded-lg flex justify-center items-center mx-auto">
+          <div className="text-glow-strong rounded-lg flex justify-center items-center mx-auto">
             <img
               src="/assets/anillos madera.png"
               className={`w-[25vw] max-w-[400px] min-w-[140px] max-sm:w-[50vw] max-sm:max-w-none h-auto object-contain transition-opacity duration-1000 mx-auto ${loadingStage >= 2 ? 'opacity-90' : 'opacity-0'}`}

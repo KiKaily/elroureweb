@@ -32,10 +32,10 @@ const Logo: React.FC<LogoProps> = ({ className, animationDelay = 0 }) => {
   return (
     <div className={`flex flex-col items-center ${className}`}>
       <Link to="/home">
-        <div className="overflow-hidden text-glow rounded-lg" style={{ cursor: "pointer" }}>
+        <div className="overflow-hidden text-glow-strong rounded-lg" style={{ cursor: "pointer" }}>
           <img
             src="/lovable-uploads/logo el roure.png"
-            className="w-[250px] h-auto max-sm:w-[200px] max-sm:h-auto"
+            className="w-[250px] h-auto max-sm:w-[230px] max-sm:h-auto"
             alt="Roure Logo"
           />
         </div>
