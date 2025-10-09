@@ -6,7 +6,7 @@ import { useLocation } from "react-router-dom";
 const Home: React.FC = () => {
   return (
     <main className="h-screen max-h-screen overflow-hidden flex flex-col items-center justify-start mx-auto px-5 py-3 font-handscript">
-      <div className="flex-shrink-0 mb-4">
+      <div className="flex-shrink-0 mb-4 w-full flex justify-center">
         <Logo className="" animationDelay={0} />
       </div>
       

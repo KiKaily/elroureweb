@@ -42,11 +42,11 @@ const MainContent: React.FC<MainContentProps> = ({
   }, [loadingStage]);
 
   return (
-    <section className="flex flex-col items-center relative w-full max-w-[90vw] 2xl:max-w-[1800px]">
-      <div className={`relative flex ${isMobile ? 'flex-col items-center' : 'flex-row justify-center'} w-full`}>
+    <section className="flex flex-col items-center relative w-full max-w-full">
+      <div className={`relative flex ${isMobile ? 'flex-col items-center' : 'flex-row justify-center items-center'} w-full`}>
         {!isMobile && (
           <>
-            <div className="flex flex-col justify-center z-20 absolute left-0 top-1/2 transform -translate-y-1/2 max-h-full" style={{ minWidth: '15%', maxWidth: '280px', left: '1%' }}>
+            <div className="flex flex-col justify-center z-20 absolute left-0 top-1/2 transform -translate-y-1/2 max-h-full" style={{ minWidth: '300px', maxWidth: '400px', left: '0.5%', overflowWrap: 'break-word' }}>
               <div className="w-full mb-5">
                 <p 
                   className={`font-montserrat text-stone-100 text-xs xl:text-sm leading-relaxed text-glow transition-opacity duration-1000 ${loadingStage >= 2 ? 'opacity-100' : 'opacity-0'}`}
@@ -70,15 +70,15 @@ const MainContent: React.FC<MainContentProps> = ({
         )}
         
         <div
-          className={`relative flex justify-center items-center overflow-hidden transition-opacity duration-3000 ${loadingStage >= 1 ? 'opacity-100' : 'opacity-0'}`}
+          className={`relative flex justify-center items-center overflow-hidden transition-opacity duration-3000 mx-auto ${loadingStage >= 1 ? 'opacity-100' : 'opacity-0'}`}
           style={{
             transition: 'opacity 4s ease-in-out'
           }}
         >
-          <div className="text-glow rounded-lg flex justify-center">
+          <div className="text-glow rounded-lg flex justify-center items-center mx-auto">
             <img
               src="/assets/anillos madera.png"
-              className={`w-[25vw] max-w-[400px] min-w-[280px] max-sm:w-[90vw] max-sm:max-w-none h-auto object-contain transition-opacity duration-3000 ${loadingStage >= 1 ? 'opacity-90' : 'opacity-0'}`}
+              className={`w-[25vw] max-w-[400px] min-w-[280px] max-sm:w-[90vw] max-sm:max-w-none h-auto object-contain transition-opacity duration-3000 mx-auto ${loadingStage >= 1 ? 'opacity-90' : 'opacity-0'}`}
               alt="Decorative Pattern"
               style={{
                 transition: "opacity 4s ease-in-out"
