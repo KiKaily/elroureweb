@@ -27,12 +27,12 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
           transition: 'transform 1s ease-out, opacity 1s ease-out'
         }}
       >
-        <ul className="flex flex-col items-center space-y-4">
+        <ul className="flex flex-col items-center space-y-2">
           {menuItems.map((item, index) => (
             <li key={item.text}>
               <Link
                 to={item.href}
-                className="font-inter text-orange-700 text-xl sm:text-2xl hover:text-orange-600 transition-all duration-300 block text-center text-glow"
+                className="font-inter text-orange-700 text-lg sm:text-xl hover:text-orange-600 transition-all duration-300 block text-center text-glow"
                 style={{
                   textDecoration: 'none'
                 }}
@@ -42,10 +42,10 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
             </li>
           ))}
           
-          <li className="pt-6 mt-6 border-t border-stone-100/20">
+          <li className="pt-4 mt-4 border-t border-stone-100/20">
             <Link
               to={specialMenuItem.href}
-              className="font-inter text-amber-500 text-xl sm:text-2xl hover:text-amber-400 transition-all duration-300 block text-center text-glow"
+              className="font-inter text-amber-500 text-lg sm:text-xl hover:text-amber-400 transition-all duration-300 block text-center text-glow"
               style={{
                 textDecoration: 'none'
               }}
@@ -59,7 +59,7 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
   }
 
   return (
-    <div className="flex flex-col justify-center z-20 absolute right-0 top-1/2 transform -translate-y-1/2" style={{ right: '5%', maxWidth: '250px' }}>
+    <div className="flex flex-col justify-center z-20 absolute right-0 top-1/2 transform -translate-y-1/2" style={{ right: '5%', maxWidth: '220px' }}>
       <nav 
         className={`transition-all duration-1000 ${loadingStage >= 4 ? 'opacity-100' : 'opacity-0'}`}
         style={{
@@ -67,12 +67,12 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
           transition: 'transform 1s ease-out, opacity 1s ease-out'
         }}
       >
-        <ul className="space-y-2">
+        <ul className="space-y-1">
           {menuItems.map((item, index) => (
             <li key={item.text}>
               <Link
                 to={item.href}
-                className="font-inter text-orange-700 text-base xl:text-lg hover:text-orange-600 transition-all duration-300 block text-glow"
+                className="font-inter text-orange-700 text-sm xl:text-base hover:text-orange-600 transition-all duration-300 block text-glow"
                 style={{
                   textDecoration: 'none'
                 }}
@@ -82,10 +82,10 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
             </li>
           ))}
           
-          <li className="pt-3 mt-3 border-t border-stone-100/20">
+          <li className="pt-2 mt-2 border-t border-stone-100/20">
             <Link
               to={specialMenuItem.href}
-              className="font-inter text-amber-500 text-base xl:text-lg hover:text-amber-400 transition-all duration-300 block text-glow"
+              className="font-inter text-amber-500 text-sm xl:text-base hover:text-amber-400 transition-all duration-300 block text-glow"
               style={{
                 textDecoration: 'none'
               }}
