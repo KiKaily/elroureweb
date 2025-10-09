@@ -59,7 +59,7 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
   }
 
   return (
-    <div className="flex flex-col justify-center z-20 absolute right-0 top-1/2 transform -translate-y-1/2" style={{ right: '5%', maxWidth: '400px' }}>
+    <div className="flex flex-col justify-center z-20 absolute right-0 top-1/2 transform -translate-y-1/2" style={{ right: '5%', maxWidth: '250px' }}>
       <nav 
         className={`transition-all duration-1000 ${loadingStage >= 4 ? 'opacity-100' : 'opacity-0'}`}
         style={{
@@ -67,12 +67,12 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
           transition: 'transform 1s ease-out, opacity 1s ease-out'
         }}
       >
-        <ul className="space-y-6">
+        <ul className="space-y-4">
           {menuItems.map((item, index) => (
             <li key={item.text}>
               <Link
                 to={item.href}
-                className="font-inter text-orange-700 text-xl xl:text-2xl 2xl:text-3xl hover:text-orange-600 transition-all duration-300 block text-glow"
+                className="font-inter text-orange-700 text-base xl:text-lg hover:text-orange-600 transition-all duration-300 block text-glow"
                 style={{
                   textDecoration: 'none'
                 }}
@@ -82,10 +82,10 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
             </li>
           ))}
           
-          <li className="pt-6 mt-6 border-t border-stone-100/20">
+          <li className="pt-4 mt-4 border-t border-stone-100/20">
             <Link
               to={specialMenuItem.href}
-              className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl hover:text-amber-400 transition-all duration-300 block text-glow"
+              className="font-inter text-amber-500 text-base xl:text-lg hover:text-amber-400 transition-all duration-300 block text-glow"
               style={{
                 textDecoration: 'none'
               }}
