@@ -39,58 +39,50 @@ const Textos: React.FC = () => {
 
     <div className="w-full max-w-[800px]">
       <ul className="space-y-8">
-        <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
-          <a href="/textos/EL-ROURE-BOLETIN-13_PC.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
-            <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
-              Boletín 13 · Cierre de la escuela El Roure
-            </h2>
-            <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-              El último boletín de la escuela El Roure. Una adaptación de la revista impresa para la comunidad escolar
-            </h3>
-            <p>
-              <span className="text-stone-100">Versión para</span>{' '}
-              <a
-                href="/textos/EL-ROURE-BOLETIN-13_PC.pdf"
-                className="text-stone-100 underline hover:text-amber-300 transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Ordenador
-              </a>
-              <span className="text-stone-100 px-1">/</span>
-              <a
-                href="/textos/EL-ROURE-BOLETIN-13_MOVIL.pdf"
-                className="text-stone-100 underline hover:text-amber-300 transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Móvil
-              </a>.
-            </p>
-          </a>
-        </li>
+  <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
+    <a href="/textos/EL-ROURE-BOLETIN-13_PC.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
+      {/* h2 alineado al borde */}
+      <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow pl-0">
+        Boletín 13 · Cierre de la escuela El Roure
+      </h2>
+      {/* h3 alineado con h2 */}
+      <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2 pl-0">
+        El último boletín de la escuela El Roure. Una adaptación de la revista impresa para la comunidad escolar
+      </h3>
+      <p className="pl-0">
+        <span className="text-stone-100">Versión para</span>{' '}
+        <a
+          href="/textos/EL-ROURE-BOLETIN-13_PC.pdf"
+          className="text-stone-100 underline hover:text-amber-300 transition-colors"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ordenador
+        </a>
+        <span className="text-stone-100 px-1">/</span>
+        <a
+          href="/textos/EL-ROURE-BOLETIN-13_MOVIL.pdf"
+          className="text-stone-100 underline hover:text-amber-300 transition-colors"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Móvil
+        </a>.
+      </p>
+    </a>
+  </li>
 
-        <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
-          <a href="/textos/UNA-PEDAGOGIA-DE-LA-RELACIO.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
-            <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
-              Una pedagogia de la relació
-            </h2>
-            <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-              Begoña González. Revista Roure
-            </h3>
-          </a>
-        </li>
+  <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
+    <a href="/textos/UNA-PEDAGOGIA-DE-LA-RELACIO.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
+      <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow pl-0">
+        Una pedagogia de la relació
+      </h2>
+      <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2 pl-0">
+        Begoña González. Revista Roure
+      </h3>
+    </a>
+  </li>
 
-        <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-          <a href="/textos/UN-BAÑADOR-CON-BOLSILLOS.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
-            <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
-              Un bañador con bolsillos
-            </h2>
-            <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-              Begoña González
-            </h3>
-          </a>
-        </li>
             
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
               <a href="/textos/CRISTOBAL-TRAJO-EL-SEITAI-A-EL-ROURE.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
