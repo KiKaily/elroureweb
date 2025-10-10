@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
 import LeftMenu from "./LeftMenu";
@@ -14,7 +13,6 @@ const MainContent: React.FC<MainContentProps> = ({
 }) => {
   const isMobile = useIsMobile();
   const [loadingStage, setLoadingStage] = useState(() => {
-    // Always start fresh animations unless explicitly skipped
     return skipAnimations ? 4 : 0;
   });
 
@@ -24,16 +22,10 @@ const MainContent: React.FC<MainContentProps> = ({
       return;
     }
     
-    // Stage 1: Logo (handled in Home.tsx at 100ms)
-    // Stage 2: Center image (at 1000ms)
     const imageTimer = setTimeout(() => setLoadingStage(2), 1000);
-    // Stage 3: Left text (at 2000ms)
     const textTimer = setTimeout(() => setLoadingStage(3), 2000);
-    // Stage 4: Menu (at 2800ms)
     const menuTimer = setTimeout(() => setLoadingStage(4), 2800);
-    // Stage 5: Email (at 3500ms)
     const emailTimer = setTimeout(() => setLoadingStage(5), 3500);
-    // Stage 6: "diseñado por" text (at 4200ms)
     const designTimer = setTimeout(() => setLoadingStage(6), 4200);
 
     return () => {
@@ -54,7 +46,14 @@ const MainContent: React.FC<MainContentProps> = ({
       <div className={`relative flex ${isMobile ? 'flex-col items-center' : 'flex-row justify-center items-center'} w-full`}>
         {!isMobile && (
           <>
-            <div className="flex flex-col justify-center z-20 absolute left-0 md:left-1/2 lg:left-[5%] top-1/2 lg:top-[52%] transform -translate-y-1/2 md:-translate-x-1/2 lg:-translate-x-0 max-h-full" style={{ minWidth: '300px', maxWidth: '400px', overflowWrap: 'break-word' }}>
+            <div
+              className="flex flex-col justify-center z-20 absolute left-0 md:left-1/2 lg:left-[5%] top-1/2 lg:top-[52%] transform -translate-y-1/2 md:-translate-x-1/2 lg:-translate-x-0 max-h-full"
+              style={{
+                minWidth: '300px',
+                maxWidth: '400px',
+                overflowWrap: 'break-word'
+              }}
+            >
               <div className="w-full mb-5">
                 <p
                   className={`font-montserrat text-stone-100 text-xs xl:text-sm leading-relaxed text-glow transition-opacity duration-1000 ${loadingStage >= 3 ? 'opacity-100' : 'opacity-0'}`}
@@ -80,7 +79,12 @@ const MainContent: React.FC<MainContentProps> = ({
             transition: 'opacity 1s ease-in-out'
           }}
         >
-          <div className="text-glow-strong rounded-lg flex justify-center items-center mx-auto">
+          <div
+            className="text-glow-strong rounded-lg flex justify-center items-center mx-auto"
+            style={{
+              filter: "drop-shadow(0 0 6px rgba(255,255,255,0.5))",
+            }}
+          >
             <img
               src="/assets/anillos madera.png"
               className={`w-[25vw] max-w-[400px] min-w-[140px] max-sm:w-[50vw] max-sm:max-w-none h-auto object-contain transition-opacity duration-1000 mx-auto ${loadingStage >= 2 ? 'opacity-90' : 'opacity-0'}`}
