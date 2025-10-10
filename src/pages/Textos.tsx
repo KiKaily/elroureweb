@@ -45,9 +45,25 @@ const Textos: React.FC = () => {
                   El último boletín de la escuela El Roure. Una adaptación de la revista impresa para la comunidad escolar
                 </h3>
                 <p>
-                  <span className="text-stone-100">Versión para</span> <a href="/textos/EL-ROURE-BOLETIN-13_PC.pdf" className="text-stone-100 hover:underline" target="_blank" rel="noopener noreferrer">Ordenador</a> / 
-                  <a href="/textos/EL-ROURE-BOLETIN-13_MOVIL.pdf" className="text-stone-100 hover:underline" target="_blank" rel="noopener noreferrer"> Móvil</a>.
-                </p>
+  <span className="text-stone-100">Versión para</span>{' '}
+  <a
+    href="/textos/EL-ROURE-BOLETIN-13_PC.pdf"
+    className="text-stone-100 underline hover:text-amber-300 transition-colors"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Ordenador
+  </a>
+  <span className="text-stone-100 px-1">/</span>
+  <a
+    href="/textos/EL-ROURE-BOLETIN-13_MOVIL.pdf"
+    className="text-stone-100 underline hover:text-amber-300 transition-colors"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Móvil
+  </a>.
+</p>
               </a>
             </li>
             
