@@ -13,81 +13,84 @@ const Textos: React.FC = () => {
   }, [isMobile]);
   return (
     <main className="max-w-none min-h-screen flex flex-col items-center mx-auto p-5 max-md:max-w-[991px] max-sm:max-w-screen-sm font-handscript menu-page-bg">
-      <BackToTop />
-      <section className="flex flex-col items-center w-full max-w-[90vw] 2xl:max-w-[1200px] mt-10">
-        <Link 
-          to="/home" 
-          className="self-start mb-8 font-inter text-amber-500 text-xl text-glow hover:text-opacity-80 transition-all duration-300 animate-fade-in"
-          style={{ animationDelay: '0.1s', animationFillMode: 'both' }}
-        >
-          ← Volver
-        </Link>
-        
-        <h1 className="font-inter text-orange-700 text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in text-glow"
-            style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
-          Textos
-        </h1>
-        <h2 className="font-montserrat text-stone-100 text-lg xl:text-xl italic text-center animate-fade-in"
-            style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-          Una colección de textos y publicaciones relacionadas con El Roure.
-        </h2>
-        <br />
-        <div className="w-full max-w-[800px]">
-          <ul className="space-y-8">
-            
-            
-            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
-              <a href="/textos/EL-ROURE-BOLETIN-13_PC.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
-                <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
-                  Boletín 13 · Cierre de la escuela El Roure
-                </h2>
-                <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-                  El último boletín de la escuela El Roure. Una adaptación de la revista impresa para la comunidad escolar
-                </h3>
-                <p>
-  <span className="text-stone-100">Versión para</span>{' '}
-  <a
-    href="/textos/EL-ROURE-BOLETIN-13_PC.pdf"
-    className="text-stone-100 underline hover:text-amber-300 transition-colors"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Ordenador
-  </a>
-  <span className="text-stone-100 px-1">/</span>
-  <a
-    href="/textos/EL-ROURE-BOLETIN-13_MOVIL.pdf"
-    className="text-stone-100 underline hover:text-amber-300 transition-colors"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Móvil
-  </a>.
-</p>
-              </a>
-            </li>
-            
-            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
-              <a href="/textos/UNA-PEDAGOGIA-DE-LA-RELACIO.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
-                <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
-                  Una pedagogia de la relació
-                </h2>
-                <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-                  Begoña González. Revista Roure
-                </h3>
-              </a>
-            </li>
+  <BackToTop />
+  <section className="flex flex-col items-start w-full max-w-[90vw] 2xl:max-w-[1200px] mt-10">
+    <Link 
+      to="/home" 
+      className="self-start mb-8 font-inter text-amber-500 text-xl text-glow hover:text-opacity-80 transition-all duration-300 animate-fade-in"
+      style={{ animationDelay: '0.1s', animationFillMode: 'both' }}
+    >
+      ← Volver
+    </Link>
+    
+    <h1
+      className="font-inter text-orange-700 text-4xl xl:text-5xl 2xl:text-6xl mb-4 text-left animate-fade-in text-glow"
+      style={{ animationDelay: '0.2s', animationFillMode: 'both' }}
+    >
+      Textos
+    </h1>
 
-            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-              <a href="/textos/UN-BAÑADOR-CON-BOLSILLOS.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
-                <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
-                  Un bañador con bolsillos
-                </h2>
-                <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-                  Begoña González
-                </h3>
+    <h2
+      className="font-montserrat text-stone-100 text-lg xl:text-xl italic text-left animate-fade-in mb-8"
+      style={{ animationDelay: '0.3s', animationFillMode: 'both' }}
+    >
+      Una colección de textos y publicaciones relacionadas con El Roure.
+    </h2>
+
+    <div className="w-full max-w-[800px]">
+      <ul className="space-y-8">
+        <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
+          <a href="/textos/EL-ROURE-BOLETIN-13_PC.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
+            <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
+              Boletín 13 · Cierre de la escuela El Roure
+            </h2>
+            <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
+              El último boletín de la escuela El Roure. Una adaptación de la revista impresa para la comunidad escolar
+            </h3>
+            <p>
+              <span className="text-stone-100">Versión para</span>{' '}
+              <a
+                href="/textos/EL-ROURE-BOLETIN-13_PC.pdf"
+                className="text-stone-100 underline hover:text-amber-300 transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ordenador
               </a>
-            </li>
+              <span className="text-stone-100 px-1">/</span>
+              <a
+                href="/textos/EL-ROURE-BOLETIN-13_MOVIL.pdf"
+                className="text-stone-100 underline hover:text-amber-300 transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Móvil
+              </a>.
+            </p>
+          </a>
+        </li>
+
+        <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
+          <a href="/textos/UNA-PEDAGOGIA-DE-LA-RELACIO.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
+            <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
+              Una pedagogia de la relació
+            </h2>
+            <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
+              Begoña González. Revista Roure
+            </h3>
+          </a>
+        </li>
+
+        <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
+          <a href="/textos/UN-BAÑADOR-CON-BOLSILLOS.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
+            <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
+              Un bañador con bolsillos
+            </h2>
+            <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
+              Begoña González
+            </h3>
+          </a>
+        </li>
             
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
               <a href="/textos/CRISTOBAL-TRAJO-EL-SEITAI-A-EL-ROURE.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
