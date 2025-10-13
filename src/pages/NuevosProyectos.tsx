@@ -31,7 +31,7 @@ const NuevosProyectos: React.FC = () => {
         <div className="w-full max-w-[800px] space-y-16">
           {/* Section 1 */}
           <div className="animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-            <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl 2xl:text-4xl mb-6 text-center text-glow">
+            <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl 2xl:text-4xl mb-6 text-left text-glow">
               Begoña González
             </h2>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-left mb-8">
@@ -48,10 +48,10 @@ En este momento me dedico al acompañamiento a madres, padres y profesionales a 
 
           {/* Section 2 */}
           <div className="animate-fade-in" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
-            <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl 2xl:text-4xl mb-6 text-center text-glow">
+            <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl 2xl:text-4xl mb-6 text-left text-glow">
               Paco Robles
             </h2>
-            <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-center mb-8">
+            <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-left mb-8">
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <div className="w-full flex justify-center">
@@ -65,10 +65,10 @@ En este momento me dedico al acompañamiento a madres, padres y profesionales a 
 
           {/* Section 3 */}
           <div className="animate-fade-in" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
-            <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl 2xl:text-4xl mb-6 text-center text-glow">
+            <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl 2xl:text-4xl mb-6 text-left text-glow">
               Clara Giménez
             </h2>
-            <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-center mb-8">
+            <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-left mb-8">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
             </p>
             <div className="w-full flex justify-center">
