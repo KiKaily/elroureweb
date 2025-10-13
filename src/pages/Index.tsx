@@ -27,14 +27,14 @@ const Index: React.FC = () => {
         
         <button
           onClick={handleEnter}
-          className={`font-inter text-stone-100 text-3xl mt-10 cursor-pointer text-center transition-all duration-1000 ${loadingComplete ? 'opacity-100' : 'opacity-0'}`}
+          className={`font-handscript text-stone-100 text-3xl mt-10 cursor-pointer text-center transition-all duration-1000 ${loadingComplete ? 'opacity-100' : 'opacity-0'}`}
           style={{
             transform: loadingComplete ? 'translateY(0) scale(1)' : 'translateY(20px) scale(0.9)',
             transition: 'transform 0.8s ease-out, opacity 1s ease-out',
             position: 'relative',
           }}
         >
-          <span className="relative z-10 hover:text-opacity-80 transition-colors duration-300 font-inter">
+          <span className="relative z-10 hover:text-opacity-80 transition-colors duration-300 font-handscript">
             entrar
           </span>
         </button>

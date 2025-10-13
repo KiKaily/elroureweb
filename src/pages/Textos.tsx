@@ -12,7 +12,7 @@ const Textos: React.FC = () => {
     }
   }, [isMobile]);
   return (
-    <main className="max-w-none min-h-screen flex flex-col items-center mx-auto p-5 max-md:max-w-[991px] max-sm:max-w-screen-sm font-handscript menu-page-bg">
+    <main className="max-w-none min-h-screen flex flex-col items-center mx-auto p-5 max-md:max-w-[991px] max-sm:max-w-screen-sm font-handscript menu-page-bg pb-20">
   <BackToTop />
   <section className="flex flex-col items-start w-full max-w-[90vw] 2xl:max-w-[1200px] mt-10">
     <Link 

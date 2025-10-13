@@ -63,7 +63,7 @@ const MainContent: React.FC<MainContentProps> = ({
                   <span className="block mt-3 text-center md:text-center lg:text-left w-full mx-auto">
                     ¿Cuál ha sido el norte de ese viaje?
                   </span>
-                  <span className="block mt-3 text-center md:text-center lg:text-left w-full mx-auto">
+                  <span className="block mt-3 text-center md:text-center lg:text-left w-full mx-auto text-amber-400">
                     Cada criatura es una semilla.
                   </span>
                   <span className="block mt-3 text-center md:text-center lg:text-left w-full mx-auto">
@@ -101,11 +101,32 @@ const MainContent: React.FC<MainContentProps> = ({
         {/* MOBILE */}
         {isMobile && (
           <>
-            <div className="w-[90%] mt-8 space-y-4">
-              {/* ... (los textos móviles igual) ... */}
-            </div>
             <div className="w-[90%] mt-8 flex justify-center">
               <LeftMenu loadingStage={loadingStage} isMobile={true} />
+            </div>
+            <div className="w-[90%] mt-8 space-y-4">
+              <p
+                className={`font-montserrat text-stone-100 text-xs leading-relaxed text-glow transition-opacity duration-1000 ${
+                  loadingStage >= 3 ? "opacity-100" : "opacity-0"
+                }`}
+                style={{
+                  transform: loadingStage >= 3 ? "translateY(0)" : "translateY(20px)",
+                  transition: "transform 1s ease-out, opacity 1s ease-out",
+                }}
+              >
+                <span className="block text-center w-full mx-auto">
+                  Del 2001 al 2025 hicimos un viaje fascinante: una escuela para familias con criaturas de 3 a 12 años.
+                </span>
+                <span className="block mt-3 text-center w-full mx-auto">
+                  ¿Cuál ha sido el norte de ese viaje?
+                </span>
+                <span className="block mt-3 text-center w-full mx-auto text-amber-400">
+                  Cada criatura es una semilla.
+                </span>
+                <span className="block mt-3 text-center w-full mx-auto">
+                  La fuerza y la inteligencia de la vida se ocupan de que se manifieste y se desarrolle. Queremos sintonizar con este latido, apoyarlo y dejar atrás lo que nos limita, para acompañarlos, para acompañarnos, desde el respeto y la consciencia de la naturaleza de cada cual.
+                </span>
+              </p>
             </div>
           </>
         )}

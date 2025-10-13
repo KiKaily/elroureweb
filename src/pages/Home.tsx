@@ -16,13 +16,14 @@ const Home: React.FC = () => {
   }, [fromLanding]);
 
   return (
-    <main className="h-screen max-h-screen overflow-hidden flex flex-col items-center justify-center mx-auto px-5 py-8 lg:py-12 font-handscript menu-page-bg">
+    <main className="h-screen max-h-screen overflow-hidden flex flex-col items-center mx-auto px-5 py-8 lg:py-12 font-handscript menu-page-bg">
       <div
-        className={`flex-shrink-0 mb-6 lg:mb-12 w-full flex justify-center transition-opacity duration-1000 ${
+        className={`flex-shrink-0 mb-8 lg:mb-16 w-full flex justify-center transition-opacity duration-1000 ${
           logoVisible ? "opacity-100" : "opacity-0"
         }`}
+        style={{ marginTop: '8vh' }}
       >
-        <Logo className="" animationDelay={0} />
+        <Logo className="scale-125 lg:scale-150" animationDelay={0} />
       </div>
 
       <div className="w-full flex-1 flex items-center justify-center overflow-y-auto">
