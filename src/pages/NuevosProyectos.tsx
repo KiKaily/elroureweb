@@ -25,18 +25,18 @@ const NuevosProyectos: React.FC = () => {
         
         <h1 className="font-inter text-orange-700 text-4xl xl:text-5xl 2xl:text-6xl mb-12 text-center animate-fade-in text-glow"
             style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
-          Nuevos Proyectos
+          ¿En qué estamos?
         </h1>
         
         <div className="w-full max-w-[800px] space-y-16">
           {/* Section 1 */}
           <div className="animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
             <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl 2xl:text-4xl mb-6 text-center text-glow">
-              Educación Viva y Comunicación Consciente
+              Begoña González
             </h2>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-center mb-8">
-              Begoña González se dedica ahora a la educación viva y la comunicación consciente, ofreciendo talleres, formaciones y asesoramientos para familias y educadores. Su enfoque se centra en el desarrollo integral del niño, promoviendo un ambiente de respeto y empatía.
-            </p>
+              Fuí co-fundadora y coordinadora de La Casita y El Roure. Madre, maestra, formadora, orientadora y articulista, formada en diferentes disciplinas corporales, artísticas, psicológicas y educativas, así como en Comunicación consciente (CNV) y facilitación de grupos.
+En este momento me dedico al acompañamiento a madres, padres y profesionales a partir de  las diferentes situaciones y dificultades cotidianas que conlleva la relación con niñas, niños y adolescentes. Por otra parte facilito formaciones adaptadas a las necesidades de colectivos educativos interesados en el enfoque de la educación viva y la comunicación consciente.</p>
             <div className="w-full flex justify-center">
               <img
                 src="/lovable-uploads/bego_cierre.png"
@@ -49,7 +49,7 @@ const NuevosProyectos: React.FC = () => {
           {/* Section 2 */}
           <div className="animate-fade-in" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
             <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl 2xl:text-4xl mb-6 text-center text-glow">
-              Sección 2
+              Paco Robles
             </h2>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-center mb-8">
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -66,7 +66,7 @@ const NuevosProyectos: React.FC = () => {
           {/* Section 3 */}
           <div className="animate-fade-in" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
             <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl 2xl:text-4xl mb-6 text-center text-glow">
-              Sección 3
+              Clara Giménez
             </h2>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-center mb-8">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.

@@ -16,7 +16,7 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
     { text: "Textos", href: "/textos" },
   ];
 
-  const specialMenuItem = { text: "Nuevos Proyectos", href: "/nuevos-proyectos" };
+  const specialMenuItem = { text: "¿En qué estamos?", href: "/nuevos-proyectos" };
 
   if (isMobile) {
     return (

@@ -271,17 +271,6 @@ const Textos: React.FC = () => {
               </a>
             </li>
 
-            <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
-              <a href="/textos/ESCRITO-A-MANO.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
-                <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
-                  Escrito a mano
-                </h2>
-                <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-                  Guillermo Jaim Etcheverry
-                </h3>
-              </a>
-            </li>
-
             <h1 className="font-inter text-amber-500 text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in text-glow"
             style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
           Publicaciones en la revista de La Casita (1996-2000?)
@@ -290,10 +279,10 @@ const Textos: React.FC = () => {
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
               <a href="/textos/ARTICULO-LA-CASITA-1.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
-                  Artículo (titular?)
+                  Cosas que pasan
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
-                  Revista La Casita (poner autoría?)
+                  Begoña González
                 </h3>
               </a>
             </li>
