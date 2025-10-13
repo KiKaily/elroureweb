@@ -34,7 +34,7 @@ const NuevosProyectos: React.FC = () => {
             <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl 2xl:text-4xl mb-6 text-center text-glow">
               Begoña González
             </h2>
-            <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-center mb-8">
+            <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-left mb-8">
               Fuí co-fundadora y coordinadora de La Casita y El Roure. Madre, maestra, formadora, orientadora y articulista, formada en diferentes disciplinas corporales, artísticas, psicológicas y educativas, así como en Comunicación consciente (CNV) y facilitación de grupos.
 En este momento me dedico al acompañamiento a madres, padres y profesionales a partir de  las diferentes situaciones y dificultades cotidianas que conlleva la relación con niñas, niños y adolescentes. Por otra parte facilito formaciones adaptadas a las necesidades de colectivos educativos interesados en el enfoque de la educación viva y la comunicación consciente.</p>
             <div className="w-full flex justify-center">
