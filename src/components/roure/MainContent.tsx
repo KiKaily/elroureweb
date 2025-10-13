@@ -34,8 +34,8 @@ const MainContent: React.FC<MainContentProps> = ({
   }, [skipAnimations, isMobile]);
 
   return (
-    <section className="flex flex-col items-center relative w-full max-w-full bg-fixed">
-      <div className={`relative flex ${isMobile ? 'flex-col items-center' : 'flex-row justify-center items-center'} w-full`}>
+    <section className="flex flex-col items-center justify-center relative w-full max-w-full bg-fixed h-full">
+      <div className={`relative flex ${isMobile ? 'flex-col items-center' : 'flex-row justify-center items-center'} w-full mb-8 lg:mb-16`}>
         {!isMobile && (
           <>
             <div
@@ -63,7 +63,7 @@ const MainContent: React.FC<MainContentProps> = ({
                   <span className="block mt-3 text-center md:text-center lg:text-left w-full mx-auto">
                     ¿Cuál ha sido el norte de ese viaje?
                   </span>
-                  <span className="block mt-3 text-center md:text-center lg:text-left w-full mx-auto">
+                  <span className="block mt-3 text-center md:text-center lg:text-left w-full mx-auto text-amber-400">
                     Cada criatura es una semilla.
                   </span>
                   <span className="block mt-3 text-center md:text-center lg:text-left w-full mx-auto">
@@ -82,39 +82,51 @@ const MainContent: React.FC<MainContentProps> = ({
             loadingStage >= 2 ? "opacity-100" : "opacity-0"
           }`}
           style={{
-            overflow: "visible", // permite ver el glow
             transition: "opacity 1s ease-in-out",
           }}
         >
-          <div
-            className="text-glow-strong flex justify-center items-center mx-auto"
+          <img
+            src="/assets/anillos madera.png"
+            className={`w-[25vw] max-w-[400px] min-w-[140px] max-sm:w-[50vw] h-auto object-contain transition-opacity duration-1000 mx-auto ${
+              loadingStage >= 2 ? "opacity-90" : "opacity-0"
+            }`}
+            alt="Decorative Pattern"
             style={{
-              filter: "drop-shadow(0 0 6px rgba(255,255,255,0.5))",
+              transition: "opacity 1s ease-in-out",
+              filter: "drop-shadow(0 0 8px rgba(255,255,255,0.3)) drop-shadow(0 0 15px rgba(255,255,255,0.15))"
             }}
-          >
-            <img
-              src="/assets/anillos madera.png"
-              className={`w-[25vw] max-w-[400px] min-w-[140px] max-sm:w-[50vw] h-auto object-contain transition-opacity duration-1000 mx-auto ${
-                loadingStage >= 2 ? "opacity-90" : "opacity-0"
-              }`}
-              alt="Decorative Pattern"
-              style={{
-                borderRadius: "0", // elimina cualquier recorte visible
-                background: "transparent", // sin fondo sólido
-                transition: "opacity 1s ease-in-out",
-              }}
-            />
-          </div>
+          />
         </div>
 
         {/* MOBILE */}
         {isMobile && (
           <>
-            <div className="w-[90%] mt-8 space-y-4">
-              {/* ... (los textos móviles igual) ... */}
-            </div>
             <div className="w-[90%] mt-8 flex justify-center">
               <LeftMenu loadingStage={loadingStage} isMobile={true} />
+            </div>
+            <div className="w-[90%] mt-8 space-y-4">
+              <p
+                className={`font-montserrat text-stone-100 text-xs leading-relaxed text-glow transition-opacity duration-1000 ${
+                  loadingStage >= 3 ? "opacity-100" : "opacity-0"
+                }`}
+                style={{
+                  transform: loadingStage >= 3 ? "translateY(0)" : "translateY(20px)",
+                  transition: "transform 1s ease-out, opacity 1s ease-out",
+                }}
+              >
+                <span className="block text-center w-full mx-auto">
+                  Del 2001 al 2025 hicimos un viaje fascinante: una escuela para familias con criaturas de 3 a 12 años.
+                </span>
+                <span className="block mt-3 text-center w-full mx-auto">
+                  ¿Cuál ha sido el norte de ese viaje?
+                </span>
+                <span className="block mt-3 text-center w-full mx-auto text-amber-400">
+                  Cada criatura es una semilla.
+                </span>
+                <span className="block mt-3 text-center w-full mx-auto">
+                  La fuerza y la inteligencia de la vida se ocupan de que se manifieste y se desarrolle. Queremos sintonizar con este latido, apoyarlo y dejar atrás lo que nos limita, para acompañarlos, para acompañarnos, desde el respeto y la consciencia de la naturaleza de cada cual.
+                </span>
+              </p>
             </div>
           </>
         )}
