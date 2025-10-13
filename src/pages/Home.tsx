@@ -16,7 +16,7 @@ const Home: React.FC = () => {
   }, [fromLanding]);
 
   return (
-    <main className="h-screen max-h-screen overflow-hidden flex flex-col items-center justify-start mx-auto px-5 py-3 font-handscript">
+    <main className="h-screen max-h-screen overflow-hidden flex flex-col items-center justify-start mx-auto px-5 py-3 font-handscript menu-page-bg">
       <div
         className={`flex-shrink-0 mb-4 w-full flex justify-center transition-opacity duration-1000 ${
           logoVisible ? "opacity-100" : "opacity-0"

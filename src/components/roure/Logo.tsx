@@ -28,15 +28,14 @@ const Logo: React.FC<LogoProps> = ({ className, animationDelay = 0 }) => {
   return (
     <div className={`flex flex-col items-center ${className}`}>
       <Link to="/home">
-        {/* Contenedor reducido para que el glow no genere rectángulo */}
-        <div
-          className="overflow-visible rounded-lg p-0"
-          style={{ cursor: "pointer" }}
-        >
+        <div style={{ cursor: "pointer" }}>
           <img
             src="/lovable-uploads/logo el roure.png"
-            className="w-[250px] h-auto max-sm:w-[230px] max-sm:h-auto text-glow-strong"
+            className="w-[250px] h-auto max-sm:w-[230px] max-sm:h-auto"
             alt="Roure Logo"
+            style={{
+              filter: "drop-shadow(0 0 20px rgba(255,255,255,0.4)) drop-shadow(0 0 40px rgba(255,255,255,0.2))"
+            }}
           />
         </div>
       </Link>

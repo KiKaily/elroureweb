@@ -82,29 +82,20 @@ const MainContent: React.FC<MainContentProps> = ({
             loadingStage >= 2 ? "opacity-100" : "opacity-0"
           }`}
           style={{
-            overflow: "visible", // permite ver el glow
             transition: "opacity 1s ease-in-out",
           }}
         >
-          <div
-            className="text-glow-strong flex justify-center items-center mx-auto"
+          <img
+            src="/assets/anillos madera.png"
+            className={`w-[25vw] max-w-[400px] min-w-[140px] max-sm:w-[50vw] h-auto object-contain transition-opacity duration-1000 mx-auto ${
+              loadingStage >= 2 ? "opacity-90" : "opacity-0"
+            }`}
+            alt="Decorative Pattern"
             style={{
-              filter: "drop-shadow(0 0 6px rgba(255,255,255,0.5))",
+              transition: "opacity 1s ease-in-out",
+              filter: "drop-shadow(0 0 20px rgba(255,255,255,0.4)) drop-shadow(0 0 40px rgba(255,255,255,0.2))"
             }}
-          >
-            <img
-              src="/assets/anillos madera.png"
-              className={`w-[25vw] max-w-[400px] min-w-[140px] max-sm:w-[50vw] h-auto object-contain transition-opacity duration-1000 mx-auto ${
-                loadingStage >= 2 ? "opacity-90" : "opacity-0"
-              }`}
-              alt="Decorative Pattern"
-              style={{
-                borderRadius: "0", // elimina cualquier recorte visible
-                background: "transparent", // sin fondo sólido
-                transition: "opacity 1s ease-in-out",
-              }}
-            />
-          </div>
+          />
         </div>
 
         {/* MOBILE */}
