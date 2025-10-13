@@ -288,36 +288,36 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="/textos/LA-MUERTE-DE-CADA-DIA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/LA-MUERTE-DE-CADA-DIA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   La muerte de cada día
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Cristóbal Gutiérrez
                 </h3>
-              </Link>
+              </a>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="/textos/DESPIERTATE-PAPA-Y-MAMA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/DESPIERTATE-PAPA-Y-MAMA.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Despiértate papá (y mamá)
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Cristóbal Gutiérrez
                 </h3>
-              </Link>
+              </a>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="/textos/CINES-BEBES-Y-SENSIBILIDAD.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <a href="/textos/CINES-BEBES-Y-SENSIBILIDAD.pdf" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded" target="_blank" rel="noopener noreferrer">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Cine, bebés y sensibilidad
                 </h2>
                 <h3 className="font-montserrat text-stone-100 text-lg xl:text-xl italic mb-2">
                   Cristóbal Gutiérrez
                 </h3>
-              </Link>
+              </a>
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>

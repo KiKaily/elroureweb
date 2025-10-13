@@ -34,8 +34,8 @@ const MainContent: React.FC<MainContentProps> = ({
   }, [skipAnimations, isMobile]);
 
   return (
-    <section className="flex flex-col items-center relative w-full max-w-full bg-fixed">
-      <div className={`relative flex ${isMobile ? 'flex-col items-center' : 'flex-row justify-center items-center'} w-full`}>
+    <section className="flex flex-col items-center justify-center relative w-full max-w-full bg-fixed h-full">
+      <div className={`relative flex ${isMobile ? 'flex-col items-center' : 'flex-row justify-center items-center'} w-full mb-8 lg:mb-16`}>
         {!isMobile && (
           <>
             <div
@@ -93,7 +93,7 @@ const MainContent: React.FC<MainContentProps> = ({
             alt="Decorative Pattern"
             style={{
               transition: "opacity 1s ease-in-out",
-              filter: "drop-shadow(0 0 20px rgba(255,255,255,0.4)) drop-shadow(0 0 40px rgba(255,255,255,0.2))"
+              filter: "drop-shadow(0 0 8px rgba(255,255,255,0.3)) drop-shadow(0 0 15px rgba(255,255,255,0.15))"
             }}
           />
         </div>
