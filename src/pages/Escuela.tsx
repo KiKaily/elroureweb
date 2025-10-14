@@ -18,13 +18,13 @@ const Escuela: React.FC = () => {
     { id: "aprendizaje", title: "Aprendizaje" },
     { id: "que-aprenden", title: "¿Qué aprenden?" },
     { id: "como-aprenden", title: "¿Cómo aprenden?" },
-    { id: "actividad-autónoma-estructurada", title: "Actividad autónoma y estructurada" },
+    { id: "actividad-autonoma-estructurada", title: "Actividad autónoma y estructurada" },
     { id: "acompanamiento", title: "Acompañamiento" },
     { id: "el-equipo", title: "El equipo" },
     { id: "las-familias", title: "Las familias" },
     { id: "etapas-tiempos-espacios", title: "Etapas, tiempos y espacios" },
     { id: "etapa-3-6", title: "De 3 a 6 años" },
-    { id: "ginesta", title: "De 6 a 12 años" }
+    { id: "etapa-6-12", title: "De 6 a 12 años" }
   ];
 
   const renderContent = () => {
@@ -98,7 +98,7 @@ Consideramos artificial y limitadora la separación entre familia y escuela. El 
             <img src="/lovable-uploads/bego_cierre.png" alt="Actividades escolares" className="w-full rounded-lg mt-4" />
           </div>
         );
-      case "actividad-autónoma-estructurada":
+      case "actividad-autonoma-estructurada":
         return (
           <div className="space-y-6">
             <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">Actividad autónoma y actividad estructurada</h3>
