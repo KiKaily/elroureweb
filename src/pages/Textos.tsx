@@ -12,7 +12,7 @@ const Textos: React.FC = () => {
     }
   }, [isMobile]);
   return (
-    <main className="max-w-none min-h-screen flex flex-col items-center mx-auto p-5 max-md:max-w-[991px] max-sm:max-w-screen-sm font-handscript menu-page-bg pb-20">
+    <main className="max-w-none min-h-screen flex flex-col items-center mx-auto p-5 max-md:max-w-[991px] max-sm:max-w-screen-sm font-handscript menu-page-bg pb-32">
   <BackToTop />
   <section className="flex flex-col items-start w-full max-w-[90vw] 2xl:max-w-[1200px] mt-10">
     <Link 
@@ -31,7 +31,7 @@ const Textos: React.FC = () => {
     </h1>
 
     <h2
-      className="font-montserrat text-stone-100 text-lg xl:text-xl italic text-left animate-fade-in mb-8"
+      className="font-inter text-amber-500 text-4xl xl:text-5xl 2xl:text-6xl mb-12 text-left animate-fade-in text-glow"
       style={{ animationDelay: '0.3s', animationFillMode: 'both' }}
     >
       Una colección de textos y publicaciones relacionadas con El Roure.
@@ -270,7 +270,7 @@ const Textos: React.FC = () => {
               </a>
             </li>
 
-            <h1 className="font-inter text-amber-500 text-4xl xl:text-5xl 2xl:text-6xl mb-8 text-center animate-fade-in text-glow"
+        <h1 className="font-inter text-amber-500 text-4xl xl:text-5xl 2xl:text-6xl my-12 text-center animate-fade-in text-glow"
             style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
           Publicaciones en la revista de La Casita (1996-2000?)
         </h1>
