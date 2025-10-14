@@ -46,8 +46,7 @@ const Historia: React.FC = () => {
           
           <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify animate-fade-in"
              style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
-            La llamamos escuela viva El Roure. Sus raíces son la experiencia de crianza, el Seitai y la Sistémica y algunas inspiraciones de pedagogías innovadoras del s. XX (Montessori, Freinet, Neill, Malaguzzi, etc.). La línea pedagógica se fue concretando y desarrollando a través de la práctica cotidiana con los niños y niñas, con las madres y padres, en la relación de equipo. A partir de muchas preguntas, la observación y la reflexión, algunos criterios se fueron clarificando y confirmando. El proceso de descubrimiento y aprendizaje ha seguido hasta el final.
-          </p>
+            La llamamos escuela viva El Roure. Sus raíces son la experiencia de crianza, el Seitai y la Sistémica y algunas inspiraciones de pedagogías innovadoras del s. XX (Montessori, Freinet, Neill, Malaguzzi, etc.). La línea pedagógica se fue concretando y desarrollando a través de la práctica cotidiana con los niños y niñas, con las madres y padres, en la relación de equipo. A partir de muchas preguntas, la observación y la reflexión, algunos criterios se fueron clarificando y confirmando. El proceso de descubrimiento y aprendizaje ha seguido hasta el final.</p>
           
           <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify animate-fade-in"
              style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
@@ -64,13 +63,14 @@ const Historia: React.FC = () => {
           </div>
           
           <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
-            La semilla de El Roure encontró las condiciones más favorables para germinar y crecer. Una persona cercana hizo de mecenas ofreciéndose a comprar la preciosa finca que elegimos para ubicar el proyecto. Empezamos con 6 criaturas que venían desde Barcelona y se quedaban a dormir en la masía tres días a la semana. Poco a poco el grupo fue creciendo y las familias participantes realizaron todo un cambio de vida trasladándose a la zona. Estas primeras familias se entregaron en cuerpo y alma a la reforma de las edificaciones e implicaron a familiares y amigos.
-          </p>
+            La semilla de El Roure encontró las condiciones más favorables para germinar y crecer. Una persona cercana hizo de mecenas ofreciéndose a comprar la preciosa finca que elegimos para ubicar el proyecto. Empezamos con 6 criaturas que venían desde Barcelona y se quedaban a dormir en la masía tres días a la semana. Poco a poco el grupo fue creciendo y las familias participantes realizaron todo un cambio de vida trasladándose a la zona. Estas primeras familias se entregaron en cuerpo y alma a la reforma de las edificaciones e implicaron a familiares y amigos.</p>
           
           <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
-            Fue una época de trabajo exhausto, tanto en la reforma y adecuación del espacio y en la preparación de materiales educativos como en la reflexión y evolución de la metodología, la organización y la explicación de la línea educativa que estábamos creando. Como todo comienzo, se vivió en un ambiente de ilusión y de implicación muy intenso entre el equipo, familias, amigos y profesionales que colaboraban de forma desinteresada. Compartimos sudor entre cemento, escombros y pintura, horas de cocina, tertulias pedagógicas en sobremesas de grupo, sueños, incertidumbres y mucha confianza. Fueron tiempos de carencias económicas y dificultades constantes, en las que no existían las vacaciones…y nos empujaba una fuerza inmensa.
-          </p>
+            Fue una época de trabajo exhausto, tanto en la reforma y adecuación del espacio y en la preparación de materiales educativos como en la reflexión y evolución de la metodología, la organización y la explicación de la línea educativa que estábamos creando.</p>
           
+          <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
+            Como todo comienzo, se vivió en un ambiente de ilusión y de implicación muy intenso entre el equipo, familias, amigos y profesionales que colaboraban de forma desinteresada. Compartimos sudor entre cemento, escombros y pintura, horas de cocina, tertulias pedagógicas en sobremesas de grupo, sueños, incertidumbres y mucha confianza. Fueron tiempos de carencias económicas y dificultades constantes, en las que no existían las vacaciones…y nos empujaba una fuerza inmensa.</p>
+
           <div className="w-full max-w-[600px] mx-auto mb-8">
             <img
               src="/lovable-uploads/bego_cierre.png"
@@ -88,7 +88,9 @@ const Historia: React.FC = () => {
           </p>
           
           <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
-            La escuela creció hasta llegar a acoger a 90 niñas, niños y adolescentes. Siempre tuvimos vocación de escuela pequeña, para poder hacer el trabajo con la profundidad que queríamos y esa dimensión se convirtió en el límite.
+            La escuela creció hasta llegar a acoger a 90 niñas, niños y adolescentes. Siempre tuvimos vocación de escuela pequeña, para poder hacer el trabajo con la profundidad que queríamos y esa dimensión se convirtió en el límite. 
+
+
           </p>
           
           <div className="w-full max-w-[600px] mx-auto mb-8">
@@ -100,16 +102,16 @@ const Historia: React.FC = () => {
           </div>
           
           <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
-            En 2017, tras un enorme esfuerzo económico y organizativo por parte de toda la comunidad (que incluyó un micromecenazgo impulsado por las familias), conseguimos la autorización como escuela de primaria, por parte del Departament d'Educació de la Generalitat de Catalunya.
+            En 2017, tras un enorme esfuerzo económico y organizativo por parte de toda la comunidad (que incluyó un micromecenazgo impulsado por las familias), conseguimos la autorización como escuela de primaria, por parte del Departament d’Educació de la Generalitat de Catalunya.
           </p>
           
           <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
-            Después del confinamiento por el coronavirus del 2020, la escuela fue decreciendo. El mundo era otro al de los inicios; las familias tendían más a la escolarización pública gratuita y cercana a su vivienda, las escuelas públicas habían ido paulatinamente abriéndose hacia la creación de ambientes con materiales manipulativos y la llamada "libre circulación", etc.
+            Después del confinamiento por el coronavirus del 2020, la escuela fue decreciendo. El mundo era otro al de los inicios; las familias tendían más a la escolarización pública gratuita y cercana a su vivienda, las escuelas públicas habían ido paulatinamente abriéndose hacia la creación de ambientes con materiales manipulativos y la llamada “libre circulación”, etc.
           </p>
           
           <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
-            A raíz de serias dificultades en la finca, la disminución del número de familias y la falta de relevo en la coordinación de la escuela, decidimos el cierre.
-          </p>
+           A raíz de serias dificultades en la finca, la disminución del número de familias y la falta de relevo en la coordinación de la escuela, decidimos el cierre.
+        </p>
         </div>
         <div className="mb-20"></div>
       </section>

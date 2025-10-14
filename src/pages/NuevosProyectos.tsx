@@ -43,6 +43,10 @@ En este momento me dedico al acompañamiento a madres, padres y profesionales a 
                 className="max-w-full h-auto rounded-lg"
                 alt="Nuevos Proyectos - Sección 1"
               />
+              <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-left mb-8">
+              Me dedico al acompañamiento a madres, padres y profesionales a partir de  las diferentes situaciones y dificultades cotidianas que conlleva la relación con niñas, niños y adolescentes.</p>
+<p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-left mb-8">
+              Por otra parte facilito formaciones adaptadas a las necesidades de colectivos educativos interesados en el enfoque de la educación viva y la comunicación consciente. </p>
             </div>
           </div>
 
