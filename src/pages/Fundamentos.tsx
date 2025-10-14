@@ -106,9 +106,6 @@ Ese ambiente amoroso, necesario para que las criaturas crezcan, tiene dos vertie
 
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
 Como seres humanos disponemos de una inmensa capacidad innata de aprendizaje autónomo que se activa a través de la curiosidad y el diálogo permanente entre el deseo interno y el entorno, y que es posible mantener a lo largo de toda la vida. Cada cual tiene una manera y un ritmo de aprendizaje que nos es propio, en comunicación permanente con nuestra naturaleza y nuestro momento vital. Es fundamental respetar y cuidar este impulso interno en un ambiente rico en situaciones y experiencias de aprendizaje.            </p>
-          </section>
-
-          
             
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
 Tenemos la capacidad de desarrollar lo que ya somos como potencial y de autorregular el intercambio con el entorno, es decir, de discernir el contenido, el momento y la medida de un determinado aprendizaje. Esta capacidad se manifiesta desde el nacimiento y de forma innata, como una gran curiosidad y ganas de aprender, que permite que los niños conquisten aprendizajes de gran complejidad de una manera autónoma. Es una cuestión de supervivencia, porque es la que surge del mismo hecho de crecer y de la necesidad de acoplamiento al entorno. Por eso es fundamental un ambiente rico y próximo, que cubra las necesidades de la criatura con posibilidades de vivencias diversas y rodeadas de un afecto incondicional.            </p>
@@ -118,8 +115,6 @@ Apoyamos las ganas de autonomía que se manifiestan desde las primeras edades y 
             
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
 En todo caso nuestro papel como adultos no es el de evitar o solucionar problemas, sino el de acompañar las dificultades que puedan surgir porque las resuelvan con sus propios recursos; de este modo serán aprovechadas para avanzar. Nuestro papel no pasa por dar respuestas cerradas y directas a sus preguntas, sino por servir de eco y de interlocutores para que surja y se construya una respuesta propia.            </p>
-            
-            
           </section>
         </div>
         <div className="mb-20"></div>

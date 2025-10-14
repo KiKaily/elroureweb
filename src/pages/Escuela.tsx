@@ -255,7 +255,7 @@ En esos casos establecemos un proceso de observación, seguimiento y acompañami
              style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
           {/* Submenu */}
           <div className="lg:w-1/4 w-full">
-            <div className="bg-white/20 rounded-lg p-4 sticky top-4">
+            <div className="p-4 sticky top-4">
               <h2 className="font-inter text-stone-100 text-xl mb-4">Secciones</h2>
               <nav className="space-y-2">
                 {menuItems.map((item) => (
@@ -265,7 +265,7 @@ En esos casos establecemos un proceso de observación, seguimiento y acompañami
                     className={`w-full text-left px-3 py-2 rounded transition-all duration-300 font-inter ${
                       activeSection === item.id
                         ? 'bg-white/20 text-orange-700 font-semibold'
-                        : 'text-stone-100 hover:bg-white/30'
+                        : 'text-stone-100 hover:text-orange-700/70'
                     }`}
                   >
                     {item.title}
@@ -277,7 +277,7 @@ En esos casos establecemos un proceso de observación, seguimiento y acompañami
           
           {/* Content */}
           <div className="lg:w-3/4 w-full">
-            <div className="bg-white/10 rounded-lg p-6">
+            <div className="p-6">
               {renderContent()}
             </div>
           </div>

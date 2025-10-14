@@ -7,13 +7,22 @@ const Home: React.FC = () => {
   const location = useLocation();
   const fromLanding = location.state?.fromLanding === true;
   const [logoVisible, setLogoVisible] = useState(!fromLanding);
+  const [hasAnimated, setHasAnimated] = useState(() => {
+    return sessionStorage.getItem('homeAnimationPlayed') === 'true';
+  });
 
   useEffect(() => {
-    if (fromLanding) {
-      const timer = setTimeout(() => setLogoVisible(true), 100);
+    if (fromLanding && !hasAnimated) {
+      const timer = setTimeout(() => {
+        setLogoVisible(true);
+        sessionStorage.setItem('homeAnimationPlayed', 'true');
+        setHasAnimated(true);
+      }, 100);
       return () => clearTimeout(timer);
+    } else if (!fromLanding) {
+      setLogoVisible(true);
     }
-  }, [fromLanding]);
+  }, [fromLanding, hasAnimated]);
 
   return (
     <main className="h-screen max-h-screen overflow-hidden flex flex-col items-center mx-auto px-5 py-8 lg:py-12 font-handscript menu-page-bg">
@@ -27,7 +36,7 @@ const Home: React.FC = () => {
       </div>
 
       <div className="w-full flex-1 flex items-center justify-center overflow-y-auto">
-        <MainContent skipAnimations={!fromLanding} />
+        <MainContent skipAnimations={!fromLanding || hasAnimated} />
       </div>
     </main>
   );
