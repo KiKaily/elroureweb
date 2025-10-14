@@ -85,7 +85,7 @@ Consideramos artificial y limitadora la separación entre familia y escuela. El 
       case "como-aprenden":
         return (
           <div className="space-y-6">
-            <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">¿Cómo aprenden los niños?</h3>
+            <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">¿Cómo aprenden los niños y niñas?</h3>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               El aprendizaje no es un proceso lineal, progresivo y rítmico, tampoco está ligado continuamente a la consciencia. Está más bien ligado al bienestar vital y, consecuentemente, al ambiente, a la calidad de la vivencia y la comunicación. Por este motivo, es posible observar tanto recorridos con carácter constante y gradual, como repentinos y con avances sorprendentes. De una forma u otra, estamos convencidos de que lo que determina la solidez de lo aprendido no es el tiempo invertido, la hipotética adecuación del contenido a la edad, ni siquiera la metodología escogida. Nuestra atención no puede centrarse en programaciones cerradas y tiempos predeterminados, sino en actividades abiertas y flexibles que se adaptan a las necesidades de cada criatura.
             </p>
@@ -116,7 +116,7 @@ Consideramos artificial y limitadora la separación entre familia y escuela. El 
 
           </div>
         );
-      case "acompañamiento":
+      case "acompanamiento":
         return (
           <div className="space-y-6">
             <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">Acompañamiento</h3>
