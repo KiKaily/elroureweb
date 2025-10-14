@@ -18,13 +18,12 @@ const Escuela: React.FC = () => {
     { id: "aprendizaje", title: "Aprendizaje" },
     { id: "que-aprenden", title: "¿Qué aprenden?" },
     { id: "como-aprenden", title: "¿Cómo aprenden?" },
-    { id: "actividades", title: "Actividades" },
+    { id: "actividad-autónoma-estructurada", title: "Actividad autónoma y estructurada" },
     { id: "acompanamiento", title: "Acompañamiento" },
-    { id: "equipo", title: "El equipo" },
-    { id: "familias", title: "Las familias" },
-    { id: "ninos", title: "Los niños y niñas" },
-    { id: "etapas", title: "Etapas y espacios" },
-    { id: "cerezos", title: "De 3 a 6 años" },
+    { id: "el-equipo", title: "El equipo" },
+    { id: "las-familias", title: "Las familias" },
+    { id: "etapas-tiempos-espacios", title: "Etapas, tiempos y espacios" },
+    { id: "etapa-3-6", title: "De 3 a 6 años" },
     { id: "ginesta", title: "De 6 a 12 años" }
   ];
 
@@ -99,7 +98,7 @@ Consideramos artificial y limitadora la separación entre familia y escuela. El 
             <img src="/lovable-uploads/bego_cierre.png" alt="Actividades escolares" className="w-full rounded-lg mt-4" />
           </div>
         );
-      case "actividades":
+      case "actividad-autónoma-estructurada":
         return (
           <div className="space-y-6">
             <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">Actividad autónoma y actividad estructurada</h3>
@@ -132,7 +131,7 @@ Consideramos artificial y limitadora la separación entre familia y escuela. El 
             <img src="/lovable-uploads/bego_cierre.png" alt="Equipo pedagógico" className="w-full rounded-lg mt-4" />
           </div>
         );
-      case "equipo":
+      case "el-equipo":
         return (
           <div className="space-y-6">
             <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">El equipo</h3>
@@ -145,20 +144,8 @@ La otra parte de la labor del equipo pedagógico era la aportación a madres y p
             <img src="/lovable-uploads/bego_cierre.png" alt="Las familias" className="w-full rounded-lg mt-4" />
           </div>
         );
-      case "ninos":
-        return (
-          <div className="space-y-6">
-            <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">Los niños y niñas</h3>
-            <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
-              Hay un eje y una dirección en el camino de búsqueda de nuestra experiencia de acompañamiento: cuidar la esencia del espíritu infantil. La mirada original de los niños está iluminada por el deseo de ser y aprender; pide un amplio margen de autonomía y una estrecha relación con los adultos.
-            </p>
-            <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
-              El verdadero aprendizaje se da a partir del impulso de cada niño y es el fruto del diálogo continuado entre su interior y el exterior.
-            </p>
-            <img src="/lovable-uploads/bego_cierre.png" alt="Los niños y niñas" className="w-full rounded-lg mt-4" />
-          </div>
-        );
-      case "familias":
+      
+      case "las-familias":
         return (
           <div className="space-y-6">
             <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">Las familias</h3>
@@ -253,7 +240,7 @@ En esos casos establecemos un proceso de observación, seguimiento y acompañami
         
         <div className="w-full flex flex-col lg:flex-row gap-8 animate-fade-in"
              style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
-          {/* Submenu */}
+          
           <div className="lg:w-1/4 w-full">
             <div className="p-4 sticky top-4">
               <h2 className="font-inter text-stone-100 text-xl mb-4">Secciones</h2>
