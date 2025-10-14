@@ -22,7 +22,7 @@ const Index: React.FC = () => {
     <>
       <main className="max-w-none min-h-screen flex flex-col items-center justify-center mx-auto p-5 landing-bg">
         <div id="landing-logo">
-          <Logo className="mb-10 scale-125" animationDelay={0} />
+          <Logo className="mb-10 scale-150 lg:scale-[1.75]" animationDelay={0} />
         </div>
         
         <button
