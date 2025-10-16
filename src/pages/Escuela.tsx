@@ -53,7 +53,7 @@ const Escuela: React.FC = () => {
               El verdadero aprendizaje se da a partir del impulso vital de cada niño y es el fruto del diálogo continuado entre su interior y el exterior. Aunque es una dinámica intrínseca al hecho de estar vivos, puede ser favorecida y alimentada o dificultada y dormida.            </p>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               En El Roure hemos buscado una experiencia de aprendizaje sólida, arraigada, viva. Para que se dé ese nivel de aprendizaje, el proceso debe tener como eje el deseo y la necesidad propia y el respeto al ritmo y recorrido peculiares de cada cual.            </p>
-            <img src="/lovable-uploads/bego_cierre.png" alt="Aprendizaje natural" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.webp" alt="Aprendizaje natural" className="w-full rounded-lg mt-4" />
           
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
 Esos procesos individuales estaban enmarcados en un contexto amplio, en el que tratamos de acompañar la globalidad del crecimiento de cada criatura sin sobrevalorar ningún aspecto sobre otro: su mundo emocional, sus aprendizajes culturales, su capacidad de reflexión, de expresión y comunicación con los otros, la conciencia de sí mismos, su desarrollo motriz, su creatividad, etc.          
@@ -73,7 +73,7 @@ Consideramos artificial y limitadora la separación entre familia y escuela. El 
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               Cada niño y niña debe aprender a andar, a hablar, a tolerar la frustración, a tener en cuenta a los demás, a entenderse, a conocer el lenguaje de las emociones, a conocer su cultura y la de los demás, a conocer su cuerpo y sus capacidades, a elaborar pensamientos propios, etc. Es todo el ser el que aprende y los aprendizajes no están parcelados ni aislados unos de otros. En el aprender todo el organismo está implicado: el aspecto físico al actuar y percibir el propio cuerpo, el emocional al sentir y relacionarse, el intelectual al asimilar información y procesarla, forman parte de un todo indisociable.
             </p>
-            <img src="/lovable-uploads/bego_cierre.png" alt="Proceso de aprendizaje" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.webp" alt="Proceso de aprendizaje" className="w-full rounded-lg mt-4" />
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               En El Roure todo ha estado al servicio del aprendizaje a partir de las realidades individuales y grupales que se iban dando. Hemos contemplado un currículum abierto, dinámico y flexible, materiales, espacios, actividades, metodologías, situaciones y posibilidades en continuo movimiento.
             </p>
@@ -95,7 +95,7 @@ Consideramos artificial y limitadora la separación entre familia y escuela. El 
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               Ofrecer la posibilidad a los niños y niñas de seguir su impulso vital y explorar, no es sólo priorizar su bienestar, sino también apostar por una relación de amistad con el aprendizaje.
             </p>
-            <img src="/lovable-uploads/bego_cierre.png" alt="Actividades escolares" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.webp" alt="Actividades escolares" className="w-full rounded-lg mt-4" />
           </div>
         );
       case "actividad-autonoma-estructurada":
@@ -108,13 +108,13 @@ Consideramos artificial y limitadora la separación entre familia y escuela. El 
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               La actividad autónoma y espontánea es la natural y necesaria durante toda la infancia. Es a través de esta actividad que el niño busca y encuentra lo necesario para su bienestar más íntimo, según una sensible guía innata. A lo largo de toda la infancia, esta actividad consiste principalmente en el juego, que es la vía de la experimentación imprescindible para el aprendizaje, es decir, para la comprensión de sí mismo en el mundo que le rodea.
             </p>
-            <img src="/public/lovable-uploads/bego_cierre.png" alt="Acompañamiento familiar" className="w-full rounded-lg mt-4" />
-              <img src="/lovable-uploads/bego_cierre.png" alt="Acompañamiento familiar" className="w-full rounded-lg mt-4" />
-              <img src="/lovable-uploads/bego_cierre.png" alt="Acompañamiento familiar" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.webp" alt="Acompañamiento familiar" className="w-full rounded-lg mt-4" />
+              <img src="/lovable-uploads/bego_cierre.webp" alt="Acompañamiento familiar" className="w-full rounded-lg mt-4" />
+              <img src="/lovable-uploads/bego_cierre.webp" alt="Acompañamiento familiar" className="w-full rounded-lg mt-4" />
              <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               La actividad estructurada es la que el equipo educativo prepara y ofrece en función de los contenidos curriculares y de lo que considera necesario en cada momento para el grupo. Las niñas y niños descubren así aspectos de la cultura adaptados a su mirada, se les pueden presentar nuevos interrogantes y descubrimientos a los que, sin esta mediación, no podrían tener acceso. En esta relación, el adulto abre nuevos horizontes y acompaña en la aventura de una nueva incursión investigadora.
             </p>
-            <img src="/public/lovable-uploads/bego_cierre.png" alt="Acompañamiento familiar" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.webp" alt="Acompañamiento familiar" className="w-full rounded-lg mt-4" />
 
           </div>
         );
@@ -130,7 +130,7 @@ Consideramos artificial y limitadora la separación entre familia y escuela. El 
                 <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
                  
                 Este acompañamiento tiene dos vertientes: por un lado, el acompañamiento a niños y niñas en un ambiente respetuoso y rico en vivencias individuales y colectivas. Por otro lado, un acompañamiento a madres y padres que invite a la observación, la percepción sensible y la reflexión, para apoyar y enriquecer la experiencia de crianza de los hijos e hijas.            </p>
-            <img src="/lovable-uploads/bego_cierre.png" alt="Equipo pedagógico" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.webp" alt="Equipo pedagógico" className="w-full rounded-lg mt-4" />
           </div>
         );
       case "el-equipo":
@@ -143,7 +143,7 @@ En el equipo, siempre hemos reconocido que las familias depositan una gran confi
 Las personas que formamos el equipo pedagógico nos propusimos desarrollar nuestra sensibilidad hacia la escucha, la observación y la percepción, así como la capacidad de analizar, interpretar y reflexionar sobre lo que cada niño y niña manifiestan. Necesitamos tener iniciativa propia para reaccionar y responder en cada momento y situación con una determinada intervención con cada niño y niña. Nuestra función incluía el soporte y el acompañamiento, tanto a nivel afectivo como en la búsqueda de nuevas posibilidades de aprendizaje. Constituimos un referente continuo que siempre debía saber dejar espacio para la autonomía, en todos los aspectos. También se daba un espacio en el que las diferentes miradas de cada miembro del equipo establecían un diálogo intenso y vivo.            </p>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
 La otra parte de la labor del equipo pedagógico era la aportación a madres y padres de nuestra visión de los hijos e hijas, y de su acompañamiento en cada momento del proceso de crecimiento. Partimos de la base de que es posible un diálogo activo, compartiendo informaciones, percepciones, interpretaciones y reflexiones, que no pretendían llegar a respuestas cerradas sino a claves para continuar el camino.            </p>
-            <img src="/lovable-uploads/bego_cierre.png" alt="Las familias" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.webp" alt="Las familias" className="w-full rounded-lg mt-4" />
           </div>
         );
       
@@ -154,7 +154,7 @@ La otra parte de la labor del equipo pedagógico era la aportación a madres y p
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
 Cada niña y cada niño se sostiene sobre su familia, de donde nace su confianza, seguridad y  referencia necesarias para crecer. La madre y el padre representan el eje vital en la infancia y es el vínculo de amor entre los miembros de la familia lo que permite que el niño o la niña vivan y se desarrollen de forma sana. Por eso consideramos que las madres y padres son los primeros y principales responsables del acompañamiento durante el crecimiento.            </p>
             
-            <img src="/lovable-uploads/bego_cierre.png" alt="Etapas y espacios" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.webp" alt="Etapas y espacios" className="w-full rounded-lg mt-4" />
           </div>
         );
       case "etapas-tiempos-espacios":
@@ -165,12 +165,12 @@ Cada niña y cada niño se sostiene sobre su familia, de donde nace su confianza
 En El Roure teníamos dos etapas diferenciadas y en relación: Els Cirerers (Los Cerezos), para niños y niñas entre 3 y 6 años y La Ginesta y La Arbreda (La Arboleda), para niñas y niños entre 7 y 12 años. También tuvimos, durante unos años, un grupo de 13 a 16 años en lo que llamamos L’Heura (La Hiedra).            </p>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
 Consideramos que cada etapa requiere un espacio y un ambiente propios, pero encontramos enriquecedora la convivencia de edades. Por eso favorecemos formas y situaciones de intercambio entre los grupos.            </p>
-            <img src="/lovable-uploads/bego_cierre.png" alt="De 3 a 6 años" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.webp" alt="De 3 a 6 años" className="w-full rounded-lg mt-4" />
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
 Entre el final de una etapa y el comienzo de la siguiente había un tiempo de transición flexible que permitía conocer el ambiente y el grupo de la nueva etapa y hacerse consciente del cambio. Tanto al entrar a la escuela como al cambiar de etapa o al marchar de ella, celebrábamos rituales de paso.  </p>          
 <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
 La organización del tiempo era simple y flexible, en la que los diferentes elementos se combinaban en proporciones diferentes en cada etapa: actividad autónoma y estructurada, almuerzo colectivo, recogida de espacios y reunión grupal diarias al final del día.</p>
-            <img src="/lovable-uploads/bego_cierre.png" alt="De 3 a 6 años" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.webp" alt="De 3 a 6 años" className="w-full rounded-lg mt-4" />
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
 Tanto el espacio interior como el exterior de cada etapa eran habitados libremente como espacios de aprendizaje y exploración. El espacio exterior nos venía dado por una finca extensa rodeada de bosque en un entorno rural; la fauna y la flora y el ecosistema natural ofrecían continuamente ocasiones para el asombro y la investigación. Los espacios interiores estaban preparados en función de los diferentes tipos de actividad: una sala motriz y polivalente, una zona con rincones con materiales de matemáticas, geografía e historia, biblioteca, lenguas, medio natural, un taller de plástica y carpintería, una sala de música, etc. Tanto el espacio exterior como interior estaban interrelacionados y cubren necesidades diversas indistintamente: intimidad, sociabilidad, actividad, contemplación, concentración, expansión, etc. Ambos eran fuente interminable de vivencias de aprendizaje, cada rincón respiraba y conservaba huellas de emociones y descubrimientos.</p>
           </div>
@@ -185,7 +185,7 @@ Las niñas y niños más pequeños exploran constantemente de una manera global 
 Cualquiera de sus actividades lúdicas, de relación, de expresión, de motricidad, lleva implícita una gran cantidad y variedad de aprendizajes: cuando un niño juega en el arenero traspasando agua de un recipiente a otro y la mezcla con la arena para hacer una pasta; cuando construye torres con piezas de madera o circuitos con rampas, rectas y desniveles para hacer pasar pelotas; cuando estira la cuerda de una carretilla vacía, primero, y después con dos amigos que se han encaramado y comprueba la diferencia, está comprendiendo vivencialmente leyes de la física, lo que le permitirá comprenderlas posteriormente de manera intelectual ; cuando un niño busca la medida conveniente de un palo para su cabaña, probando ahora uno y ahora otro; cuando trata de hacer pedazos iguales de un pastel de cumpleaños o reparte balas para un juego; cuando encuentra formas geométricas en cualquier objeto; cuando se pregunta por el transcurso del tiempo o compara las distancias recorridas en dos viajes, está entrando en el pensamiento lógico-matemático. Cuando hace garabatos en un papel imitando la escritura de los adultos, mira atentamente las letras impresas en un cuento, describe verbalmente lo que ve en una ilustración, ya está inmerso en el aprendizaje de la lectoescritura.            </p>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
 La actividad básica en esta etapa era totalmente espontánea. Los diferentes materiales están al alcance de los niños y niñas para ser empleados en los espacios destinados a ellos: rincones de juego simbólico, de construcciones, de matemáticas y de lectoescritura, sala de movimiento y música, talleres de plástica y ciencias naturales, arenero exterior, etc. Existía, además, una programación interna del equipo con la que cada día de la semana se proponía una actividad estructurada acompañada por un adulto en relación con diferentes campos del aprendizaje: las matemáticas, la lectoescritura, la plástica, la música, el juego simbólico y la psicomotricidad, la naturaleza, etc. Estas propuestas eran voluntarias y flexibles en el tiempo en función del interés grupal. Por otra parte, cada día solían aparecer de forma natural e improvisada numerosas situaciones de aprendizaje que el adulto nutría con conversaciones o materiales.            </p>
-            <img src="/lovable-uploads/bego_cierre.png" alt="De 6 a 12 años" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.webp" alt="De 6 a 12 años" className="w-full rounded-lg mt-4" />
           </div>
         );
 
@@ -198,7 +198,7 @@ Empieza una etapa en la que los niños y niñas ya empiezan a estar preparados p
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
 La actividad autónoma sigue siendo fundamental y se desarrolla en los diferentes espacios disponibles. La actividad estructurada tiene un papel más importante en esta etapa. Los niños están cada vez más interesados ​​en actividades más abstractas, organizadas, estructuradas y vinculadas al adulto y al grupo. A partir de esa edad hemos establecido una estructura de actividades visible y voluntaria con la mediación del adulto.</p>
             
-            <img src="/lovable-uploads/bego_cierre.png" alt="De 6 a 12 años" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.webp" alt="De 6 a 12 años" className="w-full rounded-lg mt-4" />
 
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
 Entendemos que existen diversas formas de desarrollar un aprendizaje estructurado y se trata de ofrecer puntos de partida para que cada niño y niña pueda moverse en esta diversidad según su particular sensibilidad y naturaleza. Por eso existen formas individuales o de grupo, autónomas o acompañadas por los adultos, concretas o abstractas, temáticas o interdisciplinarias, etc. El objetivo de la actividad estructurada es abrir nuevos horizontes, mostrar nuevas experiencias y posibilidades de aprendizaje en un contexto de grupo. Son de carácter vivencial, se desarrollan mediante una metodología lúdica ya menudo interdisciplinar y tratan de recorrer el amplio abanico de aspectos de la cultura.</p>
@@ -206,7 +206,7 @@ Entendemos que existen diversas formas de desarrollar un aprendizaje estructurad
 Hay niños y niñas con necesidades de un acompañamiento más cercano y continuado o cualquiera, puede tener momentos puntuales de dificultad, rechazo, resistencia o bloqueo en relación con cualquier tipo de aprendizaje.</p>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
 En esos casos establecemos un proceso de observación, seguimiento y acompañamiento más cercano de lo habitual, para determinar el grado de intervención conveniente, con el objetivo de abordar y resolver esta dificultad en concreto. De esta forma, favorecemos que estos niños y niñas encuentren la posibilidad de resolver su conflicto a través de un marco mediado por el adulto.</p>
-            <img src="/lovable-uploads/bego_cierre.png" alt="De 6 a 12 años" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.webp" alt="De 6 a 12 años" className="w-full rounded-lg mt-4" />
           </div>
         );
       default:
@@ -234,7 +234,7 @@ En esos casos establecemos un proceso de observación, seguimiento y acompañami
         <div className="w-full max-w-[800px] mb-8 animate-fade-in"
              style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
           <img
-            src="/lovable-uploads/bego_cierre.png"
+            src="/lovable-uploads/bego_cierre.webp"
             className="w-full h-auto rounded-lg object-contain max-w-full"
             alt="Escuela"
           />

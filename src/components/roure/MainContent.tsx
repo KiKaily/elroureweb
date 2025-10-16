@@ -86,7 +86,7 @@ const MainContent: React.FC<MainContentProps> = ({
           }}
         >
           <img
-            src="/assets/anillos madera.png"
+            src="/lovable-uploads/bego_cierre.webp"
             className={`w-[25vw] max-w-[400px] min-w-[140px] max-sm:w-[50vw] h-auto object-contain transition-opacity duration-1000 mx-auto ${
               loadingStage >= 2 ? "opacity-90" : "opacity-0"
             }`}

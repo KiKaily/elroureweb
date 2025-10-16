@@ -30,7 +30,7 @@ const Logo: React.FC<LogoProps> = ({ className, animationDelay = 0 }) => {
       <Link to="/home">
         <div style={{ cursor: "pointer" }}>
           <img
-            src="/lovable-uploads/logo el roure.png"
+            src="/lovable-uploads/bego_cierre.webp"
             className="w-[250px] h-auto max-sm:w-[230px] max-sm:h-auto"
             alt="Roure Logo"
             style={{

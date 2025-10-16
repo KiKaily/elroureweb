@@ -115,33 +115,24 @@
     padding-right: env(safe-area-inset-right);
   }
   
+  html {
+    /* Paint the photographic background as early as possible on the root element to avoid gray flash
+       Use a cover-size fixed background and preload the image in index.html to encourage early fetch */
+    background-color: rgb(27 24 22);
+    background-image: url('/assets/fondo_web.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
   body {
     @apply text-foreground;
     /* fallback background color similar to the image so safe areas don't show white */
-    background-color: rgb(27 24 22);
-  background-image: url('/assets/fondo_web.webp');
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: transparent; /* let html paint the photographic background */
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
-  }
-
-  /* Fix for iOS where the viewport chrome can reveal page background; put a fixed pseudo-element behind content
-     This single pseudo-element will paint the photographic background site-wide so it is immediately visible
-     and does not rely on individual page pseudo-elements that may be painted later during scroll/HMR. */
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    z-index: -9999;
-    background-image: url('/assets/fondo_web.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
   }
 
   /* Desktop and tablet background */
@@ -151,9 +142,8 @@
     }
   }
 
-  /* Landing page specific background */
+  /* Landing page specific background (kept so components can still force it when needed) */
   .landing-bg {
-    /* always use the unified high-quality webp background */
     background-image: url('/assets/fondo_web.webp') !important;
     background-size: cover;
     background-attachment: fixed;
