@@ -21,6 +21,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Handlee:wght@400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Jacques+Francois+Shadow&display=swap" rel="stylesheet">
     <!-- Preload main photographic background to encourage early painting -->
     <link rel="preload" href="/assets/fondo_web.webp" as="image">
+    <!-- Critical inline CSS to paint the photographic background ASAP and avoid initial gray flash -->
+    <style>html{background-color:rgb(27,24,22);background-image:url('/assets/fondo_web.webp');background-size:cover;background-attachment:fixed;background-repeat:no-repeat;background-position:center;}</style>
   </head>
 
   <body>
