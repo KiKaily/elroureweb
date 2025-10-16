@@ -119,7 +119,7 @@
     @apply text-foreground;
     /* fallback background color similar to the image so safe areas don't show white */
     background-color: rgb(27 24 22);
-    background-image: url('/assets/fondo_web_mobile.JPG');
+  background-image: url('/assets/fondo_web.webp');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -135,7 +135,7 @@
     position: fixed;
     inset: 0;
     z-index: -9999;
-    background-image: url('/assets/fondo_web_mobile.JPG');
+    background-image: url('/assets/fondo_web.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -144,7 +144,7 @@
   /* Desktop and tablet background */
   @media (min-width: 768px) {
     body {
-      background-image: url('/assets/fondo_web_desktop.JPG');
+      background-image: url('/assets/fondo_web.webp');
     }
   }
 
@@ -167,7 +167,7 @@
   /* Desktop and tablet background for landing page */
   @media (min-width: 768px) {
     .landing-bg {
-      background-image: url('/assets/fondo_web_desktop.JPG') !important;
+      background-image: url('/assets/fondo_web.webp') !important;
     }
   }
 }
@@ -247,5 +247,16 @@
     background-position: inherit;
     background-attachment: inherit;
     will-change: transform;
+  }
+
+  /* stronger white shadow utilities for headings, menu titles and buttons */
+  .white-shadow {
+    text-shadow: 0 8px 28px rgba(255,255,255,0.26), 0 2px 8px rgba(255,255,255,0.12);
+    filter: drop-shadow(0 8px 22px rgba(255,255,255,0.16));
+  }
+
+  .white-shadow-sm {
+    text-shadow: 0 5px 16px rgba(255,255,255,0.20), 0 1px 4px rgba(255,255,255,0.08);
+    filter: drop-shadow(0 4px 14px rgba(255,255,255,0.12));
   }
 }

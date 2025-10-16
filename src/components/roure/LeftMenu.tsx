@@ -32,7 +32,7 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
             <li key={item.text} className="py-1 my-0">
               <Link
                 to={item.href}
-                className="font-inter text-orange-400 text-xl sm:text-2xl hover:text-orange-300 transition-all duration-300 block text-center text-glow-menu"
+                className="font-inter text-orange-400 text-xl sm:text-2xl hover:text-orange-300 transition-all duration-300 block text-center text-glow-menu white-shadow-sm"
                 style={{
                   textDecoration: 'none'
                 }}
@@ -43,9 +43,9 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
           ))}
           
           <li className="pt-2 mt-2 border-t border-stone-100/20">
-            <Link
+              <Link
               to={specialMenuItem.href}
-              className="font-inter text-amber-400 text-lg sm:text-xl hover:text-amber-300 transition-all duration-300 block text-center text-glow-menu"
+              className="font-inter text-amber-400 text-lg sm:text-xl hover:text-amber-300 transition-all duration-300 block text-center text-glow-menu white-shadow"
               style={{
                 textDecoration: 'none'
               }}
@@ -72,7 +72,7 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
             <li key={item.text} className="py-1 my-0">
               <Link
                 to={item.href}
-                className="font-inter text-orange-400 text-lg xl:text-xl hover:text-orange-300 transition-all duration-300 block text-glow-sm"
+                className="font-inter text-orange-400 text-lg xl:text-xl hover:text-orange-300 transition-all duration-300 block text-glow-sm white-shadow-sm"
                 style={{
                   textDecoration: 'none'
                 }}
@@ -85,7 +85,7 @@ const LeftMenu: React.FC<LeftMenuProps> = ({ loadingStage, isMobile = false }) =
           <li className="pt-2 mt-2 border-t border-stone-100/20">
             <Link
               to={specialMenuItem.href}
-              className="font-inter text-amber-400 text-lg xl:text-xl hover:text-amber-300 transition-all duration-300 block text-glow-sm"
+              className="font-inter text-amber-400 text-lg xl:text-xl hover:text-amber-300 transition-all duration-300 block text-glow-sm white-shadow"
               style={{
                 textDecoration: 'none'
               }}

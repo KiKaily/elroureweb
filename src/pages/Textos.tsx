@@ -370,7 +370,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="https://revistaaula.es/" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="https://revistaaula.com/" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Acompanyament i solituds necessàries
                 </h2>
@@ -381,7 +381,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="https://revistaaula.es/" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="https://revistaaula.com/" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   El canvi de mirada
                 </h2>
@@ -392,7 +392,7 @@ const Textos: React.FC = () => {
             </li>
 
             <li className="border-l-4 border-stone-100 pl-6 py-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-              <Link to="https://revistaaula.es/" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
+              <Link to="https://revistaaula.com/" className="block hover:bg-stone-100/5 transition-colors duration-300 p-2 -m-2 rounded">
                 <h2 className="font-inter text-amber-500 text-2xl xl:text-3xl mb-2 text-glow">
                   Acompanyar el moviment intern i la relació
                 </h2>

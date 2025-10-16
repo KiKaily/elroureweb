@@ -37,7 +37,7 @@ const Fundamentos: React.FC = () => {
 
             <div className="w-full max-w-[600px] mx-auto mb-8">
             <img
-              src="/lovable-uploads/bego_cierre.png"
+              src="/lovable-uploads/bego_cierre.webp"
               className="w-full h-auto rounded-lg"
               alt="Ambiente educativo cálido"
             />

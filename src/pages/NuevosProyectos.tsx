@@ -39,7 +39,7 @@ const NuevosProyectos: React.FC = () => {
             </p>
             <div className="w-full flex justify-center mb-8">
               <img
-                src="/lovable-uploads/bego_cierre.png"
+                src="/lovable-uploads/bego_cierre.webp"
                 className="max-w-full h-auto rounded-lg"
                 alt="Begoña González"
               />

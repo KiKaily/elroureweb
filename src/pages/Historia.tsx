@@ -38,7 +38,7 @@ const Historia: React.FC = () => {
           <div className="w-full max-w-[600px] mx-auto mb-8 animate-fade-in"
                style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
             <img
-              src="/lovable-uploads/bego_cierre.png"
+              src="/lovable-uploads/bego_cierre.webp"
               className="w-full h-auto rounded-lg"
               alt="Naturaleza - Ubicación de la escuela"
             />

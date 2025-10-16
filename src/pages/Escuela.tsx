@@ -32,14 +32,14 @@ const Escuela: React.FC = () => {
       case "intro":
         return (
           <div className="space-y-6">
-            <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">Introducción</h3>
+            <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow white-shadow">Introducción</h3>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               La escuela El Roure nació en 2001, con el concepto de escuela viva.
             </p>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               Ha sido una comunidad de aprendizaje unida por una visión de la educación inspirada por el Seitai, la Sistémica y la experiencia cotidiana entre familias, profesionales y criaturas. El propósito fue acompañar a las criaturas en su crecimiento y a las madres y padres en su función.
             </p>
-            <img src="/lovable-uploads/bego_cierre.png" alt="Introducción a la escuela" className="w-full rounded-lg mt-4" />
+            <img src="/lovable-uploads/bego_cierre.webp" alt="Introducción a la escuela" className="w-full rounded-lg mt-4" />
           </div>
         );
       case "aprendizaje":
