@@ -150,7 +150,8 @@
 
   /* Landing page specific background */
   .landing-bg {
-    background-image: url('/assets/fondo_web_mobile.JPG') !important;
+    /* always use the unified high-quality webp background */
+    background-image: url('/assets/fondo_web.webp') !important;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -161,7 +162,9 @@
   .menu-page-bg {
     padding-top: env(safe-area-inset-top);
     padding-bottom: env(safe-area-inset-bottom);
-    background-color: rgb(27 24 22);
+    /* keep the page container transparent so the fixed photographic pseudo-element
+       can show above the dark gray body background (the dark gray remains on the body) */
+    background-color: transparent;
   }
 
   /* Desktop and tablet background for landing page */
@@ -225,27 +228,31 @@
     background-repeat: no-repeat;
     background-position: center;
     /* Default mobile image */
-    background-image: url('/assets/fondo_web_mobile.JPG');
+    /* no background-image on the element itself — the ::before pseudo-element will paint
+       the fixed photographic background above the body color but behind content */
+    background-image: none;
   }
 
   /* Larger screens use desktop image */
   @media (min-width: 768px) {
     .menu-page-bg {
-      background-image: url('/assets/fondo_web_desktop.JPG');
+      background-image: none;
     }
   }
 
   /* Ensure background behaves as fixed on iOS by using a pseudo-element */
+  /* Fixed photographic background shown above the dark-gray body but behind page content */
   .menu-page-bg::before {
     content: '';
     position: fixed;
     inset: 0;
     z-index: -1;
-    background-image: inherit;
-    background-size: inherit;
-    background-repeat: inherit;
-    background-position: inherit;
-    background-attachment: inherit;
+    /* unified photographic background for all breakpoints */
+    background-image: url('/assets/fondo_web.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     will-change: transform;
   }
 

@@ -31,7 +31,7 @@ const Escuela: React.FC = () => {
     switch (activeSection) {
       case "intro":
         return (
-          <div className="space-y-6">
+          <div className="space-y-6 animate-fade-in" style={{ animationDelay: '0.35s', animationFillMode: 'both' }}>
             <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow white-shadow">Introducción</h3>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               La escuela El Roure nació en 2001, con el concepto de escuela viva.
@@ -44,7 +44,7 @@ const Escuela: React.FC = () => {
         );
       case "aprendizaje":
         return (
-          <div className="space-y-6">
+          <div className="space-y-6 animate-fade-in" style={{ animationDelay: '0.35s', animationFillMode: 'both' }}>
             <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">Aprendizaje</h3>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               El aprendizaje es una experiencia vital ineludible porque es la dinámica de desarrollo del potencial particular que cada criatura. De forma natural siempre estamos aprendiendo, en todo lugar y momento y de una manera global, con todo nuestro organismo implicado; nuestra capacidad
@@ -65,7 +65,7 @@ Consideramos artificial y limitadora la separación entre familia y escuela. El 
         );
       case "que-aprenden":
         return (
-          <div className="space-y-6">
+          <div className="space-y-6 animate-fade-in" style={{ animationDelay: '0.35s', animationFillMode: 'both' }}>
             <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">¿Qué aprenden los niños y niñas?</h3>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               Cuando se habla de aprendizaje, a menudo se limita este concepto al aprendizaje de conocimientos. Incluso suele quedar aún más reducido al entender que se refiere a los conocimientos intelectuales. El aprendizaje, por el contrario, es una experiencia ilimitada; no sólo porque es imposible dejar de aprender mientras existe vida, sino porque los objetos del aprendizaje son infinitos.
@@ -84,7 +84,7 @@ Consideramos artificial y limitadora la separación entre familia y escuela. El 
         );
       case "como-aprenden":
         return (
-          <div className="space-y-6">
+          <div className="space-y-6 animate-fade-in" style={{ animationDelay: '0.35s', animationFillMode: 'both' }}>
             <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">¿Cómo aprenden los niños y niñas?</h3>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               El aprendizaje no es un proceso lineal, progresivo y rítmico, tampoco está ligado continuamente a la consciencia. Está más bien ligado al bienestar vital y, consecuentemente, al ambiente, a la calidad de la vivencia y la comunicación. Por este motivo, es posible observar tanto recorridos con carácter constante y gradual, como repentinos y con avances sorprendentes. De una forma u otra, estamos convencidos de que lo que determina la solidez de lo aprendido no es el tiempo invertido, la hipotética adecuación del contenido a la edad, ni siquiera la metodología escogida. Nuestra atención no puede centrarse en programaciones cerradas y tiempos predeterminados, sino en actividades abiertas y flexibles que se adaptan a las necesidades de cada criatura.
@@ -100,7 +100,7 @@ Consideramos artificial y limitadora la separación entre familia y escuela. El 
         );
       case "actividad-autonoma-estructurada":
         return (
-          <div className="space-y-6">
+          <div className="space-y-6 animate-fade-in" style={{ animationDelay: '0.35s', animationFillMode: 'both' }}>
             <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">Actividad autónoma y actividad estructurada</h3>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               En El Roure, los niños y niñas se han movido constantemente, de forma fluida y voluntaria entre dos experiencias de aprendizaje y relación: la actividad autónoma y la actividad estructurada.
@@ -118,7 +118,7 @@ Consideramos artificial y limitadora la separación entre familia y escuela. El 
         );
       case "acompanamiento":
         return (
-          <div className="space-y-6">
+          <div className="space-y-6 animate-fade-in" style={{ animationDelay: '0.35s', animationFillMode: 'both' }}>
             <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">Acompañamiento</h3>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
                 Hay un eje y una dirección en el camino de búsqueda de nuestra experiencia de acompañamiento: cuidar la esencia del espíritu infantil. La mirada original de los niños está iluminada por el deseo de ser y aprender; eso pide un amplio margen de autonomía y una estrecha relación con los adultos.            </p>
@@ -133,7 +133,7 @@ Consideramos artificial y limitadora la separación entre familia y escuela. El 
         );
       case "el-equipo":
         return (
-          <div className="space-y-6">
+          <div className="space-y-6 animate-fade-in" style={{ animationDelay: '0.35s', animationFillMode: 'both' }}>
             <h3 className="font-inter text-amber-500 text-xl xl:text-2xl 2xl:text-3xl text-glow">El equipo</h3>
             <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
 En el equipo, siempre hemos reconocido que las familias depositan una gran confianza en nuestra tarea, simplemente por el hecho de dejar a los hijos e hijas a nuestro cargo. Recogimos esa responsabilidad, aceptando que somos acompañantes secundarios y que les aportamos algo que complementa la función de madres y padres.            </p>
