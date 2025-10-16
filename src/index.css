@@ -129,7 +129,9 @@
     -webkit-text-size-adjust: 100%;
   }
 
-  /* Fix for iOS where the viewport chrome can reveal page background; put a fixed pseudo-element behind content */
+  /* Fix for iOS where the viewport chrome can reveal page background; put a fixed pseudo-element behind content
+     This single pseudo-element will paint the photographic background site-wide so it is immediately visible
+     and does not rely on individual page pseudo-elements that may be painted later during scroll/HMR. */
   body::before {
     content: '';
     position: fixed;
@@ -139,6 +141,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
   }
 
   /* Desktop and tablet background */
@@ -242,19 +245,7 @@
 
   /* Ensure background behaves as fixed on iOS by using a pseudo-element */
   /* Fixed photographic background shown above the dark-gray body but behind page content */
-  .menu-page-bg::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    z-index: -1;
-    /* unified photographic background for all breakpoints */
-    background-image: url('/assets/fondo_web.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    will-change: transform;
-  }
+  /* Remove menu-page-bg pseudo-element to avoid overlapping painting timing issues; body::before paints the photo site-wide. */
 
   /* stronger white shadow utilities for headings, menu titles and buttons */
   .white-shadow {

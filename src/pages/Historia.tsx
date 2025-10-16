@@ -62,14 +62,17 @@ const Historia: React.FC = () => {
             />
           </div>
           
-          <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
-            La semilla de El Roure encontró las condiciones más favorables para germinar y crecer. Una persona cercana hizo de mecenas ofreciéndose a comprar la preciosa finca que elegimos para ubicar el proyecto. Empezamos con 6 criaturas que venían desde Barcelona y se quedaban a dormir en la masía tres días a la semana. Poco a poco el grupo fue creciendo y las familias participantes realizaron todo un cambio de vida trasladándose a la zona. Estas primeras familias se entregaron en cuerpo y alma a la reforma de las edificaciones e implicaron a familiares y amigos.</p>
+          <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify animate-fade-in" style={{ animationDelay: '0.8s', animationFillMode: 'both' }}>
+            La semilla de El Roure encontró las condiciones más favorables para germinar y crecer. Una persona cercana hizo de mecenas ofreciéndose a comprar la preciosa finca que elegimos para ubicar el proyecto. Empezamos con 6 criaturas que venían desde Barcelona y se quedaban a dormir en la masía tres días a la semana. Poco a poco el grupo fue creciendo y las familias participantes realizaron todo un cambio de vida trasladándose a la zona. Estas primeras familias se entregaron en cuerpo y alma a la reforma de las edificaciones e implicaron a familiares y amigos.
+          </p>
           
-          <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
-            Fue una época de trabajo exhausto, tanto en la reforma y adecuación del espacio y en la preparación de materiales educativos como en la reflexión y evolución de la metodología, la organización y la explicación de la línea educativa que estábamos creando.</p>
+          <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify animate-fade-in" style={{ animationDelay: '0.95s', animationFillMode: 'both' }}>
+            Fue una época de trabajo exhausto, tanto en la reforma y adecuación del espacio y en la preparación de materiales educativos como en la reflexión y evolución de la metodología, la organización y la explicación de la línea educativa que estábamos creando.
+          </p>
           
-          <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
-            Como todo comienzo, se vivió en un ambiente de ilusión y de implicación muy intenso entre el equipo, familias, amigos y profesionales que colaboraban de forma desinteresada. Compartimos sudor entre cemento, escombros y pintura, horas de cocina, tertulias pedagógicas en sobremesas de grupo, sueños, incertidumbres y mucha confianza. Fueron tiempos de carencias económicas y dificultades constantes, en las que no existían las vacaciones…y nos empujaba una fuerza inmensa.</p>
+          <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify animate-fade-in" style={{ animationDelay: '1.1s', animationFillMode: 'both' }}>
+            Como todo comienzo, se vivió en un ambiente de ilusión y de implicación muy intenso entre el equipo, familias, amigos y profesionales que colaboraban de forma desinteresada. Compartimos sudor entre cemento, escombros y pintura, horas de cocina, tertulias pedagógicas en sobremesas de grupo, sueños, incertidumbres y mucha confianza. Fueron tiempos de carencias económicas y dificultades constantes, en las que no existían las vacaciones…y nos empujaba una fuerza inmensa.
+          </p>
 
           <div className="w-full max-w-[600px] mx-auto mb-8">
             <img

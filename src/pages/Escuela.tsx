@@ -109,6 +109,8 @@ Consideramos artificial y limitadora la separación entre familia y escuela. El 
               La actividad autónoma y espontánea es la natural y necesaria durante toda la infancia. Es a través de esta actividad que el niño busca y encuentra lo necesario para su bienestar más íntimo, según una sensible guía innata. A lo largo de toda la infancia, esta actividad consiste principalmente en el juego, que es la vía de la experimentación imprescindible para el aprendizaje, es decir, para la comprensión de sí mismo en el mundo que le rodea.
             </p>
             <img src="/public/lovable-uploads/bego_cierre.png" alt="Acompañamiento familiar" className="w-full rounded-lg mt-4" />
+              <img src="/lovable-uploads/bego_cierre.png" alt="Acompañamiento familiar" className="w-full rounded-lg mt-4" />
+              <img src="/lovable-uploads/bego_cierre.png" alt="Acompañamiento familiar" className="w-full rounded-lg mt-4" />
              <p className="font-montserrat text-stone-100 text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-justify">
               La actividad estructurada es la que el equipo educativo prepara y ofrece en función de los contenidos curriculares y de lo que considera necesario en cada momento para el grupo. Las niñas y niños descubren así aspectos de la cultura adaptados a su mirada, se les pueden presentar nuevos interrogantes y descubrimientos a los que, sin esta mediación, no podrían tener acceso. En esta relación, el adulto abre nuevos horizontes y acompaña en la aventura de una nueva incursión investigadora.
             </p>
