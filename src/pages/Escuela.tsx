@@ -251,7 +251,7 @@ En esos casos establecemos un proceso de observación, seguimiento y acompañami
                     onClick={() => setActiveSection(item.id)}
                     className={`w-full text-left px-3 py-2 rounded transition-all duration-300 font-inter ${
                       activeSection === item.id
-                        ? 'bg-white/20 text-orange-700 font-semibold'
+                        ? 'bg-white/60 text-orange-700 font-semibold'
                         : 'text-stone-100 hover:text-orange-700/70'
                     }`}
                   >

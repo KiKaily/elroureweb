@@ -24,15 +24,23 @@ const Textos: React.FC = () => {
     </Link>
     
     <h1
-      className="font-inter text-orange-700 text-4xl xl:text-5xl 2xl:text-6xl mb-4 text-left animate-fade-in text-glow"
-      style={{ animationDelay: '0.2s', animationFillMode: 'both' }}
+      className="font-inter text-orange-700 text-4xl xl:text-5xl 2xl:text-6xl mb-4 text-left animate-fade-in"
+      style={{ 
+        animationDelay: '0.2s', 
+        animationFillMode: 'both',
+        textShadow: '0 0 20px rgba(255, 255, 255, 0.6), 0 0 35px rgba(255, 255, 255, 0.4), 0 0 50px rgba(255, 255, 255, 0.2)'
+      }}
     >
       Textos
     </h1>
 
     <h2
-      className="font-inter text-amber-500 text-4xl xl:text-5xl 2xl:text-6xl mb-12 text-left animate-fade-in text-glow"
-      style={{ animationDelay: '0.3s', animationFillMode: 'both' }}
+      className="font-inter text-amber-500 text-4xl xl:text-5xl 2xl:text-6xl mb-12 text-left animate-fade-in"
+      style={{ 
+        animationDelay: '0.3s', 
+        animationFillMode: 'both',
+        textShadow: '0 0 20px rgba(255, 255, 255, 0.6), 0 0 35px rgba(255, 255, 255, 0.4), 0 0 50px rgba(255, 255, 255, 0.2)'
+      }}
     >
       Una colección de textos y publicaciones relacionadas con El Roure.
     </h2>
@@ -270,8 +278,12 @@ const Textos: React.FC = () => {
               </a>
             </li>
 
-        <h1 className="font-inter text-amber-500 text-4xl xl:text-5xl 2xl:text-6xl my-12 text-center animate-fade-in text-glow"
-            style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
+        <h1 className="font-inter text-amber-500 text-4xl xl:text-5xl 2xl:text-6xl my-12 text-center animate-fade-in"
+            style={{ 
+              animationDelay: '0.2s', 
+              animationFillMode: 'both',
+              textShadow: '0 0 20px rgba(255, 255, 255, 0.6), 0 0 35px rgba(255, 255, 255, 0.4), 0 0 50px rgba(255, 255, 255, 0.2)'
+            }}>
           Publicaciones en la revista de La Casita (1996-2000?)
         </h1>
 

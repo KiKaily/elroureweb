@@ -34,11 +34,11 @@ const Videos: React.FC = () => {
           <div className="w-full animate-fade-in" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
             <div className="aspect-video w-full mb-4">
               <iframe
-                src="https://player.vimeo.com/video/115516270?color=ffffff&title=0&byline=0&portrait=0&badge=0&autoplay=1"
+                src="https://player.vimeo.com/video/115516270?color=ffffff&title=0&byline=0&portrait=0&badge=0"
                 width="100%"
                 height="100%"
                 frameBorder="0"
-                allow="autoplay; fullscreen; picture-in-picture"
+                allow="fullscreen; picture-in-picture"
                 allowFullScreen
                 className="rounded-lg"
               ></iframe>
