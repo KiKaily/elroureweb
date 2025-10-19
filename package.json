@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+      "deploy:firebase:roure": "npm run build && firebase deploy --only hosting --project elroureorg --site elroue",
+      "deploy:firebase": "npm run build && firebase deploy --only hosting --project elroureorg",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview"
