@@ -247,7 +247,25 @@
   /* Left text slightly smaller proportionally on very large screens */
   @media (min-width: 1920px) {
     .left-text {
-      font-size: 0.95rem; /* slightly smaller than default for proportion */
+      font-size: 0.9rem; /* slightly smaller for desktop 2k */
+    }
+  }
+
+  /* Reduce left-text slightly on all desktop breakpoints */
+  @media (min-width: 1024px) {
+    .left-text {
+      font-size: 0.95rem;
+    }
+  }
+
+  /* On medium screens and below, left-text should be centered; on large and up, left-aligned */
+  .left-text {
+    text-align: center;
+  }
+
+  @media (min-width: 1024px) {
+    .left-text {
+      text-align: left;
     }
   }
 

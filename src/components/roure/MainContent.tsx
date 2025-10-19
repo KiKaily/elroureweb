@@ -36,7 +36,7 @@ const MainContent: React.FC<MainContentProps> = ({
   }, [skipAnimations, isMobile]);
 
   return (
-  <section className="flex flex-col items-center justify-center relative w-full max-w-full bg-fixed min-h-screen overflow-auto lg:overflow-hidden">
+  <section className="flex flex-col items-center justify-center relative w-full max-w-full bg-fixed min-h-screen overflow-hidden md:overflow-auto">
       {/* Desktop layout: logo above, centered three-column row (text | image | menu), then email/footer below */}
       {!isMobile ? (
         <div className="flex flex-col items-center justify-center w-full h-full py-8">
@@ -50,7 +50,7 @@ const MainContent: React.FC<MainContentProps> = ({
             {/* Left text aligned to center of image */}
             <div className="flex-1 flex items-center justify-center pr-8">
               <div className={`max-w-[560px] ${loadingStage >= 3 ? 'opacity-100' : 'opacity-0'} transition-opacity duration-1000`} style={{ transform: loadingStage >= 3 ? 'translateY(0)' : 'translateY(20px)', transition: 'transform 1s ease-out, opacity 1s ease-out' }}>
-                <p className="left-text font-montserrat text-stone-100 text-sm lg:text-base leading-relaxed text-glow text-left lg:text-left">
+                <p className="left-text font-montserrat text-stone-100 text-sm lg:text-base leading-relaxed text-glow text-center lg:text-left">
                   <span className="block">Del 2001 al 2025 hicimos un viaje fascinante: una escuela para familias con criaturas de 3 a 12 años.</span>
                   <span className="block mt-3">¿Cuál ha sido el norte de ese viaje?</span>
                   <span className="block mt-3 text-amber-400">Cada criatura es una semilla.</span>
@@ -73,7 +73,7 @@ const MainContent: React.FC<MainContentProps> = ({
           </div>
 
           {/* Email and credit under the image */}
-          <div className={`mt-8 text-center ${loadingStage >= 5 ? 'opacity-100' : 'opacity-0'} transition-opacity duration-1000`} style={{ transition: 'opacity 1s ease-out' }}>
+          <div className={`mt-8 text-center email-credit-stack ${loadingStage >= 5 ? 'opacity-100' : 'opacity-0'} transition-opacity duration-1000`} style={{ transition: 'opacity 1s ease-out' }}>
             <a href="mailto:experienciaroure@proton.me" className="font-montserrat text-stone-100 text-base text-glow">experienciaroure@proton.me</a>
             <div className={`mt-2 font-montserrat text-stone-100 text-sm text-glow ${loadingStage >= 6 ? 'opacity-50' : 'opacity-0'}`} style={{ transition: 'opacity 1s ease-out' }}>diseño web de Rcrear.com</div>
           </div>
@@ -81,9 +81,9 @@ const MainContent: React.FC<MainContentProps> = ({
       ) : (
         /* Mobile / Tablet stacked order: logo, image, menu, text, email, footer */
         <div className="flex flex-col items-center w-full px-6 py-6 space-y-6">
-          <div className={`w-full flex justify-center ${loadingStage >= 1 ? 'opacity-100' : 'opacity-0'} transition-opacity duration-1000`}>
-            <Logo className="logo-responsive" animationDelay={0} />
-          </div>
+            <div className={`w-full flex justify-center ${loadingStage >= 1 ? 'opacity-100' : 'opacity-0'} transition-opacity duration-1000`} style={{ paddingTop: 'calc(env(safe-area-inset-top, 0px) + 0.75rem)' }}>
+              <Logo className="logo-responsive" animationDelay={0} />
+            </div>
 
           <div className={`w-full flex justify-center ${loadingStage >= 2 ? 'opacity-100' : 'opacity-0'} transition-opacity duration-1000`}>
             <img src="/assets/anillos madera.png" className="w-[50vw] max-w-[420px] h-auto object-contain" alt="Decorative Pattern" />
@@ -102,7 +102,7 @@ const MainContent: React.FC<MainContentProps> = ({
             </p>
           </div>
 
-          <div className={`w-full text-center ${loadingStage >= 5 ? 'opacity-100' : 'opacity-0'} transition-opacity duration-1000`}>
+          <div className={`w-full text-center email-credit-stack ${loadingStage >= 5 ? 'opacity-100' : 'opacity-0'} transition-opacity duration-1000`}>
             <a href="mailto:experienciaroure@proton.me" className="font-montserrat text-stone-100 text-sm text-glow">experienciaroure@proton.me</a>
             <div className={`mt-2 font-montserrat text-stone-100 text-xs text-glow ${loadingStage >= 6 ? 'opacity-50' : 'opacity-0'}`}>diseño web de Rcrear.com</div>
           </div>
