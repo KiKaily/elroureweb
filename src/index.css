@@ -100,7 +100,8 @@
 
   /* Ensure the root elements have the same background color so the browser chrome areas don't show white */
   html, #root {
-    background-color: rgb(27 24 22);
+    /* Only the photographic background should paint; avoid any solid dark fallback color */
+    background-color: transparent;
     height: 100dvh;
   }
 
@@ -116,9 +117,9 @@
   }
   
   html {
-    /* Paint the photographic background as early as possible on the root element to avoid gray flash
-       Use a cover-size fixed background and preload the image in index.html to encourage early fetch */
-    background-color: rgb(27 24 22);
+    /* Paint the photographic background as early as possible on the root element.
+       Make the html background the single source of truth for the site's photographic background. */
+    background-color: transparent;
     background-image: url('/assets/fondo_web.webp');
     background-size: cover;
     background-attachment: fixed;
@@ -128,17 +129,18 @@
 
   body {
     @apply text-foreground;
-    /* fallback background color similar to the image so safe areas don't show white */
-    background-color: transparent; /* let html paint the photographic background */
+    /* Don't paint a dark fallback color on body; html will provide the photographic background. */
+    background-color: transparent;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
   }
 
   /* Desktop and tablet background */
+  /* No additional body backgrounds on larger screens - html covers the photographic background site-wide */
   @media (min-width: 768px) {
     body {
-      background-image: url('/assets/fondo_web.webp');
+      background-image: none;
     }
   }
 
@@ -207,6 +209,18 @@
   .handwritten {
     font-family: 'Great Vibes', 'Patrick Hand', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial !important;
     font-weight: 400 !important;
+  }
+
+  /* Responsive logo sizing: keeps proportion and grows on very large (2k+) screens */
+  .logo-responsive {
+    width: clamp(200px, 8vw, 420px);
+    height: auto;
+  }
+
+  @media (min-width: 1920px) {
+    .logo-responsive {
+      width: clamp(360px, 6vw, 720px);
+    }
   }
 
   /* Ensure non-link elements using the utility class text-stone-100 are rendered white

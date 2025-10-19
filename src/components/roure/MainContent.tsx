@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
 import LeftMenu from "./LeftMenu";
+import Logo from "./Logo";
 
 type MainContentProps = {
   skipAnimations?: boolean;
@@ -23,11 +24,12 @@ const MainContent: React.FC<MainContentProps> = ({
     }
 
     const timers = [
-      setTimeout(() => setLoadingStage(2), 1000),
-      setTimeout(() => setLoadingStage(3), 2000),
-      setTimeout(() => setLoadingStage(4), 2800),
-      setTimeout(() => setLoadingStage(5), 3500),
-      setTimeout(() => setLoadingStage(6), 4200),
+      setTimeout(() => setLoadingStage(1), 1000),
+      setTimeout(() => setLoadingStage(2), 1500),
+      setTimeout(() => setLoadingStage(3), 1000),
+      setTimeout(() => setLoadingStage(4), 1500),
+      setTimeout(() => setLoadingStage(5), 2000),
+      setTimeout(() => setLoadingStage(6), 2500),
     ];
 
     return () => timers.forEach(clearTimeout);
@@ -35,6 +37,10 @@ const MainContent: React.FC<MainContentProps> = ({
 
   return (
     <section className="flex flex-col items-center justify-center relative w-full max-w-full bg-fixed h-full">
+      {/* Logo positioned between the top of the page and the central image. */}
+      <div className={`absolute left-1/2 -translate-x-1/2 z-30 top-[8vh] md:top-[10vh] lg:top-[12vh] transition-all duration-700 ${loadingStage >= 1 ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'}`}>
+        <Logo className="mx-auto logo-responsive" animationDelay={0} />
+      </div>
       <div className={`relative flex ${isMobile ? 'flex-col items-center' : 'flex-row justify-center items-center'} w-full mb-8 lg:mb-16`}>
         {!isMobile && (
           <>
@@ -78,7 +84,7 @@ const MainContent: React.FC<MainContentProps> = ({
 
         {/* IMAGEN CENTRAL */}
         <div
-          className={`relative flex justify-center items-center transition-opacity duration-1000 mx-auto ${
+          className={`relative flex justify-center items-center transition-opacity duration-1000 mx-auto pt-6 md:pt-12 lg:pt-16 ${
             loadingStage >= 2 ? "opacity-100" : "opacity-0"
           }`}
           style={{
@@ -86,7 +92,7 @@ const MainContent: React.FC<MainContentProps> = ({
           }}
         >
           <img
-            src="/assets/anillos_madera.png"
+            src="/assets/anillos madera.png"
             className={`w-[25vw] max-w-[400px] min-w-[140px] max-sm:w-[50vw] h-auto object-contain transition-opacity duration-1000 mx-auto ${
               loadingStage >= 2 ? "opacity-90" : "opacity-0"
             }`}
