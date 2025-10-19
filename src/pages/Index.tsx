@@ -21,7 +21,7 @@ const Index: React.FC = () => {
   return (
     <>
       <main className="max-w-none min-h-screen flex flex-col items-center justify-center mx-auto p-5 landing-bg">
-        <div id="landing-logo" className="animate-fade-in" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
+        <div id="landing-logo" className="animate-fade-in" style={{ animationDelay: '0.1s', animationFillMode: 'both', transform: 'translateX(-5%)' }}>
           <Logo className="mb-10 scale-150 lg:scale-[1.75]" animationDelay={0} />
         </div>
         

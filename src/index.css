@@ -219,8 +219,44 @@
 
   @media (min-width: 1920px) {
     .logo-responsive {
-      width: clamp(360px, 6vw, 720px);
+      width: clamp(480px, 6vw, 900px);
     }
+  }
+
+  /* Increase base font size and spacing for very large screens so UI doesn't look tiny */
+  @media (min-width: 1600px) {
+    html {
+      font-size: 18px; /* larger base */
+    }
+
+    body {
+      line-height: 1.6;
+    }
+
+    .text-glow, .text-glow-strong {
+      padding: 2rem 2.5rem;
+    }
+  }
+
+  @media (min-width: 2400px) {
+    html {
+      font-size: 20px;
+    }
+  }
+
+  /* Left text slightly smaller proportionally on very large screens */
+  @media (min-width: 1920px) {
+    .left-text {
+      font-size: 0.95rem; /* slightly smaller than default for proportion */
+    }
+  }
+
+  /* Ensure email and credit are stacked on all sizes (credit under email) */
+  .email-credit-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
   }
 
   /* Ensure non-link elements using the utility class text-stone-100 are rendered white

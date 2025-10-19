@@ -31,7 +31,7 @@ const Logo: React.FC<LogoProps> = ({ className, animationDelay = 0 }) => {
         <div style={{ cursor: "pointer" }}>
           <img
             src="/lovable-uploads/logo el roure.png"
-            className="w-[250px] h-auto max-sm:w-[230px] max-sm:h-auto"
+            className="logo-responsive h-auto"
             alt="Roure Logo"
             style={{
               filter: "drop-shadow(0 0 8px rgba(255,255,255,0.3)) drop-shadow(0 0 15px rgba(255,255,255,0.15))"

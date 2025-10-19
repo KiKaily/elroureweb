@@ -36,133 +36,79 @@ const MainContent: React.FC<MainContentProps> = ({
   }, [skipAnimations, isMobile]);
 
   return (
-    <section className="flex flex-col items-center justify-center relative w-full max-w-full bg-fixed h-full">
-      {/* Logo positioned between the top of the page and the central image. */}
-      <div className={`absolute left-1/2 -translate-x-1/2 z-30 top-[8vh] md:top-[10vh] lg:top-[12vh] transition-all duration-700 ${loadingStage >= 1 ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'}`}>
-        <Logo className="mx-auto logo-responsive" animationDelay={0} />
-      </div>
-      <div className={`relative flex ${isMobile ? 'flex-col items-center' : 'flex-row justify-center items-center'} w-full mb-8 lg:mb-16`}>
-        {!isMobile && (
-          <>
-            <div
-              className="flex flex-col justify-center z-20 absolute left-0 md:left-1/2 lg:left-[5%] top-1/2 lg:top-[52%] transform -translate-y-1/2 md:-translate-x-1/2 lg:-translate-x-0 max-h-full"
-              style={{
-                minWidth: "300px",
-                maxWidth: "400px",
-                overflowWrap: "break-word",
-              }}
-            >
-              <div className="w-full mb-5">
-                <p
-                  className={`font-montserrat text-stone-100 text-xs xl:text-sm leading-relaxed text-glow transition-opacity duration-1000 ${
-                    loadingStage >= 3 ? "opacity-100" : "opacity-0"
-                  }`}
-                  style={{
-                    transform:
-                      loadingStage >= 3 ? "translateY(0)" : "translateY(20px)",
-                    transition: "transform 1s ease-out, opacity 1s ease-out",
-                  }}
-                >
-                  <span className="block text-center md:text-center lg:text-left w-full mx-auto">
-                    Del 2001 al 2025 hicimos un viaje fascinante: una escuela para familias con criaturas de 3 a 12 años.
-                  </span>
-                  <span className="block mt-3 text-center md:text-center lg:text-left w-full mx-auto">
-                    ¿Cuál ha sido el norte de ese viaje?
-                  </span>
-                  <span className="block mt-3 text-center md:text-center lg:text-left w-full mx-auto text-amber-400">
-                    Cada criatura es una semilla.
-                  </span>
-                  <span className="block mt-3 text-center md:text-center lg:text-left w-full mx-auto">
-                    La fuerza y la inteligencia de la vida se ocupan de que se manifieste y se desarrolle. Queremos sintonizar con este latido, apoyarlo y dejar atrás lo que nos limita, para acompañarlos, para acompañarnos, desde el respeto y la consciencia de la naturaleza de cada cual.
-                  </span>
+  <section className="flex flex-col items-center justify-center relative w-full max-w-full bg-fixed min-h-screen overflow-auto lg:overflow-hidden">
+      {/* Desktop layout: logo above, centered three-column row (text | image | menu), then email/footer below */}
+      {!isMobile ? (
+        <div className="flex flex-col items-center justify-center w-full h-full py-8">
+          {/* Logo area: centered between top and image */}
+          <div className={`mb-6 transition-all duration-700 ${loadingStage >= 1 ? 'opacity-100' : 'opacity-0'}`} style={{ transform: loadingStage >= 1 ? 'translateX(-5%)' : undefined }}>
+            <Logo className="mx-auto logo-responsive" animationDelay={0} />
+          </div>
+
+          {/* Central row */}
+          <div className="flex items-center justify-center w-full max-w-7xl px-6">
+            {/* Left text aligned to center of image */}
+            <div className="flex-1 flex items-center justify-center pr-8">
+              <div className={`max-w-[560px] ${loadingStage >= 3 ? 'opacity-100' : 'opacity-0'} transition-opacity duration-1000`} style={{ transform: loadingStage >= 3 ? 'translateY(0)' : 'translateY(20px)', transition: 'transform 1s ease-out, opacity 1s ease-out' }}>
+                <p className="left-text font-montserrat text-stone-100 text-sm lg:text-base leading-relaxed text-glow text-left lg:text-left">
+                  <span className="block">Del 2001 al 2025 hicimos un viaje fascinante: una escuela para familias con criaturas de 3 a 12 años.</span>
+                  <span className="block mt-3">¿Cuál ha sido el norte de ese viaje?</span>
+                  <span className="block mt-3 text-amber-400">Cada criatura es una semilla.</span>
+                  <span className="block mt-3">La fuerza y la inteligencia de la vida se ocupan de que se manifieste y se desarrolle. Queremos sintonizar con este latido, apoyarlo y dejar atrás lo que nos limita, para acompañarlos, para acompañarnos, desde el respeto y la consciencia de la naturaleza de cada cual.</span>
                 </p>
               </div>
             </div>
-            <LeftMenu loadingStage={loadingStage} />
-          </>
-        )}
 
-        {/* IMAGEN CENTRAL */}
-        <div
-          className={`relative flex justify-center items-center transition-opacity duration-1000 mx-auto pt-6 md:pt-12 lg:pt-16 ${
-            loadingStage >= 2 ? "opacity-100" : "opacity-0"
-          }`}
-          style={{
-            transition: "opacity 1s ease-in-out",
-          }}
-        >
-          <img
-            src="/assets/anillos madera.png"
-            className={`w-[25vw] max-w-[400px] min-w-[140px] max-sm:w-[50vw] h-auto object-contain transition-opacity duration-1000 mx-auto ${
-              loadingStage >= 2 ? "opacity-90" : "opacity-0"
-            }`}
-            alt="Decorative Pattern"
-            style={{
-              transition: "opacity 1s ease-in-out",
-              filter: "drop-shadow(0 0 8px rgba(255,255,255,0.3)) drop-shadow(0 0 15px rgba(255,255,255,0.15))"
-            }}
-          />
+            {/* Image centered */}
+            <div className={`flex-none flex items-center justify-center px-4 ${loadingStage >= 2 ? 'opacity-100' : 'opacity-0'} transition-opacity duration-1000`} style={{ transition: 'opacity 1s ease-in-out' }}>
+              <img src="/assets/anillos madera.png" className={`w-[20vw] max-w-[720px] min-w-[220px] h-auto object-contain ${loadingStage >= 2 ? 'opacity-90' : 'opacity-0'} transition-opacity duration-1000`} alt="Decorative Pattern" style={{ transition: 'opacity 1s ease-in-out', filter: 'drop-shadow(0 0 8px rgba(255,255,255,0.3)) drop-shadow(0 0 15px rgba(255,255,255,0.15))' }} />
+            </div>
+
+            {/* Right menu aligned with image */}
+            <div className="flex-1 flex items-center justify-center pl-8">
+              <div className={`max-w-[560px] w-full ${loadingStage >= 4 ? 'opacity-100' : 'opacity-0'} transition-all duration-1000`} style={{ transform: loadingStage >= 4 ? 'translateY(0)' : 'translateY(20px)' }}>
+                <LeftMenu loadingStage={loadingStage} />
+              </div>
+            </div>
+          </div>
+
+          {/* Email and credit under the image */}
+          <div className={`mt-8 text-center ${loadingStage >= 5 ? 'opacity-100' : 'opacity-0'} transition-opacity duration-1000`} style={{ transition: 'opacity 1s ease-out' }}>
+            <a href="mailto:experienciaroure@proton.me" className="font-montserrat text-stone-100 text-base text-glow">experienciaroure@proton.me</a>
+            <div className={`mt-2 font-montserrat text-stone-100 text-sm text-glow ${loadingStage >= 6 ? 'opacity-50' : 'opacity-0'}`} style={{ transition: 'opacity 1s ease-out' }}>diseño web de Rcrear.com</div>
+          </div>
         </div>
+      ) : (
+        /* Mobile / Tablet stacked order: logo, image, menu, text, email, footer */
+        <div className="flex flex-col items-center w-full px-6 py-6 space-y-6">
+          <div className={`w-full flex justify-center ${loadingStage >= 1 ? 'opacity-100' : 'opacity-0'} transition-opacity duration-1000`}>
+            <Logo className="logo-responsive" animationDelay={0} />
+          </div>
 
-        {/* MOBILE */}
-        {isMobile && (
-          <>
-            <div className="w-[90%] mt-8 flex justify-center">
-              <LeftMenu loadingStage={loadingStage} isMobile={true} />
-            </div>
-            <div className="w-[90%] mt-8 space-y-4">
-              <p
-                className={`font-montserrat text-stone-100 text-xs leading-relaxed text-glow transition-opacity duration-1000 ${
-                  loadingStage >= 3 ? "opacity-100" : "opacity-0"
-                }`}
-                style={{
-                  transform: loadingStage >= 3 ? "translateY(0)" : "translateY(20px)",
-                  transition: "transform 1s ease-out, opacity 1s ease-out",
-                }}
-              >
-                <span className="block text-center w-full mx-auto">
-                  Del 2001 al 2025 hicimos un viaje fascinante: una escuela para familias con criaturas de 3 a 12 años.
-                </span>
-                <span className="block mt-3 text-center w-full mx-auto">
-                  ¿Cuál ha sido el norte de ese viaje?
-                </span>
-                <span className="block mt-3 text-center w-full mx-auto text-amber-400">
-                  Cada criatura es una semilla.
-                </span>
-                <span className="block mt-3 text-center w-full mx-auto">
-                  La fuerza y la inteligencia de la vida se ocupan de que se manifieste y se desarrolle. Queremos sintonizar con este latido, apoyarlo y dejar atrás lo que nos limita, para acompañarlos, para acompañarnos, desde el respeto y la consciencia de la naturaleza de cada cual.
-                </span>
-              </p>
-            </div>
-          </>
-        )}
-      </div>
+          <div className={`w-full flex justify-center ${loadingStage >= 2 ? 'opacity-100' : 'opacity-0'} transition-opacity duration-1000`}>
+            <img src="/assets/anillos madera.png" className="w-[50vw] max-w-[420px] h-auto object-contain" alt="Decorative Pattern" />
+          </div>
 
-      {/* EMAIL Y CRÉDITO */}
-      <a
-        href="mailto:experienciaroure@proton.me"
-        className={`font-montserrat text-stone-100 text-sm xl:text-base text-glow hover:text-opacity-80 transition-all duration-1000 mt-8 ${
-          loadingStage >= 5 ? "opacity-100" : "opacity-0"
-        }`}
-        style={{
-          transition: "opacity 1s ease-out",
-          textDecoration: "none",
-        }}
-      >
-        experienciaroure@proton.me
-      </a>
-      <a
-        href="https://www.rcrear.com/"
-        className={`font-montserrat text-stone-100 text-xs xl:text-sm text-glow hover:text-opacity-80 transition-all duration-1000 mt-2 ${
-          loadingStage >= 6 ? "opacity-50" : "opacity-0"
-        }`}
-        style={{
-          transition: "opacity 1s ease-out",
-          textDecoration: "none",
-        }}
-      >
-        diseño web de Rcrear.com
-      </a>
+          <div className={`w-full ${loadingStage >= 4 ? 'opacity-100' : 'opacity-0'} transition-opacity duration-1000`}>
+            <LeftMenu loadingStage={loadingStage} isMobile={true} />
+          </div>
+
+          <div className={`w-full ${loadingStage >= 3 ? 'opacity-100' : 'opacity-0'} transition-opacity duration-1000`}>
+            <p className="font-montserrat text-stone-100 text-sm leading-relaxed text-glow">
+              <span className="block">Del 2001 al 2025 hicimos un viaje fascinante: una escuela para familias con criaturas de 3 a 12 años.</span>
+              <span className="block mt-3">¿Cuál ha sido el norte de ese viaje?</span>
+              <span className="block mt-3 text-amber-400">Cada criatura es una semilla.</span>
+              <span className="block mt-3">La fuerza y la inteligencia de la vida se ocupan de que se manifieste y se desarrolle. Queremos sintonizar con este latido, apoyarlo y dejar atrás lo que nos limita, para acompañarlos, para acompañarnos, desde el respeto y la consciencia de la naturaleza de cada cual.</span>
+            </p>
+          </div>
+
+          <div className={`w-full text-center ${loadingStage >= 5 ? 'opacity-100' : 'opacity-0'} transition-opacity duration-1000`}>
+            <a href="mailto:experienciaroure@proton.me" className="font-montserrat text-stone-100 text-sm text-glow">experienciaroure@proton.me</a>
+            <div className={`mt-2 font-montserrat text-stone-100 text-xs text-glow ${loadingStage >= 6 ? 'opacity-50' : 'opacity-0'}`}>diseño web de Rcrear.com</div>
+          </div>
+        </div>
+      )}
+
     </section>
   );
 };
