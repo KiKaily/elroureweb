@@ -24,12 +24,12 @@ const MainContent: React.FC<MainContentProps> = ({
     }
 
     const timers = [
-      setTimeout(() => setLoadingStage(1), 1000),
-      setTimeout(() => setLoadingStage(2), 1500),
-      setTimeout(() => setLoadingStage(3), 1000),
-      setTimeout(() => setLoadingStage(4), 1500),
-      setTimeout(() => setLoadingStage(5), 2000),
-      setTimeout(() => setLoadingStage(6), 2500),
+      setTimeout(() => setLoadingStage(1), 3500),
+      setTimeout(() => setLoadingStage(2), 1000),
+      setTimeout(() => setLoadingStage(3), 2000),
+      setTimeout(() => setLoadingStage(4), 3000),
+      setTimeout(() => setLoadingStage(5), 4000),
+      setTimeout(() => setLoadingStage(6), 4500),
     ];
 
     return () => timers.forEach(clearTimeout);
