@@ -71,3 +71,28 @@ Yes it is!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+## Firebase setup (quickstart)
+
+1. Create a Firebase project at https://console.firebase.google.com
+2. In your project settings, get the web app config values.
+3. Create a `.env` file in the project root and add the following (replace values):
+
+```
+VITE_FIREBASE_API_KEY=YOUR_API_KEY
+VITE_FIREBASE_AUTH_DOMAIN=YOUR_AUTH_DOMAIN
+VITE_FIREBASE_PROJECT_ID=YOUR_PROJECT_ID
+VITE_FIREBASE_STORAGE_BUCKET=YOUR_STORAGE_BUCKET
+VITE_FIREBASE_MESSAGING_SENDER_ID=YOUR_MESSAGING_SENDER_ID
+VITE_FIREBASE_APP_ID=YOUR_APP_ID
+```
+
+4. Install dependencies and start dev server:
+
+```powershell
+npm install
+npm run dev
+```
+
+5. Use the initialized exports in `src/lib/firebase.ts` — `auth`, `db`, and `storage` are exported for convenience.
+
