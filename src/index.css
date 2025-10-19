@@ -212,10 +212,12 @@
   }
 
   /* Responsive logo sizing: keeps proportion and grows on very large (2k+) screens */
-  .logo-responsive {
-    width: clamp(200px, 8vw, 420px);
-    height: auto;
-  }
+    .logo-responsive {
+      /* Make the logo more flexible on small viewports to avoid clipping */
+      width: clamp(120px, 24vw, 420px);
+      max-width: 90%; /* ensure it never exceeds its container on narrow screens */
+      height: auto;
+    }
 
   @media (min-width: 1920px) {
     .logo-responsive {
